@@ -2,12 +2,11 @@ electrónica analógica
 sistemas electrónicos
 aplicación móvil
 control difuso
-aplicación web colaborativa
+aplicación web 
 diseño responsivo
 comunicación en red
 sistema web
 software de gestión
-eventos académicos
 cómputo en la nube
 sistemas distribuidos
 simulación de circuitos eléctricos
@@ -22,12 +21,9 @@ integración de datos
 análisis y visualización de datos
 desarrollo web
 plataforma digital
-turismo de convivencia
 modelado 3d
-realidad virtual inmersiva
-recorrido virtual
-turismo no presencial
-departamento de ingeniería en sistemas computacionales
+realidad virtual 
+ingeniería en sistemas computacionales
 programación estructurada
 programación orientada a objetos
 academia de ciencias de la computación
@@ -162,7 +158,6 @@ dispositivos android
 sistemas embebidos
 control de acceso
 procesamiento de imágenes
-aplicacion web
 gestión de la productividad
 estado anímico
 equipos de trabajo
@@ -669,7 +664,6 @@ procesamiento digital de información
 departamentos escolares
 recursos financieros
 conducción automotriz
-departamento ingeniería en sistemas computacionales
 departamento de formación integral e institucional
 web service
 salud predictiva
@@ -695,7 +689,6 @@ algoritmos de búsqueda
 inteligencia de negocios
 redes neuronales concurrentes
 visualización de gráficos
-ingeniería en sistemas computacionales
 zonas de riesgo
 fuentes de agua
 red social
