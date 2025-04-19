@@ -2,7 +2,7 @@ electrónica analógica
 sistemas electrónicos
 aplicación móvil
 control difuso
-aplicación web 
+aplicación web
 diseño responsivo
 comunicación en red
 sistema web
@@ -12,417 +12,176 @@ sistemas distribuidos
 simulación de circuitos eléctricos
 programación web
 sistema de monitoreo
-gestión de actividades
-actividad extracurricular
 realidad virtual
-aplicación web progresiva
 bases de datos
 integración de datos
 análisis y visualización de datos
 desarrollo web
 plataforma digital
 modelado 3d
-realidad virtual 
 ingeniería en sistemas computacionales
 programación estructurada
 programación orientada a objetos
-academia de ciencias de la computación
+ciencias de la computación
 autómatas celulares
 sistemas digitales
-mooc basado en contenido
-desarrolladores de contenido elearning
-marketing multinivel
-plan de compensación de afiliados uninivel
 ingeniería de software
-consumo de apis
 aplicaciones móviles
-administración de consultorios
-crm dental
-aplicación web
 red neuronal
-ritmo cardiaco
 aprendizaje supervisado
 clasificación multiclase
-patologías del hígado
 segmentación de imágenes
 aprendizaje automático
 red neuronal artificial
-página web
 software de recomendación
-algoritmo de asignaciones estables
-escala de compatibilidad
 inteligencia artificial
 clasificador binario
 clasificador haar
+estructuras de datos
 estructura de datos
 análisis de algoritmos
-accesibilidad a impresión 3d
+impresión 3d
 plataforma web
 geografía histórica
 web mapping
-circuito de acondicionamiento de señal
-accidente doméstico
-aplicación móvil android
-ordenador de placa simple
 internet de las cosas
-acceso remoto
 servicio web
 cliente a cliente
 comercio electrónico
 sistema distribuido
-desarrollo de aplicaciones para dispositivos móviles
-mapas de geolocalización
-tecnologías para la web
-energía sustentable
-departamento de ciencias de la computación
-inteligencia emocional
-actividades recreativas
 realidad aumentada
-actos violentos red neuronal artificial visión por computadora
-enseñanza musical
-señal de tránsito
+red neuronal profunda
+visión por computadora
 visión artificial
 reconocimiento de patrones
-academia de ingeniería de software
-contenedores de software
-servidores en la nube
-academia de ciencias básicas
-academia de programación
-educación a distancia
-aprendizaje en línea
-api rest
 servicios web
 servicio en la nube
-arte urbano
-web sockets
 sistema de recomendación
-lenguaje de señas mexicanas
-educación inclusiva
-secretaría de educación pública
-educación primaria
-juegos serios
 desarrollo de software
 gestión de proyectos
 sistema de seguridad
 lengua de señas mexicana
-machine learning
 reconocimiento de imágenes
-sistema traductor
 administración financiera
 ingeniería económica
-estrato socioeconómico
 minería de datos
-rendimiento académico
 visualización geográfica
-academia de sistemas digitales
 sistema embebido
-contaminación del aire
-redes sociales
-educación sexual
-aprendizaje automático machine learning
-aprovechamiento académico
+machine learning
 fundamentos de programación
 base de datos
 desarrollo de aplicaciones móviles
 sistema móvil android
 sistema web responsivo
-violencia doméstica
-gestión de casos
-víctimas de violencia
 análisis de imágenes
-laboratorio virtual
-ecuaciones de primer grado
-síndrome de ovario poliquístico
-ciclo menstrual
 base de datos distribuida
 análisis de datos
-efectos de la pandemia sarscov2
-prueba de pisa
-toma de decisiones
-curso en línea
-mantenimiento de pc s
-armado de computadoras
-apoyo social
-enfermedades laborales
-pizarrón colaborativo
-serious game
-orientación vocacional
 análisis de texto
-control parental
-lenguaje ofensivo
 cadena de bloques
-expediente clínico
-expediente médico
 desarrollo de videojuegos
 dispositivos android
 sistemas embebidos
-control de acceso
 procesamiento de imágenes
-gestión de la productividad
-estado anímico
-equipos de trabajo
 maquina de estados finitas
 aprendizaje adaptativo
-educación básica
-enfermedades respiratorias
 data mining
-data integration
-síndrome de down
 seguridad web
 electrónica automotriz
 sistemas automotrices
-redes neuronales artificialesrna
+redes neuronales artificiales
 sistemas web
 álgebra relacional
-optimización heurística de consultas sql
-aplicaciones web
-b2b negocio a negocio
-sector agroalimentario
-pólizas de seguro
-progressive web app
-redes lte
-gestión del tiempo
-manejo de información
+optimización heurística
+b2b
+negocio a negocio
 algoritmos cooperativos
-enjambre de robots
-gestión de guardarropa
-planificador de atuendos
-outfit casual
-bolsa de trabajo
-factores de riesgo psicosocial
-ingeniería de sistemas
-ciudad inteligente
-red de sensores
-herramienta de software
-apoyo visual
-materiales didácticos
-cocomo ii y cosmic
-proyectos de software
-deep learning
-difusión de la pintura mexicana
 procesamiento digital de imágenes
 clasificador de patrones
-señales espectrales
-enfermedades neurodegenerativas
-teclado musical
-cultura músical básica y educación no formal
-sistema móvil
-gestión de casos de víctimas de violencia
-hot spots
 sistemas de información geográfica
-delitos de alto impacto
 minería de datos espaciales
 desarrollo de aplicaciones web
-sistema de gestión
-desarrollo personal
-mecánicas de juegos
-sistema web y móvil
-diagrama uml
+sistema móvil
 redes neuronales
-amazon web services
-tercera edad
-dispositivos móviles
 tratamiento digital de imágenes
-vigilancia por medio de cámara
-pueblos mágicos
-administración de unidades habitacionales
-sistemas computacionales sistemas digitales aplicación web internet de las cosas
+sistemas computacionales
 cifrado de imágenes
-criptosistema elgamal
-número pi
-método de rungekutta
-simulación de tráfico
-energía eléctrica
-afecciones del habla
-modelo de inteligencia artificial
-texto a voz
 analítica de datos
-signos vitales
-software de simulación gráfica
-laboratorio de física
+simulación gráfica
 análisis vectorial
 visualización y animación tridimensional
-captive portal
 comunicaciones en red
-mobile first
-aprendizaje de señas
-lengua de señas mexicana lsm
-sistemas de gestión
-recursos materiales
-códigos qr
-sistema de repetición espaciada
-estudiantes escolarizados
 reconocimiento de expresiones faciales
 redes neuronales convolucionales
 aprendizaje profundo
-emociones universales
+deep learning
 análisis de video en tiempo real
 seguridad biométrica
 ingeniaría de software
 minería de textos
-bus can
-iluminación vehicular
-estrategia en tiempo real
-multijugador en línea
-metodología espiral
-barra de café
-servicio pick up
-pasarela de pagos
 procesamiento de lenguaje natural
-reseñas de consumidores
-stc metro
-calidad de la energía eléctrica
-efectos secundarios vacunación covid19
-social listening
-social data
 sistemas de recomendación
-turismo en el estado de hidalgo
-estimación de tiempo
-metodologías ágiles
-comprensión lectora
-lectura activa
-academia de ciencias e ingeniería de la computación
+ingeniería de la computación
 geometría computacional
 desarrollo de sistemas inclusivos
 web scraping
-desarrollo profesional
 clasificación de texto
-forense digital
-técnicas antiforenses
-guía virtual
 sistemas recomendadores
 smart contracts
-votación digital
-gestión de mobiliario para fiestas
-pizarrón virtual
 graficación 3d
-ciencias de la computación
 minería de texto
-dispositivo móvil
-desarrollo móvil
-abandono de mascotas en méxico
-animales callejeros
-organizaciones ciudadanas
-pueblos mágicos de méxico
-sistema electrónico
-pixel art
 redes de computadoras
 simulador basado en juegos
-defensa de blanco con base en movimiento
 seguridad en sistemas operativos
 técnicas de transición
 algoritmo genético
 árbol de decisión
 clasificador estadístico
 tecnologías de la información y la comunicación
-democracia electrónica
-plataformas virtuales
-cursos en línea
-gestor de proyectos
-learning content management system lcms
 análisis y diseño orientado a objetos
-publicidad engañosa phishing
-seguridad informática y tecnologías para la web
+phishing
 plataformas digitales
+seguridad informática
+ciberseguridad
 energías renovables
 crime analysis
-análisis espacio temporal
 finanzas personales
-cultura del ahorro
-gestión de solicitudes
 servicios de red
 criptosistema asimétrico
 criptosistema simétrico
 geolocalización y mapas
 tecnologías web
-transporte publico
-adquisición de vocabulario
 reconocimiento de voz
-apoyo al aprendizaje
-api web
 reconocimiento facial
-interfaz de apoyo
-sistema de rastreo
-test psicológicos
-oferta educativa del ipn
-elección de carrera
-no archivos
-aplicaciones para comunicaciones en red
 administración de servicios en red
 recuperación de datos
 big data
+business intelligence
 inteligencia del negocio
 calidad de software
-guion de prueba
 ingeniería de pruebas
-red social de lectores
 web semántica
 image analysis pattern recognition
 neural network
-smart fitting room
-redes neuronales artificiales
-retinopatia diabética
-no escrito
-academia ingeniería de software y sistemas
+ingeniería de software y sistemas
 patrones de diseño de software
-transporte suburbano
 tecnologías de la información
-currículum vitae
-evaluación formativa
 generación de tokens
-privacidad y autenticación
-cómputo en la niebla
-smart city
-acervo de video tutoriales
-plataforma online
 cloud computing
-mobile hci
-modelo de procesos de negocio
-teléfonos inteligentes con sistema android
-análisis y detección de malware
+procesos de negocio
+sistema android
+detección de malware
 sistema web basado en la nube
-no carpeta
-algoritmo c4
-repositorio digital
-plataforma de desarrollo colaborativo
 web application development
 gestión empresarial
-interacción humanocomputadora
-interfaz natural de usuario
-adquisición de una vivienda
 procesamiento de datos
-automatización electoral
-jardín vertical
-proyección ortogonal de isométricos en arquitectura
-repertorio médico homeopático
-materia médica
-artritis reumatoide
 interfaces hápticas
-sistema de información geográfica
-dispositivos vestibles
-medio ambiente
-autómata celular
-comportamiento colectivo no trivial
 sistemas complejos
 hackeo etico
 ingenieria social
 security analitycs
-ética ecológica
-sensor nodo sensor para monitoreo remoto
-entomos personales de aprendizaje
-herramienta educativa
 análisis de imagen
-comunicación oral y escrita
-trastornos del habla
-trastornos del lenguaje
-aplicación móvil academias ingeniería de software
-estructura urbana
-robo de vehículos
-business modeling
 arquitectura de computadoras
 diseño de sistemas digitales
-robots colaborativos
-cpld y hdl
 eye tracking
 posicionamiento visual
 trazo de trayectoria visual
@@ -465,7 +224,6 @@ natural language process
 símbolos matemáticos
 reconocimiento de patrones cálculo aplicado ecuaciones diferenciales álgebra lineal
 redes neuronales profundas o convolucionales
-visión por computadora
 sistemas de información
 realidad extendida
 desastre natural
@@ -569,7 +327,6 @@ adultos mayores
 presión arterial
 gestión de la información
 información turística
-seguridad informática
 seguridad en aplicaciones web
 análisis de vulnerabilidades
 pruebas de penetración web
@@ -578,7 +335,6 @@ lenguaje r
 línea de tiempo
 cifrado simétrico
 cifrado asimétrico
-infraestructura crítica
 repositorio de configuraciones
 péndulo simple
 estilos de aprendizaje
@@ -632,10 +388,13 @@ contaminación ambiental
 enfermedades de columna vertebral
 gestión de base de datos
 monóxido de carbono
+interfaz web
 lenguaje natural
+aplicaciones criptográficas
+cifrado y descifrado
 evaluación sumativa
 memoria procedural y de hechos
-herramienta de apoyo
+metodología kanban
 identificación de personas
 personas desaparecidas o extraviadas
 presuntos criminales
@@ -650,7 +409,6 @@ condiciones meteorológicas
 aprendizaje reforzado
 arquitectura offline
 gestionamiento de mapas
-desarrollo de aplicaciones para dispositivos móviles geofenc micro localización museo del templo mayor realidad aumentada
 sistema asistencial
 trabajo colaborativo
 baja potencia
@@ -721,7 +479,6 @@ herramienta móvil
 software educativo
 trastorno del espectro autista
 cáncer de pulmón
-business intelligence
 modelo de negocio
 administración de conjuntos habitacionales
 banda sensorial
@@ -825,25 +582,12 @@ buscador web
 adquisición de datos natación
 mundo virtual inmersivo
 entorno virtual
+microexpresiones faciales
 instrumentación y microcontroladores
-unificación de trabajo colegiado
 sistema simulador
 lengua de señas
-ludificación de aprendizaje
-estructura cognitiva
-teoria constructivista
-arritmias cardiacas
-turismo interactivo
-servicios turísticos
-pruebas funcionales
-análisis de transacciones
-controlador digital de señales
-robot móvil
-lógica reconfigurable
 sistema fotovoltaico
-nodo sensor
-industria textil
-internet de las cosas iot
+iot
 casco de motociclista
 representación de documento inscripción
 motor de búsqueda
@@ -853,120 +597,36 @@ tecnología wifi
 validación de documentos
 proceso de becas
 procesos administrativos
-estructura de datos análisis de algoritmos análisis y reconocimiento de señales reconocimiento de patrones y análisis de imágenes
-pulso cardiaco
-signo vital
+análisis y reconocimiento de señales
 conectividad movil
 conectividad nfc
-secret shar
 natural language processing
-personality traits
 medicina homeopática
 estadística inferencial
-reporte de emergencias
-administración agenda de actividades distribuida
-lenguaje a señas
-números decimales
-robot acuático
-sockets multicast
-cartilla estandarizada
-historial clínico
 análisis de riesgos
-nodo señor
-editor de código
-análisis de estilo
-agrupamiento de autores
-tecnológica rfid
-productividad escolar
 base de datos espacial
-delitos del fuero común
-tecnologías web bases de datos
-medicina del deporte
-estudio cuantitativo de sedimentos urinarios
-academia de ciencias de la
-redes regulatorias de genes
-servicio online
 procesamiento de señales de audio
-tecnologías multimedia herramientas de análisis de audio
+análisis de audio
 algoritmos para el reconocimiento de audio
-y psicología de la emoción
-espacio hospitalario gestión de espacios hospitalarios
-plataforma hospitalaria
 algoritmo de recomendación
-ubicación holo
-tecnología rfid
-modulo wifi
-daños estructurales
-transistor tft
-manejo de datos
-sistema de adquisición de datos
-credibilidad en el usuario
-residuos sólidos urbanos
-análisis de requerimientos
-documento de caso de uso
 ingenieria de software
-lenguaje unificado de modelado uml
-autómatas celulares elementales
-sistemas caóticos
-virus de inmunodeficiencia humana vih prediagnóstico médico
-reconocimiento de patrones departamento de ingenieria en sistemas computacionales
-vinculación laboral
-análisis de información
-diseño de interiores asistido por computadora
 computo evolutivo
 geometria computacional
-tizón tardío
-mosaico del tomate
-mancha de la hoja
-image captioning
-aplicación híbrida
-trámite escolar
-procesamiento del lenguaje natural pln
+pln
 bot conversacional
-enfermedad de parkinson ep
-información voluntaria colaborativa
-apoyo a la docencia
-aprendizaje cognitivovisual
-modelo anatómico del cuerpo humano
-teoría de canales y colaterales
 redes de sensores
-cosecha de energía
-cultivos hidropónicos
 diseño de interfaces
 sistema recomendador
-red en malla
-envío de mensajes
-herramienta de identificación
-patrones de reconocimiento
-detección de perfiles
-semántica de las palabras
-tendencia violenta
-historia clínica dental
-sistemas de recuperación de información
-minería de opinión
-etiquetas de polaridad
-seguimiento de trayectoria académica
 reconocimiento de gestos
-interfaz gráfica de usuario
-modelo de objetos de documento
+interfaz gráfica
 sistema de navegación
-seguimiento de ruta
 electrónica analógica y digital
 actividades culturales y deportivas
 aplicación para dispositivos móviles
-evaluaciones multimedia interactivas
-recurso educativo digital
-desarrollo de sistemas sistema de geolocalización de sitios de interés y trazado de rutas seguras
 internet of things
 programación aplicaciones móviles
-integración de información
-servicios basados en localización
 modelo er
-sistema editor de modelos reglas del negocio
-evaluación interactiva
-aplicación móvil y recomendación de vino
-plataforma petrolera
-español signado
+modelo entidad relacion
 interpretación de señas
 análisis de regiones en imágenes
 reconocimiento de patrones para identificación de automóviles
@@ -976,26 +636,9 @@ detección de rostros
 har classifier
 human activity recognition
 árboles de decisión y clasificador bayesiano
-insuficiencia renal crónica
-estructuras de datos
-control de programas
-revisión de programas
-educación en línea
-terapia avatar
-personas desaparecidas
-reportes de avistamiento
-generación de hábitos
 electronica análogica
-instrumentos de evaluación
-sobrecargo de aviación
-análisis de costos de materiales de construcción
-ataque epiléptico
-cohete de pólvora
-tiro parabólico
-ingeniería en sistemas basada en modelos
+análisis de costos
 lenguaje de modelado de sistemas
-image targets
-patrón vascular
 identificación biométrica
 mitología mexicana
 desperdicio de alimentos
@@ -1021,57 +664,27 @@ red eléctricas
 salud mental
 sistemas dinámicos discretos
 teoría del campo promedio
-espacio binario bidimensional autómatas celulares
+espacio binario bidimensional autómatas
 criptografía simétrica
-chaffing and winnowing
 comunicación lte
 ciencia de datos
-robo de información
-información médica
-servicios de salud
-rfid dispositivo programable
-prototipo de aplicación iot
-módulo esp32
-cobro digital
+prototipo de aplicación
 plataforma móvil
-servicios de seguridad y sistema de pagos
-comunicación oral
-aprendizaje de inglés
+servicios de seguridad
+sistema de pagos
 análisis de fourier
-detección de errores
-educación 4
 aprendizaje kinestésico
-tratamiento médico
 sistemas operativos
 recommender system
-sistema de transporte colectivo
-reporte de usuarios
-práctica del piano
 entorno de practica simulado
-reporte de daños
-derrumbes de inmuebles
-centros de acopio
-aplicación social
-cuidado de mascotas
-proceso de admisión escolar
-institución de educación superior
-academia de de software
 sistemas de informacion
 análisis y procesamiento de imágenes
 realidad mixta
 sistema inmersivo
-caminata espacial
 cifrado de videos
-sustancias nocivas
 técnicas de inteligencia artificial
 sistema híbrido
-api twitter
-incidencia delictiva
-deterioro cognitivo en personas de la tercera edad
-rinometría acústica
-lenguaje de señas mexicana lsm
-mano robótica
-éxito de ventas
+lenguaje de señas mexicana
 sistema predictivo
 aprendizaje lenguaje natural
 procesamiento automático
@@ -1079,318 +692,78 @@ circuitos lógicos combinatorios
 procesamiento de datos georeferenciados
 ambiente artificial
 comunicación wifi
-motor monofasico
 prueba de yerkes
-perfilamiento de usuarios
 programación competitiva
 diseño de páginas web
 estándar midi
-aprendizaje de batería
-métrica depresión
-ingeniería de software y tecnologías web
 programación visual
 programación basada en flujos de trabajo
-optimización multiobjetivo
 ingeniería de transporte
 ecuación de riccati
 ecuaciones diferenciales de segundo orden
-solución alternativa
-tema web
 red de sensores inalámbricos
-asistente de voz
-sintetizador musical
-rasgos geológicos
-registros de imágenes
-esclerosis múltiple
-algoritmo de navegación
-metodología de desarrollo de software
 programación gráfica
-modelo aaa
-administración de red
-estilos de vestimenta
-desarrollo de aplicación web
 problemas algorítmicos
-patrones complejos
-votaciones por internet
-jornada electoral
-participación de la comunidad
-herramienta web
-norma 034ssa3 20
-consumo de energía
-gestión y administración
 criptografía en hardware
 learning paradigms
-machine learn rank supervised learning
-tumoración maligna
-cáncer de mama
-educación superior
-flujos conversacionales
+machine learn
+supervised learning
 máquinas de estado
-política de diálogo
 metodología ágil
 metodología scrum
-administración de recursos
-pan tilt
-capacitación de bomberos
-prueba psicométrica
-escuela libre de derecho
-asistente de búsqueda procesamiento del lenguaje natural búsqueda de información automatización sistemas de conversación
-cáncer pulmonar
 tomografias computarizadas
 diagnóstico asistido por computadora
 microrred eléctrica
-sistema embebido internet de las cosas iot
-energía renovable
 comunicación móvil
 señales cerebrales
-sistema de control
 sensor eeg
 análisis de documentos
 aprendizaje no supervisado
 redes de computadora
-escuela militar de ingenieros
 análisis de patrones
 procesamiento de señal de voz
-gestión de personal
 criptografía híbrida
 sistema descentralizado
 algoritmo de predicción
-evaluación del aprendizaje
-mapa de calor
-violencia de género
-pci dss payment card industry data security standard
-búsqueda de información
-servicios para fiestas infantiles
-marcha atlética
 sensor capacitivo
 sincronización paralela
-falta reglamentaria
-fracaso escolar
 razonamiento automático
 lógica noaxiomática
-representación de conocimiento
 técnicas de inferencia
-perfil académico
-trabajo en equipo
-sistema de apoyo visual
 álgebra computacional
-analizador de semántica
-generador de versos
-idioma japonés
-pagos electrónicos
-prevención de riesgos
-libreta virtual
-pizarra virtual
-cáncer de piel
-escuelas secundarias
-inscripción de protocolo
-protección civil
-comunicación eficaz
-discapacidad auditiva
-discapacidad del habla
-registro de conversación
-estrés académico aplicación web
-alternativa de solución
-iso 900
-cultivo interior
-factores de riesgo
 dispositivo electrónico
-inseguridad en méxico
-machine learn
-museo soumaya
-diagnóstico artificial
-integración numérica
-planificación de tareas
-academia de fundamentos de sistemas electrónicos
+fundamentos de sistemas electrónicos
 sistema empotrado
-monitorización remota
-degradación de suelo
-rest api
-saturación de oxígeno
-accesibilidad web
-navegador web
-extensión de navegador web
-aplicación de escritorio
 sistema en chip
 sistema remoto
-control de alimentos
-recetas basadas en gustos y preferencias
-interfaz de lenguaje natural
 microrred fotovoltaica
 servidor web embebido
-programa de lealtad
-punto de venta
-software como servicio
-gestión administrativa
-ingeniería civil
-exposiciones de museos
-neural networks
-sistema de recomendaciones basado en contenido
-aplicación móvil hibrida
-frecuencia cardiaca
-minería de datos educativos
-aprovechamiento escolar
-algoritmo de aprendizaje conducción autónoma
-aprendizaje a distancia
-orientación nutricional
-padecimiento nutricional
-edad escolar
-single board computer
-unmanned aerial vehicle uav
 modelo relacional
-detección de acceso
 algoritmos computacionales
-trastorno del habla y articulación
 algoritmos de clasificación
 reconocimiento óptico de caracteres
-código de barras
-nuevo etiquetado frontal nutrimental
-secretaría de salud
 imágenes digitales
-formato espacial
-estancias profesionales
-soft skills
-technical skills
 programación y algoritmia
-desarrollo de aplicaciones móviles en android
-sistema de contacto docente
-plataforma estudiantil y docente
-desarrollo de sistema educativo
-mercado de divisas
-análisis técnico
-comandos de voz personalizables
-control de sistema operativo
-distribución gnulinux
-toma de pedidos
-gestión de platillos
-facilidad de uso
-orientación académica
-sistema de etiquetas
 computación no convencional
-lenguas indígenas
-coloreado de grafos
-interpretación de sentimientos
-gestión de emociones indice
-juego interactivo
-separación de desechos
 criptosistema biométrico
-compartición de secretos
-voto electrónico
-desarrollo fullstack
-sistemas de evaluación
-aprendizaje profundo en imágenes y video
 comunicaciones de red
-control escolar de posgrado
-nivel primaria
-material didáctico interactivo
-lectura de labios
-análisis y diseño
-prevención de secuestros
-seguridad de las mujeres
+análisis y diseño de algoritmos
 análisis predictivo
-desarrollo de aplicaciones web y minería de datos
-deep learning aprendizaje profundo
-apps android
-cnn redes neuronales convolucionales
-interfaz gráfica
-habilidades del pensamiento divergente
-mecánicas de videojuegos
+cnn
 matemáticas avanzadas
-cáncer de colon
-sistema de detección
-juego en línea
-educación ambiental
-separación de residuos
 etiquetado de datos
 modelo basado en agentes
-lenguaje de señas mexicano lsm
-lógica de solución de problemas
-psicología positiva
-gestión de torneos
 cifrado y descifrado de información
-validación de información
 detección procesamiento de voz
-colores rgb
-síntesis musical
-determinación de rutas
-prototipo de dispositivo
-algoritmo de evasión de obstáculos
-control de acceso a los laboratorios de cómputo
-departamentos administrativos
 composición algorítmica
-baja tensión
 computación cuántica
 física de partículas
-cámara de seguridad
-espacios públicos
-reporte ciudadano
-centro de datos
-administración de servicios
 máquina virtual
-inclusión social
-proyectos de inversión
-fomentar hábitos
-aplicaciones móvil y web
-aplicaciones académicas
-herramientas tecnológicas educativas
-toma de notas digitales
-emergencia médica
-ficha médica
-georreferenciación de arbolado
-gestión de trámites
-respaldo de datos
-línea de producción
-aprendizaje en infantes
 visión computarizada
-armas de fuego
-cancer de mama
 maquina de turing
 cadenas de markov
 cómputo de alto desempeño
 cómputo distribuido
-donación de sangre altruista
-abuso sexual infantil
-asignación de horarios
-micro servicio
-red de flujo
-firma electrónica
-certificado digital
 comunicaciones móviles
-protección antisecuestro
-rehabilitación física
-lesión traumática
-pulsera inteligente
-monitoreo de adultos mayores
-dispositivo móvil estrés
-robo a transeúnte
-productos alimenticios
 procesamiento de voz
-diseño de aplicaciones móviles
-sistema de administración escolar
-aula virtual
-control remoto
-variables 1
-llanto de bebé
 clasificación de señales
-patologías 1
-apoyo de procesos
-automatización de procesos
-control y monitoreo
-historial de cambios
-personas de la tercera edad
-relaciones vinculares 1
-aplicación móvil nativa
-metadatos 1
-sistema en línea
-control de calificaciones
-generación de reportes
-carga masiva de información 1
-windows desktop
-diagnóstico dental
-actas de examen profesional
-islas de calor
-calidad del aire
-b2b sterling
-alertamiento oportuno
-herramienta operativa
-operaciones de transacción

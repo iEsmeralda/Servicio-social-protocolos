@@ -1,12 +1,12 @@
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 electrónica B-TECH
 analógica I-TECH
 
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 automático O
 para O
 un O
@@ -23,8 +23,8 @@ aplicación B-TECH
 web I-TECH
 de O
 un O
-pizarrón B-TECH
-virtual I-TECH
+pizarrón O
+virtual O
 con O
 colaboración O
 simultánea O
@@ -64,8 +64,8 @@ para O
 la O
 gestión O
 de O
-eventos B-TECH
-académicos I-TECH
+eventos O
+académicos O
 (sigea) O
 
 electronic-hub: O
@@ -96,9 +96,9 @@ para O
 vehículo O
 eléctrico O
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 de O
 asistencia O
 y O
@@ -120,7 +120,7 @@ monarca” O
 
 aplicación B-TECH
 web I-TECH
-progresiva I-TECH
+progresiva O
 para O
 administrar O
 la O
@@ -148,9 +148,9 @@ sobre O
 la O
 relación O
 entre O
-calidad B-TECH
-del I-TECH
-aire I-TECH
+calidad O
+del O
+aire O
 y O
 crimen O
 en O
@@ -170,8 +170,8 @@ méxico O
 
 prototipo O
 de O
-recorrido B-TECH
-virtual I-TECH
+recorrido O
+virtual O
 inmersivo O
 a O
 dos O
@@ -213,9 +213,9 @@ web I-TECH
 de O
 suscripción O
 a O
-cursos B-TECH
-en I-TECH
-línea I-TECH
+cursos O
+en O
+línea O
 abiertos O
 y O
 masivos O
@@ -223,8 +223,8 @@ basados O
 en O
 contenido O
 mediante O
-marketing B-TECH
-multinivel I-TECH
+marketing O
+multinivel O
 gestionado O
 por O
 desarrolladores O
@@ -232,9 +232,9 @@ de O
 contenido O
 e-learning O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 solicitar O
@@ -245,9 +245,9 @@ domicilio O
 con O
 geolocalización O
 y O
-consumo B-TECH
-de I-TECH
-apis I-TECH
+consumo O
+de O
+apis O
 de O
 google O
 
@@ -267,8 +267,8 @@ web O
 para O
 monitorear O
 la O
-frecuencia B-TECH
-cardiaca I-TECH
+frecuencia O
+cardiaca O
 y O
 detectar O
 condiciones O
@@ -290,9 +290,9 @@ smartwatch O
 sistema O
 clasificador O
 de O
-patologías B-TECH
-del I-TECH
-hígado I-TECH
+patologías O
+del O
+hígado O
 para O
 médicos O
 hepatólogos O
@@ -309,9 +309,9 @@ una O
 persona O
 sintomática O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 al O
 proceso O
 de O
@@ -358,8 +358,8 @@ estudiante O
 y O
 profesionista O
 de O
-impresión O
-3d O
+impresión B-TECH
+3d I-TECH
 
 aplicación B-TECH
 web I-TECH
@@ -440,13 +440,13 @@ preferencias O
 del O
 usuario O
 
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 para O
 generar O
-energía B-TECH
-eléctrica I-TECH
+energía O
+eléctrica O
 sustentable O
 en O
 una O
@@ -455,16 +455,16 @@ habitación O
 
 prototipo O
 de O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 el O
 desarrollo O
 de O
 la O
-inteligencia B-TECH
-emocional I-TECH
+inteligencia O
+emocional O
 implementando O
 técnicas O
 cognitivo-conductuales O
@@ -472,7 +472,7 @@ cognitivo-conductuales O
 “skydelight” O
 aplicación B-TECH
 móvil I-TECH
-android I-TECH
+android O
 para O
 realizar O
 “test” O
@@ -509,8 +509,8 @@ para O
 apoyo O
 a O
 la O
-enseñanza B-TECH
-musical I-TECH
+enseñanza O
+musical O
 para O
 determinados O
 instrumentos O
@@ -622,8 +622,8 @@ difusión O
 y O
 apoyo O
 al O
-arte B-TECH
-urbano I-TECH
+arte O
+urbano O
 
 aplicación B-TECH
 móvil I-TECH
@@ -633,8 +633,8 @@ aprendizaje O
 del O
 profesor O
 de O
-nivel B-TECH
-primaria I-TECH
+nivel O
+primaria O
 para O
 la O
 enseñanza O
@@ -650,7 +650,7 @@ del O
 lenguaje B-TECH
 de I-TECH
 señas I-TECH
-mexicana O
+mexicana I-TECH
 
 aplicación B-TECH
 móvil I-TECH
@@ -662,13 +662,13 @@ matemáticas O
 en O
 estudiantes O
 de O
-educación B-TECH
-primaria I-TECH
+educación O
+primaria O
 haciendo O
 uso O
 de O
-juegos B-TECH
-serios I-TECH
+juegos O
+serios O
 
 herramienta O
 de O
@@ -692,8 +692,8 @@ rastreo O
 móvil O
 
 “audite” O
-sistema B-TECH
-traductor I-TECH
+sistema O
+traductor O
 de O
 la O
 lengua B-TECH
@@ -734,8 +734,8 @@ por O
 desempeño O
 académico O
 y O
-estrato B-TECH
-socioeconómico I-TECH
+estrato O
+socioeconómico O
 “scv O
 dayes” O
 
@@ -777,8 +777,8 @@ adolescentes O
 para O
 apoyo O
 en O
-educación B-TECH
-sexual I-TECH
+educación O
+sexual O
 para O
 la O
 prevención O
@@ -795,16 +795,16 @@ web I-TECH
 para O
 evaluar O
 el O
-aprovechamiento B-TECH
-académico I-TECH
+aprovechamiento O
+académico O
 en O
 fundamentos B-TECH
 de I-TECH
 programación I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 sistemas O
@@ -832,8 +832,8 @@ seguimiento O
 a O
 incidentes O
 de O
-violencia B-TECH
-doméstica I-TECH
+violencia O
+doméstica O
 atendidos O
 por O
 la O
@@ -862,8 +862,8 @@ comercios O
 de O
 zapaterías O
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 multimedia O
 para O
 la O
@@ -901,16 +901,16 @@ registro O
 y O
 control O
 del O
-tratamiento B-TECH
-médico I-TECH
+tratamiento O
+médico O
 en O
 mujeres O
 diagnosticadas O
 con O
-síndrome B-TECH
-de I-TECH
-ovario I-TECH
-poliquístico I-TECH
+síndrome O
+de O
+ovario O
+poliquístico O
 
 análisis O
 del O
@@ -932,9 +932,9 @@ ocde O
 aplicación B-TECH
 web I-TECH
 de O
-curso B-TECH
-en I-TECH
-línea I-TECH
+curso O
+en O
+línea O
 para O
 el O
 mantenimiento O
@@ -953,8 +953,8 @@ un O
 sistema B-TECH
 web I-TECH
 para O
-apoyo B-TECH
-social I-TECH
+apoyo O
+social O
 
 e-board O
 colaborativo O
@@ -973,11 +973,11 @@ inglés O
 
 “virgilio” O
 el O
-serious B-TECH
-game I-TECH
+serious O
+game O
 de O
-orientación B-TECH
-vocacional I-TECH
+orientación O
+vocacional O
 para O
 adolescentes O
 en O
@@ -1048,11 +1048,11 @@ ciudad O
 de O
 méxico O
 
-sistema B-TECH
-de I-TECH
-control I-TECH
-de I-TECH
-acceso I-TECH
+sistema O
+de O
+control O
+de O
+acceso O
 vehicular O
 a O
 estacionamiento O
@@ -1069,9 +1069,9 @@ gestionar O
 la O
 productividad O
 en O
-equipos B-TECH
-de I-TECH
-trabajo I-TECH
+equipos O
+de O
+trabajo O
 (progk) O
 
 simulador O
@@ -1130,8 +1130,8 @@ comportamiento O
 e O
 impacto O
 de O
-enfermedades B-TECH
-respiratorias I-TECH
+enfermedades O
+respiratorias O
 en O
 el O
 valle O
@@ -1141,15 +1141,15 @@ méxico O
 plataforma B-TECH
 web I-TECH
 de O
-aprendizaje B-TECH
-de I-TECH
-inglés I-TECH
+aprendizaje O
+de O
+inglés O
 para O
 niños O
 con O
-síndrome B-TECH
-de I-TECH
-down I-TECH
+síndrome O
+de O
+down O
 y O
 autismo O
 
@@ -1235,9 +1235,9 @@ proceso O
 de O
 optimización B-TECH
 heurística I-TECH
-de I-TECH
-consultas I-TECH
-sql I-TECH
+de O
+consultas O
+sql O
 
 aplicación B-TECH
 web I-TECH
@@ -1251,19 +1251,19 @@ empresas O
 y O
 negocios O
 del O
-sector B-TECH
-agroalimentario I-TECH
+sector O
+agroalimentario O
 
 aplicación B-TECH
 web I-TECH
-progresiva I-TECH
+progresiva O
 para O
 la O
 administración O
 de O
-pólizas B-TECH
-de I-TECH
-seguro I-TECH
+pólizas O
+de O
+seguro O
 de O
 auto O
 y O
@@ -1301,9 +1301,9 @@ discreto O
 móvil O
 para O
 la O
-gestión B-TECH
-del I-TECH
-tiempo I-TECH
+gestión O
+del O
+tiempo O
 a O
 través O
 de O
@@ -1317,9 +1317,9 @@ escom” O
 
 prototipo O
 de O
-enjambre B-TECH
-de I-TECH
-robots I-TECH
+enjambre O
+de O
+robots O
 móviles O
 
 prototipo O
@@ -1329,14 +1329,14 @@ con O
 aplicación B-TECH
 móvil I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 de O
-gestión B-TECH
-de I-TECH
-guardarropa I-TECH
+gestión O
+de O
+guardarropa O
 para O
 generar O
 atuendos O
@@ -1360,9 +1360,9 @@ de O
 gestión O
 para O
 la O
-bolsa B-TECH
-de I-TECH
-trabajo I-TECH
+bolsa O
+de O
+trabajo O
 de O
 escom O
 
@@ -1372,10 +1372,10 @@ sistema B-TECH
 web I-TECH
 para O
 gestionar O
-factores B-TECH
-de I-TECH
-riesgo I-TECH
-psicosocial I-TECH
+factores O
+de O
+riesgo O
+psicosocial O
 en O
 entornos O
 laborales O
@@ -1389,15 +1389,15 @@ nom-035 O
 
 prototipo O
 de O
-red B-TECH
-de I-TECH
-sensores I-TECH
+red O
+de O
+sensores O
 para O
 la O
 identificación O
 de O
-daños B-TECH
-estructurales I-TECH
+daños O
+estructurales O
 en O
 un O
 salón O
@@ -1419,8 +1419,8 @@ inmueble O
 sistema O
 prototipo O
 de O
-control B-TECH
-parental I-TECH
+control O
+parental O
 para O
 vehículos O
 montables O
@@ -1465,9 +1465,9 @@ de O
 costos O
 económicos O
 de O
-proyectos B-TECH
-de I-TECH
-software I-TECH
+proyectos O
+de O
+software O
 destinada O
 a O
 los O
@@ -1480,8 +1480,8 @@ galeria O
 prototipo O
 clasificador O
 de O
-señales B-TECH
-espectrales I-TECH
+señales O
+espectrales O
 de O
 ratones O
 mediante O
@@ -1496,8 +1496,8 @@ para O
 apoyo O
 a O
 la O
-enseñanza B-TECH
-musical I-TECH
+enseñanza O
+musical O
 para O
 determinados O
 instrumentos O
@@ -1513,8 +1513,8 @@ gestión O
 de O
 conocimiento O
 por O
-expediente B-TECH
-clínico I-TECH
+expediente O
+clínico O
 
 sistema B-TECH
 móvil I-TECH
@@ -1523,8 +1523,8 @@ seguimiento O
 a O
 incidentes O
 de O
-violencia B-TECH
-doméstica I-TECH
+violencia O
+doméstica O
 atendidos O
 por O
 la O
@@ -1575,8 +1575,8 @@ para O
 fortalecer O
 hábitos O
 de O
-desarrollo B-TECH
-personal I-TECH
+desarrollo O
+personal O
 en O
 jóvenes O
 adultos O
@@ -1591,8 +1591,8 @@ web I-TECH
 que O
 transforme O
 un O
-diagrama B-TECH
-uml I-TECH
+diagrama O
+uml O
 hecho O
 a O
 mano O
@@ -1613,15 +1613,15 @@ para O
 la O
 seguridad O
 de O
-personas B-TECH
-de I-TECH
-la I-TECH
-tercera I-TECH
-edad I-TECH
+personas O
+de O
+la O
+tercera O
+edad O
 
 aplicación B-TECH
 web I-TECH
-progresiva I-TECH
+progresiva O
 de O
 viajes O
 turísticos O
@@ -1694,8 +1694,8 @@ habitapp O
 
 control O
 por O
-interfaz O
-web O
+interfaz B-TECH
+web I-TECH
 de O
 un O
 sistema O
@@ -1720,8 +1720,8 @@ entorno O
 de O
 microrredes O
 mediante O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 
 sistema O
 simétrico O
@@ -1735,8 +1735,8 @@ el O
 gamal O
 y O
 el O
-número B-TECH
-pi I-TECH
+número O
+pi O
 
 aplicación B-TECH
 móvil I-TECH
@@ -1755,13 +1755,13 @@ el O
 apoyo O
 a O
 la O
-gestión B-TECH
-de I-TECH
-actividades I-TECH
+gestión O
 de O
-proyectos B-TECH
-de I-TECH
-software I-TECH
+actividades O
+de O
+proyectos O
+de O
+software O
 aplicando O
 la O
 metodología B-TECH
@@ -1784,9 +1784,9 @@ un O
 prototipo O
 de O
 un O
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 de O
 semáforos” O
 
@@ -1795,8 +1795,8 @@ de O
 medidor O
 bidireccional O
 de O
-energía B-TECH
-eléctrica I-TECH
+energía O
+eléctrica O
 monitoreado O
 por O
 una O
@@ -1806,18 +1806,18 @@ móvil I-TECH
 sistema B-TECH
 embebido I-TECH
 como O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 a O
 la O
 comunicación O
 para O
 pacientes O
 con O
-afecciones B-TECH
-del I-TECH
-habla I-TECH
+afecciones O
+del O
+habla O
 
 sistema O
 para O
@@ -1853,8 +1853,8 @@ en O
 sangre O
 y O
 el O
-pulso B-TECH
-cardiaco I-TECH
+pulso O
+cardiaco O
 de O
 pacientes O
 infectados O
@@ -1863,9 +1863,9 @@ covid-19 O
 usando O
 iot O
 
-software B-TECH
-de I-TECH
-simulación I-TECH
+software O
+de O
+simulación B-TECH
 gráfica I-TECH
 y O
 animaciones O
@@ -1905,9 +1905,9 @@ de I-TECH
 las I-TECH
 cosas I-TECH
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 y O
 recepción O
 de O
@@ -1915,8 +1915,8 @@ pedidos O
 mediante O
 wi-fi O
 en O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 del O
 cliente O
 para O
@@ -1938,14 +1938,14 @@ señas I-TECH
 mexicana I-TECH
 (lsm) O
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 y O
 seguimiento O
 de O
-recursos B-TECH
-materiales I-TECH
+recursos O
+materiales O
 en O
 una O
 organización O
@@ -1983,8 +1983,8 @@ expresiones I-TECH
 faciales I-TECH
 que O
 representan O
-emociones B-TECH
-universales I-TECH
+emociones O
+universales O
 
 sistema B-TECH
 de I-TECH
@@ -2045,8 +2045,8 @@ prototipo O
 de O
 videojuego O
 de O
-estrategia B-TECH
-en I-TECH
+estrategia O
+en O
 tiempo B-TECH
 real I-TECH
 
@@ -2059,9 +2059,9 @@ realizar O
 pedidos O
 en O
 la O
-barra B-TECH
-de I-TECH
-café I-TECH
+barra O
+de O
+café O
 escom O
 
 herramienta O
@@ -2087,26 +2087,26 @@ restaurantes O
 utilizando O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 
 prototipo O
 de O
 monitoreo O
 de O
-signos B-TECH
-vitales I-TECH
-pulso B-TECH
-cardiaco I-TECH
+signos O
+vitales O
+pulso O
+cardiaco O
 y O
 temperatura O
 corporal O
 mediante O
 iot O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 de O
 reserva O
@@ -2125,10 +2125,10 @@ de O
 una O
 estación O
 del O
-sistema B-TECH
-de I-TECH
-transporte I-TECH
-colectivo I-TECH
+sistema O
+de O
+transporte O
+colectivo O
 metro O
 utilizando O
 visión B-TECH
@@ -2177,8 +2177,8 @@ red O
 eléctrica O
 utilizando O
 un O
-dispositivo B-TECH
-móvil I-TECH
+dispositivo O
+móvil O
 
 prototipo O
 para O
@@ -2230,26 +2230,26 @@ para O
 el O
 enfoque O
 de O
-metodologías B-TECH
-ágiles I-TECH
+metodologías O
+ágiles O
 en O
 el O
 desarrollo O
 de O
-proyectos B-TECH
-de I-TECH
-software I-TECH
+proyectos O
+de O
+software O
 
 aplicación B-TECH
 web I-TECH
 para O
 fomentar O
 la O
-lectura B-TECH
-activa I-TECH
+lectura O
+activa O
 y O
-comprensión B-TECH
-lectora I-TECH
+comprensión O
+lectora O
 en O
 estudiantes O
 universitarios O
@@ -2278,8 +2278,8 @@ a O
 través O
 de O
 las O
-redes B-TECH
-sociales I-TECH
+redes O
+sociales O
 
 software O
 para O
@@ -2306,8 +2306,8 @@ de O
 información O
 sensible O
 en O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 
 sistema B-TECH
 web I-TECH
@@ -2337,8 +2337,8 @@ de O
 una O
 dapp O
 de O
-votación B-TECH
-digital I-TECH
+votación O
+digital O
 para O
 la O
 comunidad O
@@ -2372,8 +2372,8 @@ mobiliario O
 para O
 fiestas O
 
-pizarrón B-TECH
-virtual I-TECH
+pizarrón O
+virtual O
 para O
 la O
 enseñanza O
@@ -2387,7 +2387,7 @@ temario O
 de O
 ingeniería B-TECH
 en I-TECH
-sistemas I-TECH
+sistemas B-TECH
 computacionales I-TECH
 plan O
 2020 O
@@ -2499,8 +2499,8 @@ sobre O
 la O
 elección O
 de O
-pueblos B-TECH
-mágicos I-TECH
+pueblos O
+mágicos O
 a O
 visitar O
 con O
@@ -2512,8 +2512,8 @@ opiniones O
 de O
 usuario O
 en O
-redes B-TECH
-sociales I-TECH
+redes O
+sociales O
 haciendo O
 uso O
 de O
@@ -2545,8 +2545,8 @@ bidimensional O
 interactivo O
 de O
 estilo O
-pixel B-TECH
-art I-TECH
+pixel O
+art O
 desarrollado O
 con O
 el O
@@ -2573,13 +2573,13 @@ en O
 endpoint O
 utilizando O
 la O
-defensa B-TECH
-de I-TECH
-blanco I-TECH
-con I-TECH
-base I-TECH
-en I-TECH
-movimiento I-TECH
+defensa O
+de O
+blanco O
+con O
+base O
+en O
+movimiento O
 
 análisis O
 del O
@@ -2594,16 +2594,16 @@ de O
 de O
 decisión O
 
-herramienta B-TECH
-web I-TECH
+herramienta O
+web O
 de O
 apoyo O
 para O
 los O
 procesos O
 de O
-democracia B-TECH
-electrónica I-TECH
+democracia O
+electrónica O
 mediante O
 el O
 uso O
@@ -2652,9 +2652,9 @@ gestión O
 de O
 creación O
 de O
-cursos B-TECH
-en I-TECH
-línea I-TECH
+cursos O
+en O
+línea O
 – O
 emoocionate O
 - O
@@ -2761,9 +2761,9 @@ ahorro O
 aplicación B-TECH
 web I-TECH
 para O
-gestión B-TECH
-de I-TECH
-solicitudes I-TECH
+gestión O
+de O
+solicitudes O
 y O
 registro O
 al O
@@ -2843,9 +2843,9 @@ de O
 apoyo O
 para O
 la O
-adquisición B-TECH
-de I-TECH
-vocabulario I-TECH
+adquisición O
+de O
+vocabulario O
 español O
 e O
 inglés O
@@ -2862,12 +2862,12 @@ de I-TECH
 voz I-TECH
 con O
 una O
-api B-TECH
-web I-TECH
+api O
+web O
 
-interfaz B-TECH
-de I-TECH
-apoyo I-TECH
+interfaz O
+de O
+apoyo O
 para O
 el O
 uso O
@@ -2883,9 +2883,9 @@ vista O
 
 prototipo O
 de O
-sistema B-TECH
-de I-TECH
-rastreo I-TECH
+sistema O
+de O
+rastreo O
 para O
 pacientes O
 con O
@@ -2907,10 +2907,10 @@ una O
 licenciatura O
 de O
 la O
-oferta B-TECH
-educativa I-TECH
-del I-TECH
-ipn I-TECH
+oferta O
+educativa O
+del O
+ipn O
 del O
 nivel O
 superior O
@@ -2950,9 +2950,9 @@ de O
 novela O
 visual O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 en O
 red O
 para O
@@ -3049,9 +3049,9 @@ información O
 caso O
 de O
 estudio: O
-smart B-TECH
-fitting I-TECH
-room I-TECH
+smart O
+fitting O
+room O
 
 clasificador O
 basado O
@@ -3110,8 +3110,8 @@ gestión O
 del O
 proceso O
 de O
-evaluación B-TECH
-formativa I-TECH
+evaluación O
+formativa O
 "klug" O
 
 sistema O
@@ -3138,15 +3138,15 @@ académico O
 multimedia O
 “alexandría” O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 web I-TECH
 para O
 la O
-educación B-TECH
-a I-TECH
-distancia I-TECH
+educación O
+a O
+distancia O
 “coreprogramming” O
 
 sistema B-TECH
@@ -3183,9 +3183,9 @@ sitios O
 de O
 interés” O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 el O
 registro O
@@ -3279,8 +3279,8 @@ dentro O
 del O
 aula O
 en O
-educación B-TECH
-básica I-TECH
+educación O
+básica O
 empleando O
 algoritmos O
 de O
@@ -3311,8 +3311,8 @@ una O
 aplicación B-TECH
 móvil I-TECH
 
-repositorio B-TECH
-digital I-TECH
+repositorio O
+digital O
 para O
 el O
 desarrollo O
@@ -3358,10 +3358,10 @@ consultor O
 virtual O
 para O
 la O
-adquisición B-TECH
-de I-TECH
-una I-TECH
-vivienda I-TECH
+adquisición O
+de O
+una O
+vivienda O
 (conadvi) O
 
 prototipo O
@@ -3380,8 +3380,8 @@ de O
 automatización O
 para O
 el O
-voto B-TECH
-electrónico I-TECH
+voto O
+electrónico O
 de O
 la O
 escuela O
@@ -3390,11 +3390,11 @@ de O
 cómputo O
 (ivoto) O
 
-sistema B-TECH
-de I-TECH
-control B-TECH
-y I-TECH
-monitoreo I-TECH
+sistema O
+de O
+control O
+y O
+monitoreo O
 para O
 ecosistemas O
 verticales O
@@ -3484,12 +3484,12 @@ al O
 fomento O
 cultural O
 para O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 basada O
 en O
@@ -3511,13 +3511,13 @@ fauna O
 ornítica O
 (pdmfo) O
 utilizando O
-tecnología B-TECH
-rfid I-TECH
+tecnología O
+rfid O
 
-comportamiento B-TECH
-colectivo I-TECH
-no I-TECH
-trivial I-TECH
+comportamiento O
+colectivo O
+no O
+trivial O
 implementado O
 en O
 robots O
@@ -3566,8 +3566,8 @@ el O
 fortalecimiento O
 de O
 la O
-ética B-TECH
-ecológica I-TECH
+ética O
+ecológica O
 en O
 los O
 habitantes O
@@ -3589,8 +3589,8 @@ de O
 educación O
 continua” O
 
-nodo B-TECH
-sensor I-TECH
+nodo O
+sensor O
 para O
 monitoreo B-TECH
 remoto I-TECH
@@ -3606,9 +3606,9 @@ sistema O
 de O
 análisis O
 de O
-robo B-TECH
-de I-TECH
-vehículos I-TECH
+robo O
+de O
+vehículos O
 (theftmaps) O
 
 herramienta O
@@ -3671,13 +3671,13 @@ de O
 peligro O
 según O
 la O
-estructura B-TECH
-urbana I-TECH
+estructura O
+urbana O
 enfocado O
 al O
-robo B-TECH
-de I-TECH
-vehículos I-TECH
+robo O
+de O
+vehículos O
 (serval) O
 
 sistema O
@@ -3708,8 +3708,8 @@ para O
 la O
 implementación O
 de O
-robots B-TECH
-colaborativos I-TECH
+robots O
+colaborativos O
 (jericho) O
 
 herramienta O
@@ -3717,9 +3717,9 @@ eye B-TECH
 tracking I-TECH
 para O
 el O
-análisis B-TECH
-de I-TECH
-información I-TECH
+análisis O
+de O
+información O
 en O
 investigación O
 
@@ -3805,8 +3805,8 @@ de O
 niños O
 utilizando O
 la O
-tecnología B-TECH
-rfid I-TECH
+tecnología O
+rfid O
 y O
 wifi O
 
@@ -3823,8 +3823,8 @@ archivos O
 de O
 video O
 para O
-control B-TECH
-parental I-TECH
+control O
+parental O
 
 sistema O
 para O
@@ -3908,9 +3908,9 @@ de O
 espectrometría B-TECH
 infrarroja I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 que O
 implementa O
@@ -3966,8 +3966,8 @@ para O
 la O
 decoración O
 de O
-productos B-TECH
-alimenticios I-TECH
+productos O
+alimenticios O
 
 plataforma O
 de O
@@ -4152,8 +4152,8 @@ la O
 geometría O
 de O
 un O
-robot B-TECH
-móvil I-TECH
+robot O
+móvil O
 usando O
 técnicas O
 de O
@@ -4192,9 +4192,9 @@ medio O
 superior O
 
 sccom O
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 para O
 camas O
 ortopédicas O
@@ -4272,8 +4272,8 @@ móvil I-TECH
 
 prototipo O
 de O
-sistema B-TECH
-electrónico I-TECH
+sistema O
+electrónico O
 para O
 administrar O
 medicamentos O
@@ -4281,8 +4281,8 @@ con O
 aplicación B-TECH
 android I-TECH
 para O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 
 aplicación O
 de O
@@ -4438,9 +4438,9 @@ paa O
 el O
 apoyo O
 de O
-toma B-TECH
-de I-TECH
-decisiones I-TECH
+toma O
+de O
+decisiones O
 
 sistema O
 generad O
@@ -4449,9 +4449,9 @@ partituras O
 de O
 piano O
 
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 de O
 accesos O
 basado O
@@ -4563,11 +4563,11 @@ en O
 telemedicina O
 
 pro-portion O
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 para I-TECH
-dispositivos B-TECH
+dispositivos I-TECH
 móviles I-TECH
 android O
 para O
@@ -4580,8 +4580,8 @@ apoyo O
 a O
 la O
 de O
-educación B-TECH
-básica I-TECH
+educación O
+básica O
 para O
 el O
 aprendizaje O
@@ -4678,9 +4678,9 @@ un O
 accidente O
 cerebrovascular O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 el O
 análisis B-TECH
@@ -4689,9 +4689,9 @@ realizado O
 a O
 niños O
 con O
-síndrome B-TECH
-de I-TECH
-down I-TECH
+síndrome O
+de O
+down O
 
 aplicación O
 de O
@@ -4827,8 +4827,8 @@ una O
 escuela O
 primaria O
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 programación O
 c++ O
@@ -4872,17 +4872,17 @@ de O
 software O
 (comtrics) O
 
-red B-TECH
-de I-TECH
-sensores I-TECH
+red O
+de O
+sensores O
 usando O
 nodos O
 de O
 procesamiento O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 con O
 realidad B-TECH
@@ -4995,9 +4995,9 @@ red B-TECH
 social I-TECH
 twitter O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 alaerta O
@@ -5014,9 +5014,9 @@ de O
 adultos B-TECH
 mayores I-TECH
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 de O
 información O
 preventiva O
@@ -5035,8 +5035,8 @@ detección O
 de O
 vulnerabilidades O
 en O
-aplicaciones B-TECH
-web I-TECH
+aplicaciones O
+web O
 
 aplicación O
 de O
@@ -5104,8 +5104,8 @@ aumentada I-TECH
 sistema O
 administrador O
 de O
-energía B-TECH
-renovable I-TECH
+energía O
+renovable O
 
 aplicación B-TECH
 móvil I-TECH
@@ -5131,8 +5131,8 @@ embebido I-TECH
 para O
 medir O
 la O
-frecuencia B-TECH
-cardiaca I-TECH
+frecuencia O
+cardiaca O
 y O
 temperatura O
 corporal O
@@ -5241,7 +5241,7 @@ profundas O
 para O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 
 sistema O
@@ -5282,8 +5282,8 @@ de O
 la O
 calidad O
 en O
-sistemas O
-computacionales O
+sistemas B-TECH
+computacionales I-TECH
 
 preggobaby: O
 prototipo O
@@ -5361,9 +5361,9 @@ a O
 14 O
 años O
 
-prototipo O
-de O
-aplicación O
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 para O
 la O
 detección O
@@ -5429,8 +5429,8 @@ de O
 apoyo O
 para O
 la O
-educación B-TECH
-básica I-TECH
+educación O
+básica O
 a O
 niños O
 con O
@@ -5470,8 +5470,8 @@ de O
 un O
 automóvil O
 
-nodo B-TECH
-sensor I-TECH
+nodo O
+sensor O
 de O
 bajo B-TECH
 consumo I-TECH
@@ -5484,9 +5484,9 @@ de O
 apoyo O
 en O
 la O
-toma B-TECH
-de I-TECH
-decisiones I-TECH
+toma O
+de O
+decisiones O
 de O
 inscripción O
 a O
@@ -5573,8 +5573,8 @@ alumnos O
 para O
 colegios O
 a O
-nivel B-TECH
-primaria I-TECH
+nivel O
+primaria O
 
 sistema B-TECH
 de I-TECH
@@ -5595,9 +5595,9 @@ en O
 hardware B-TECH
 reconfigurable I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 cambio O
@@ -5644,12 +5644,12 @@ imágenes I-TECH
 y O
 procesamiento O
 del O
-historial B-TECH
-clínico I-TECH
+historial O
+clínico O
 
-prototipo B-TECH
-de I-TECH
-dispositivo I-TECH
+prototipo O
+de O
+dispositivo O
 para O
 la O
 desincentivación O
@@ -5684,8 +5684,8 @@ contaminantes O
 en O
 automóviles O
 
-herramienta B-TECH
-web I-TECH
+herramienta O
+web O
 como O
 apoyo O
 para O
@@ -5873,9 +5873,9 @@ de O
 autómatas B-TECH
 celulares I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 de O
 arquitectura B-TECH
@@ -5902,7 +5902,7 @@ localización O
 
 aplicación B-TECH
 web I-TECH
-colaborativa I-TECH
+colaborativa O
 cn O
 un O
 sistema B-TECH
@@ -6124,8 +6124,8 @@ de O
 perfiles O
 falsos O
 en O
-redes B-TECH
-sociales I-TECH
+redes O
+sociales O
 
 sistema O
 de O
@@ -6141,7 +6141,7 @@ para O
 la O
 administración B-TECH
 de I-TECH
-pruebas B-TECH
+pruebas I-TECH
 de I-TECH
 software I-TECH
 
@@ -6323,7 +6323,7 @@ nacional O
 
 sistema B-TECH
 de I-TECH
-gestión B-TECH
+gestión I-TECH
 de I-TECH
 la I-TECH
 información I-TECH
@@ -6344,8 +6344,8 @@ operaciones O
 lógicas O
 desde O
 un O
-autómata B-TECH
-celular I-TECH
+autómata O
+celular O
 con O
 comportarmiento O
 caótico O
@@ -6433,9 +6433,9 @@ la O
 república O
 mexicana O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 los O
 procesos O
@@ -6448,10 +6448,10 @@ carga B-TECH
 académica I-TECH
 de O
 la O
-escuela B-TECH
-militar I-TECH
-de I-TECH
-ingenieros I-TECH
+escuela O
+militar O
+de O
+ingenieros O
 
 sistema O
 para O
@@ -6483,9 +6483,9 @@ optimización O
 de O
 llorarios O
 
-sistema B-TECH
-de I-TECH
-detección I-TECH
+sistema O
+de O
+detección O
 de O
 la O
 figura O
@@ -6558,9 +6558,9 @@ de O
 big B-TECH
 data I-TECH
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 padres O
 de O
@@ -6584,7 +6584,7 @@ de O
 apoyo B-TECH
 a I-TECH
 la I-TECH
-toma B-TECH
+toma I-TECH
 de I-TECH
 decisiones I-TECH
 y O
@@ -6647,9 +6647,9 @@ sistema B-TECH
 móvil I-TECH
 para O
 la O
-toma B-TECH
-de I-TECH
-decisiones I-TECH
+toma O
+de O
+decisiones O
 de O
 tarjetas O
 de O
@@ -6689,9 +6689,9 @@ biológicas O
 aplicación B-TECH
 web I-TECH
 para O
-búsqueda B-TECH
-de I-TECH
-información I-TECH
+búsqueda O
+de O
+información O
 utilizando O
 web B-TECH
 semántica I-TECH
@@ -6842,9 +6842,9 @@ el O
 adulto O
 mayor O
 
-sistema B-TECH
-de I-TECH
-rastreo I-TECH
+sistema O
+de O
+rastreo O
 y O
 auxilio O
 paa O
@@ -6899,8 +6899,8 @@ literatura O
 sepavr O
 
 herramientade O
-apoyo B-TECH
-al I-TECH
+apoyo O
+al O
 aprendizaje B-TECH
 visual I-TECH
 para O
@@ -6917,8 +6917,8 @@ sistema B-TECH
 de I-TECH
 monitoreo I-TECH
 de O
-signos B-TECH
-vitales I-TECH
+signos O
+vitales O
 utilizando O
 iot O
 
@@ -6931,8 +6931,8 @@ robot O
 guerrero O
 controlada O
 mediante O
-dispositivo B-TECH
-móvil I-TECH
+dispositivo O
+móvil O
 
 arquitectura O
 de O
@@ -6943,9 +6943,9 @@ soc O
 y O
 fpga O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 el O
@@ -6976,9 +6976,9 @@ aplicado O
 a O
 domótica O
 
-prototipo O
-de O
-aplicación O
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 proyectiva O
 e O
 informativa O
@@ -7012,8 +7012,8 @@ para O
 el O
 ahorro O
 de O
-energía B-TECH
-eléctrica I-TECH
+energía O
+eléctrica O
 en O
 escuelas O
 
@@ -7071,11 +7071,11 @@ estimular O
 el O
 cerebro O
 en O
-personas B-TECH
-de I-TECH
-la I-TECH
-tercera I-TECH
-edad I-TECH
+personas O
+de O
+la O
+tercera O
+edad O
 
 sistema B-TECH
 de I-TECH
@@ -7224,9 +7224,9 @@ de O
 software O
 para O
 el O
-análisis B-TECH
-de I-TECH
-información I-TECH
+análisis O
+de O
+información O
 geolocalizable O
 basada O
 en O
@@ -7436,9 +7436,9 @@ iridología O
 
 autentificación O
 mediante O
-chaffing B-TECH
-and I-TECH
-winnowing I-TECH
+chaffing O
+and O
+winnowing O
 en O
 el O
 protocolo O
@@ -7464,8 +7464,8 @@ aplicadas O
 en O
 tabletas O
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 probabilidad O
 y O
@@ -7495,8 +7495,8 @@ con O
 firma B-TECH
 digital I-TECH
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 matemáticas O
 de O
@@ -7534,8 +7534,8 @@ grado O
 de O
 confiabilid O
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 álgebra O
 para O
@@ -7584,8 +7584,8 @@ de O
 la O
 pantalla O
 del O
-dispositivo B-TECH
-móvil I-TECH
+dispositivo O
+móvil O
 hacia O
 terminales O
 inteligentes O
@@ -7746,10 +7746,10 @@ sistema B-TECH
 web I-TECH
 para O
 la O
-unificación B-TECH
-de I-TECH
-trabajo I-TECH
-colegiado I-TECH
+unificación O
+de O
+trabajo O
+colegiado O
 
 sistema B-TECH
 de I-TECH
@@ -7813,8 +7813,8 @@ bruner O
 y O
 empleando O
 una O
-estructura B-TECH
-cognitiva I-TECH
+estructura O
+cognitiva O
 
 sistema O
 para O
@@ -7827,8 +7827,8 @@ y O
 la O
 predicción O
 de O
-arritmias B-TECH
-cardiacas I-TECH
+arritmias O
+cardiacas O
 
 asistente O
 turístico O
@@ -7859,9 +7859,9 @@ información I-TECH
 web I-TECH
 para O
 el O
-análisis B-TECH
-de I-TECH
-transacciones I-TECH
+análisis O
+de O
+transacciones O
 comerciales O
 de O
 méxico O
@@ -7877,8 +7877,8 @@ el O
 control O
 de O
 un O
-robot B-TECH
-móvil I-TECH
+robot O
+móvil O
 
 sistema B-TECH
 de I-TECH
@@ -7901,8 +7901,8 @@ de O
 administracion O
 para O
 la O
-industria B-TECH
-textil I-TECH
+industria O
+textil O
 
 traductor O
 de O
@@ -8048,8 +8048,8 @@ vial O
 interface O
 decerradura O
 con O
-acceso B-TECH
-remoto I-TECH
+acceso O
+remoto O
 
 sistemas B-TECH
 de I-TECH
@@ -8093,16 +8093,16 @@ de O
 presion O
 arterial O
 y O
-pulso B-TECH
-cardiaco I-TECH
+pulso O
+cardiaco O
 para O
 apoyo O
 a O
 pacientes O
 de O
 la O
-tercera B-TECH
-edad I-TECH
+tercera O
+edad O
 con O
 padecimientos O
 de O
@@ -8112,7 +8112,7 @@ obesidad O
 
 sistema B-TECH
 de I-TECH
-gestión B-TECH
+gestión I-TECH
 de I-TECH
 la I-TECH
 información I-TECH
@@ -8188,15 +8188,15 @@ con O
 tendencias O
 suicidas O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 el O
-reporte B-TECH
-de I-TECH
-emergencias I-TECH
+reporte O
+de O
+emergencias O
 en O
 el O
 municipio O
@@ -8253,8 +8253,8 @@ decimal O
 sistema O
 gestor O
 de O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 por O
 módulos O
 
@@ -8269,8 +8269,8 @@ neuronales I-TECH
 
 prototipo O
 de O
-robots B-TECH
-colaborativos I-TECH
+robots O
+colaborativos O
 para O
 el O
 apoyo O
@@ -8279,8 +8279,8 @@ limpieza O
 de O
 piscinas O
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 de O
 convolución O
 
@@ -8314,8 +8314,8 @@ a O
 tu O
 salud O
 
-nodo B-TECH
-sensor I-TECH
+nodo O
+sensor O
 para O
 el O
 monitoreo O
@@ -8340,9 +8340,9 @@ la O
 nub O
 
 zcode: O
-editor B-TECH
-de I-TECH
-código I-TECH
+editor O
+de O
+código O
 colaborativo O
 para O
 el O
@@ -8482,16 +8482,16 @@ para O
 la O
 inferencia O
 de O
-redes B-TECH
-regulatorias I-TECH
-de I-TECH
-genes I-TECH
+redes O
+regulatorias O
+de O
+genes O
 a O
 través O
 del O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 
 aplicación O
@@ -8555,8 +8555,8 @@ en O
 el O
 estacionamiento O
 usando O
-tecnología B-TECH
-rfid I-TECH
+tecnología O
+rfid O
 
 sistema O
 de O
@@ -8565,8 +8565,8 @@ para O
 la O
 detección O
 de O
-daños B-TECH
-estructurales I-TECH
+daños O
+estructurales O
 en O
 edificios O
 “fissure O
@@ -8631,7 +8631,7 @@ de O
 los O
 autómatas B-TECH
 celulares I-TECH
-elementales I-TECH
+elementales O
 
 aplicación O
 de O
@@ -8662,8 +8662,8 @@ patrones I-TECH
 herramienta O
 para O
 la O
-vinculación B-TECH
-laboral I-TECH
+vinculación O
+laboral O
 
 sistema O
 de O
@@ -8751,10 +8751,10 @@ trámites O
 escolares O
 (sac-vog) O
 
-extensión B-TECH
-de I-TECH
-navegador I-TECH
-web I-TECH
+extensión O
+de O
+navegador O
+web O
 para O
 detectar O
 ataques O
@@ -8820,10 +8820,10 @@ parkinson O
 aplicación B-TECH
 web I-TECH
 de O
-apoyo B-TECH
-a I-TECH
-la I-TECH
-docencia I-TECH
+apoyo O
+a O
+la O
+docencia O
 para O
 la O
 detección O
@@ -8831,14 +8831,14 @@ de O
 puntos O
 acupunturales O
 
-nodo B-TECH
-sensor I-TECH
+nodo O
+sensor O
 inalámbrico O
 autoalimentado O
 por O
-cosecha B-TECH
-de I-TECH
-energía I-TECH
+cosecha O
+de O
+energía O
 aplicado O
 a O
 domótica O
@@ -8850,9 +8850,9 @@ para O
 cultivo O
 hidropónico O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 clases O
 personalizadas O
@@ -8887,8 +8887,8 @@ en O
 perfil O
 vocacional O
 en O
-redes B-TECH
-sociales I-TECH
+redes O
+sociales O
 
 aplicación O
 de O
@@ -8902,9 +8902,9 @@ emergencia O
 basada O
 en O
 la O
-red B-TECH
-en I-TECH
-malla I-TECH
+red O
+en O
+malla O
 p2p O
 
 machine B-TECH
@@ -8938,9 +8938,9 @@ insagram O
 a O
 través O
 de O
-patrones B-TECH
-de I-TECH
-reconocimiento I-TECH
+patrones O
+de O
+reconocimiento O
 
 prototipo O
 motor B-TECH
@@ -8960,8 +8960,8 @@ gestión O
 de O
 tratamientos O
 e O
-historial B-TECH
-clínico I-TECH
+historial O
+clínico O
 dental O
 
 sastre: O
@@ -9012,8 +9012,8 @@ experto O
 web O
 aplicado O
 a O
-orientación B-TECH
-vocacional I-TECH
+orientación O
+vocacional O
 para O
 alumnos O
 aspirantes O
@@ -9112,9 +9112,9 @@ basada I-TECH
 en I-TECH
 web I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 el O
@@ -9255,15 +9255,15 @@ perforación) O
 
 prototipo O
 de O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 al O
 daltonismo O
 
-prototipo O
-de O
-aplicación O
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 para O
 una O
 oferta O
@@ -9282,8 +9282,8 @@ para O
 el O
 reconocimiento O
 del O
-español B-TECH
-signado I-TECH
+español O
+signado O
 por O
 medio O
 del O
@@ -9318,9 +9318,9 @@ para O
 personas O
 diagnosticadas O
 con O
-insuficiencia B-TECH
-renal I-TECH
-crónica I-TECH
+insuficiencia O
+renal O
+crónica O
 (irc) O
 
 sistema O
@@ -9354,9 +9354,9 @@ de O
 educación O
 virtual O
 
-aplicación B-TECH
-de I-TECH
-escritorio I-TECH
+aplicación O
+de O
+escritorio O
 de O
 apoyo O
 en O
@@ -9372,20 +9372,20 @@ de O
 modelados O
 
 unidos: O
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 como O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 la O
 localización O
 de O
-personas B-TECH
-desaparecidas I-TECH
+personas O
+desaparecidas O
 y O
 no O
 localizadas O
@@ -9398,9 +9398,9 @@ gustavo O
 a O
 madero O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 que O
 permita O
@@ -9449,9 +9449,9 @@ evidencias O
 y O
 administración O
 de O
-instrumentos B-TECH
-de I-TECH
-evaluación I-TECH
+instrumentos O
+de O
+evaluación O
 
 sistema O
 prototipo O
@@ -9529,8 +9529,8 @@ a O
 través O
 de O
 un O
-dispositivo B-TECH
-móvil I-TECH
+dispositivo O
+móvil O
 
 sistema O
 de O
@@ -9569,8 +9569,8 @@ a O
 través O
 de O
 un O
-dispositivo B-TECH
-móvil I-TECH
+dispositivo O
+móvil O
 
 identificación B-TECH
 biométrica I-TECH
@@ -9610,9 +9610,9 @@ niveles O
 del O
 mictlán O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 coadyuvar O
@@ -9658,9 +9658,9 @@ con O
 realidad B-TECH
 aumentada I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 temas O
@@ -9670,9 +9670,9 @@ usando O
 realidad B-TECH
 aumentada I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 con O
 realidad B-TECH
@@ -9783,8 +9783,8 @@ posible O
 adicción O
 a O
 las O
-redes B-TECH
-sociales I-TECH
+redes O
+sociales O
 
 blockchain O
 aplicado O
@@ -9914,9 +9914,9 @@ usuario O
 
 prototipo O
 de O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 la O
 detección O
@@ -9976,8 +9976,8 @@ cifrado O
 por O
 hardware O
 y O
-tecnología B-TECH
-rfid I-TECH
+tecnología O
+rfid O
 
 prototipo O
 debajo O
@@ -10017,9 +10017,9 @@ implementación O
 de O
 algoritmo O
 de O
-detección B-TECH
-de I-TECH
-errores I-TECH
+detección O
+de O
+errores O
 de O
 ponunciación O
 en O
@@ -10032,7 +10032,7 @@ sistema O
 de O
 realidad B-TECH
 virtual I-TECH
-inmersiva I-TECH
+inmersiva O
 como O
 herramienta O
 de O
@@ -10052,7 +10052,7 @@ enmh O
 
 aplicación B-TECH
 para I-TECH
-dispositivos B-TECH
+dispositivos I-TECH
 móviles I-TECH
 para O
 recordar O
@@ -10069,9 +10069,9 @@ emulación O
 de O
 adversarios O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 tiendas O
@@ -10100,9 +10100,9 @@ elección O
 de O
 videojuegos O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 que O
@@ -10111,10 +10111,10 @@ usuarios O
 que O
 utilizan O
 el O
-sistema B-TECH
-de I-TECH
-transporte I-TECH
-colectivo I-TECH
+sistema O
+de O
+transporte O
+colectivo O
 puedan O
 reortar O
 y O
@@ -10142,9 +10142,9 @@ software O
 de O
 entorno O
 de O
-práctica B-TECH
-del I-TECH
-piano I-TECH
+práctica O
+del O
+piano O
 mediante O
 realidad B-TECH
 virtual I-TECH
@@ -10189,9 +10189,9 @@ masctas O
 mediante O
 geolocalización O
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 de O
 admisión O
 escolar O
@@ -10247,10 +10247,10 @@ cámaras O
 de O
 seguridad O
 del O
-sistema B-TECH
-de I-TECH
-transporte I-TECH
-colectivo I-TECH
+sistema O
+de O
+transporte O
+colectivo O
 
 prototipo O
 de O
@@ -10333,8 +10333,8 @@ técnica O
 no O
 invasiva O
 
-mano B-TECH
-robótica I-TECH
+mano O
+robótica O
 interprete O
 del O
 lenguaje B-TECH
@@ -10363,7 +10363,7 @@ ventas O
 usando O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 y O
 aprendizaje B-TECH
@@ -10433,17 +10433,17 @@ ajolote O
 (ambystoma O
 mexicanum) O
 
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 de O
 cicloconvertidor O
 a O
 través O
 de O
 una O
-interfaz O
-web O
+interfaz B-TECH
+web I-TECH
 
 sistema O
 de O
@@ -10464,7 +10464,7 @@ basada O
 en O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 para O
 evitar O
@@ -10488,8 +10488,8 @@ para O
 el O
 control B-TECH
 escolar I-TECH
-de I-TECH
-posgrado I-TECH
+de O
+posgrado O
 de O
 la O
 escom O
@@ -10519,12 +10519,12 @@ de O
 la O
 depresión O
 
-sistema B-TECH
-de I-TECH
+sistema O
+de O
 control B-TECH
 escolar I-TECH
-de I-TECH
-posgrado I-TECH
+de O
+posgrado O
 de O
 la O
 escom O
@@ -10539,8 +10539,8 @@ ejecución O
 de O
 procesos O
 de O
-optimización B-TECH
-multiobjetivo I-TECH
+optimización O
+multiobjetivo O
 utilizando O
 algoritmos O
 evolutivos O
@@ -10566,8 +10566,8 @@ movilidad O
 humnaa O
 dado O
 por O
-dispositivos B-TECH
-móviles I-TECH
+dispositivos O
+móviles O
 
 sisema O
 de O
@@ -10653,16 +10653,16 @@ haciendo O
 uso O
 de O
 un O
-asistente B-TECH
-de I-TECH
-voz I-TECH
+asistente O
+de O
+voz O
 como O
 servidor O
 
 prototipo O
 de O
-sintetizador B-TECH
-musical I-TECH
+sintetizador O
+musical O
 modular O
 reprogramable O
 
@@ -10691,8 +10691,8 @@ al O
 diagnóstico O
 de O
 la O
-esclerosis B-TECH
-múltiple I-TECH
+esclerosis O
+múltiple O
 
 apliccaión O
 móvil O
@@ -10740,11 +10740,11 @@ sistema O
 de O
 asistencia O
 para O
-personas B-TECH
-de I-TECH
-la I-TECH
-tercera I-TECH
-edad I-TECH
+personas O
+de O
+la O
+tercera O
+edad O
 con O
 capacidad O
 de O
@@ -10804,8 +10804,8 @@ de O
 problemas B-TECH
 algorítmicos I-TECH
 
-juego B-TECH
-interactivo I-TECH
+juego O
+interactivo O
 orientado O
 al O
 mejoramiento O
@@ -10815,11 +10815,11 @@ y O
 coordinación O
 dinámica O
 en O
-personas B-TECH
-de I-TECH
-la I-TECH
-tercera I-TECH
-edad I-TECH
+personas O
+de O
+la O
+tercera O
+edad O
 
 teaching O
 aid O
@@ -10829,9 +10829,9 @@ para O
 la O
 creación O
 de O
-instrumentos B-TECH
-de I-TECH
-evaluación I-TECH
+instrumentos O
+de O
+evaluación O
 en O
 el O
 idioma O
@@ -10843,8 +10843,8 @@ de O
 apoyo O
 para O
 la O
-jornada B-TECH
-electoral I-TECH
+jornada O
+electoral O
 y O
 resultados O
 (netoli) O
@@ -10859,9 +10859,9 @@ respaldos O
 de O
 emergencia O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 a O
 la O
 gestión B-TECH
@@ -10956,9 +10956,9 @@ el O
 tejido O
 mamario O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 al O
 psicólogo O
 en O
@@ -10986,9 +10986,9 @@ estados O
 para O
 chatbots O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 web I-TECH
 para O
 gestión B-TECH
@@ -11041,14 +11041,14 @@ de O
 realidad B-TECH
 virtual I-TECH
 como O
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 la O
-capacitación B-TECH
-de I-TECH
-bomberos I-TECH
+capacitación O
+de O
+bomberos O
 
 análisis O
 de O
@@ -11059,10 +11059,10 @@ en O
 estudiantes O
 de O
 la O
-escuela B-TECH
-libre I-TECH
-de I-TECH
-derecho I-TECH
+escuela O
+libre O
+de O
+derecho O
 para O
 encontrar O
 patrones O
@@ -11107,9 +11107,9 @@ por O
 dispositivos B-TECH
 android I-TECH
 
-sistema B-TECH
-de I-TECH
-detección I-TECH
+sistema O
+de O
+detección O
 y O
 clasificación O
 de O
@@ -11149,9 +11149,9 @@ móvil I-TECH
 prototipo O
 de O
 un O
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 para O
 un O
 móvil O
@@ -11223,10 +11223,10 @@ de O
 computadoras O
 en O
 la O
-escuela B-TECH
-militar I-TECH
-de I-TECH
-ingenieros I-TECH
+escuela O
+militar O
+de O
+ingenieros O
 
 aplicación B-TECH
 móvil I-TECH
@@ -11308,11 +11308,11 @@ segura O
 de O
 datos O
 
-sistema B-TECH
-de I-TECH
-control B-TECH
-y I-TECH
-monitoreo I-TECH
+sistema O
+de O
+control O
+y O
+monitoreo O
 para O
 el O
 paciente O
@@ -11353,16 +11353,16 @@ representar O
 datos O
 sobre O
 la O
-violencia B-TECH
-de I-TECH
-género I-TECH
+violencia O
+de O
+género O
 en O
 la O
 cdmx O
 
-sistema B-TECH
-de I-TECH
-gestión I-TECH
+sistema O
+de O
+gestión O
 de O
 denunciaspaa O
 la O
@@ -11417,9 +11417,9 @@ evidencias O
 firmadas O
 digitalmentewt O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil I-TECH
 para O
 atención O
@@ -11431,9 +11431,9 @@ restaurante O
 "order O
 easy" O
 
-prototipo O
-de O
-aplicación O
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 móvil: O
 let's O
 party! O
@@ -11454,8 +11454,8 @@ evaluación O
 de O
 entrenamiento O
 para O
-marcha B-TECH
-atlética I-TECH
+marcha O
+atlética O
 
 sistema B-TECH
 de I-TECH
@@ -11502,8 +11502,8 @@ del O
 material O
 rodante O
 del O
-stc B-TECH
-metro I-TECH
+stc O
+metro O
 
 técnicas O
 de O
@@ -11525,9 +11525,9 @@ seguimiento O
 e O
 integración O
 de O
-equipos B-TECH
-de I-TECH
-trabajo I-TECH
+equipos O
+de O
+trabajo O
 basada O
 en O
 el O
@@ -11569,9 +11569,9 @@ a O
 paso O
 (algebreb) O
 
-generador B-TECH
-de I-TECH
-versos I-TECH
+generador O
+de O
+versos O
 musicales O
 en O
 idioma O
@@ -11581,7 +11581,7 @@ medio O
 de O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 y O
 redes B-TECH
@@ -11595,8 +11595,8 @@ para O
 la O
 enseñanza O
 del O
-idioma B-TECH
-japonés I-TECH
+idioma O
+japonés O
 utilizando O
 bases B-TECH
 de I-TECH
@@ -11607,8 +11607,8 @@ móvil I-TECH
 de O
 comercio O
 para O
-servicios B-TECH
-turísticos I-TECH
+servicios O
+turísticos O
 en O
 zona O
 de O
@@ -11643,8 +11643,8 @@ generación O
 de O
 aleatoriedad O
 para O
-aplicaciones O
-criptográficas O
+aplicaciones B-TECH
+criptográficas I-TECH
 
 sarch: O
 sistema O
@@ -11691,8 +11691,8 @@ la O
 comunidad O
 escolar O
 del O
-nivel B-TECH
-primaria I-TECH
+nivel O
+primaria O
 pormedio O
 de O
 libretas O
@@ -11757,13 +11757,13 @@ de O
 coordinación O
 académica O
 de O
-escuelas B-TECH
-secundarias I-TECH
+escuelas O
+secundarias O
 técnicas O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 la O
 identificación O
@@ -11789,9 +11789,9 @@ para O
 el O
 proceso O
 de O
-inscripción B-TECH
-de I-TECH
-protocolo I-TECH
+inscripción O
+de O
+protocolo O
 
 videojuego O
 basado O
@@ -11857,9 +11857,9 @@ alzheimr O
 utilizando O
 geocercas O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 web I-TECH
 de O
 detección O
@@ -11882,9 +11882,9 @@ para O
 la O
 organización O
 de O
-proyectos B-TECH
-de I-TECH
-software I-TECH
+proyectos O
+de O
+software O
 basada O
 en O
 la O
@@ -11895,9 +11895,9 @@ iso O
 prototipo O
 de O
 un O
-sistema B-TECH
-de I-TECH
-control I-TECH
+sistema O
+de O
+control O
 para O
 cultivo O
 en O
@@ -11976,8 +11976,8 @@ guía O
 para O
 visita O
 al O
-museo B-TECH
-soumaya I-TECH
+museo O
+soumaya O
 mediante O
 el O
 uso O
@@ -12005,8 +12005,8 @@ mentiras O
 planificador O
 inteligente O
 para O
-integración B-TECH
-numérica I-TECH
+integración O
+numérica O
 multidimencional O
 en O
 ambientes O
@@ -12105,10 +12105,10 @@ lot O
 
 prototipo O
 de O
-extensión B-TECH
-de I-TECH
-navegador I-TECH
-web I-TECH
+extensión O
+de O
+navegador O
+web O
 de O
 apoyo O
 para O
@@ -12215,9 +12215,9 @@ para O
 uso O
 personal O
 
-interfaz B-TECH
-de I-TECH
-lenguaje I-TECH
+interfaz O
+de O
+lenguaje B-TECH
 natural I-TECH
 por O
 reconocimiento B-TECH
@@ -12235,9 +12235,9 @@ media-baja O
 para O
 reducir O
 el O
-consumo B-TECH
-de I-TECH
-energía I-TECH
+consumo O
+de O
+energía O
 lumínica O
 (bendie) O
 
@@ -12249,16 +12249,16 @@ a O
 microrredes O
 fotovoltaicas O
 
-punto B-TECH
-de I-TECH
-venta I-TECH
+punto O
+de O
+venta O
 con O
 conexión O
 a O
 un O
-programa B-TECH
-de I-TECH
-lealtad I-TECH
+programa O
+de O
+lealtad O
 utilizando O
 el O
 modelo O
@@ -12275,10 +12275,10 @@ en O
 casa O
 habitación O
 
-sistema B-TECH
-de I-TECH
-gestión B-TECH
-administrativa I-TECH
+sistema O
+de O
+gestión O
+administrativa O
 de O
 apoyo O
 a O
@@ -12395,9 +12395,9 @@ en O
 la O
 sangre O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 web I-TECH
 para O
 la O
@@ -12410,7 +12410,7 @@ la O
 minería B-TECH
 de I-TECH
 datos I-TECH
-educativos I-TECH
+educativos O
 (appevan) O
 
 prototipo O
@@ -12444,9 +12444,9 @@ al O
 semi-autónomo O
 (nutri-desk) O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 web I-TECH
 para O
 el O
@@ -12505,18 +12505,18 @@ el O
 apoyo O
 a O
 la O
-detección B-TECH
-de I-TECH
-acceso I-TECH
+detección O
+de O
+acceso O
 ilegal O
 a O
 una O
 casa O
 habitación O
 
-herramienta B-TECH
-de I-TECH
-apoyo I-TECH
+herramienta O
+de O
+apoyo O
 para O
 terapeutas O
 en O
@@ -12527,11 +12527,11 @@ tratamiento O
 para O
 niños O
 con O
-trastorno B-TECH
-del I-TECH
-habla I-TECH
-y I-TECH
-articulación I-TECH
+trastorno O
+del O
+habla O
+y O
+articulación O
 
 prototipo O
 de O
@@ -12553,11 +12553,11 @@ de O
 la O
 discriminación O
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 para I-TECH
-dispositivos B-TECH
+dispositivos I-TECH
 móviles I-TECH
 auxiliar O
 en O
@@ -12585,8 +12585,8 @@ una O
 imagen O
 digital O
 de O
-formato B-TECH
-espacial I-TECH
+formato O
+espacial O
 con O
 pérdida O
 de O
@@ -12652,9 +12652,9 @@ en O
 las O
 gráficas O
 del O
-mercado B-TECH
-de I-TECH
-divisas I-TECH
+mercado O
+de O
+divisas O
 
 prototipo O
 de O
@@ -12718,7 +12718,7 @@ partículas O
 en O
 autómatas B-TECH
 celulares I-TECH
-elementales I-TECH
+elementales O
 
 traducción O
 y O
@@ -12737,9 +12737,9 @@ en O
 un O
 problema O
 de O
-coloreado B-TECH
-de I-TECH
-grafos I-TECH
+coloreado O
+de O
+grafos O
 y O
 aprendizaje B-TECH
 de I-TECH
@@ -12775,8 +12775,8 @@ de O
 primaria O
 (bmot) O
 
-juego B-TECH
-interactivo I-TECH
+juego O
+interactivo O
 para O
 la O
 enseñanza O
@@ -12800,14 +12800,14 @@ propuesta O
 de O
 sistema O
 de O
-voto B-TECH
-electrónico I-TECH
+voto O
+electrónico O
 utilizando O
 esquemas O
 de O
-compartición B-TECH
-de I-TECH
-secretos I-TECH
+compartición O
+de O
+secretos O
 
 sistema O
 de O
@@ -12854,12 +12854,12 @@ del O
 templo O
 mayor O
 
-sistema B-TECH
-de I-TECH
+sistema O
+de O
 control B-TECH
 escolar I-TECH
-de I-TECH
-posgrado I-TECH
+de O
+posgrado O
 parte O
 iii O
 
@@ -12882,13 +12882,13 @@ uso O
 de O
 material B-TECH
 didáctico I-TECH
-interactivo I-TECH
+interactivo O
 enfocado O
 al O
 nivel O
 de O
-educación B-TECH
-primaria I-TECH
+educación O
+primaria O
 
 sistema O
 de O
@@ -12918,9 +12918,9 @@ seguridad O
 para O
 protección O
 y O
-prevención B-TECH
-de I-TECH
-riesgos I-TECH
+prevención O
+de O
+riesgos O
 durante O
 el O
 traslado O
@@ -12933,8 +12933,8 @@ ciudad O
 de O
 mèxico O
 
-herramienta B-TECH
-web I-TECH
+herramienta O
+web O
 de O
 selección O
 de O
@@ -12969,8 +12969,8 @@ detectar O
 la O
 presencia O
 de O
-artritis B-TECH
-reumatoide I-TECH
+artritis O
+reumatoide O
 
 sistema B-TECH
 web I-TECH
@@ -12982,7 +12982,7 @@ gráficas O
 mediante O
 procesamiento B-TECH
 de I-TECH
-lenguaje I-TECH
+lenguaje B-TECH
 natural I-TECH
 
 videojuego O
@@ -13012,9 +13012,9 @@ para O
 la O
 detección O
 de O
-cáncer B-TECH
-de I-TECH
-colon I-TECH
+cáncer O
+de O
+colon O
 a O
 través O
 del O
@@ -13022,17 +13022,17 @@ análisis B-TECH
 de I-TECH
 imágenes I-TECH
 
-juego B-TECH
-en I-TECH
-línea I-TECH
+juego O
+en O
+línea O
 auxiliar O
 en O
 la O
 enseñanza O
 de O
-separación B-TECH
-de I-TECH
-residuos I-TECH
+separación O
+de O
+residuos O
 para O
 niños O
 
@@ -13143,8 +13143,8 @@ el O
 apoyo O
 de O
 la O
-educación B-TECH
-básica I-TECH
+educación O
+básica O
 de O
 niños O
 con O
@@ -13169,11 +13169,11 @@ del O
 desarrollo O
 de O
 la O
-lógica B-TECH
-de I-TECH
-solución I-TECH
-de I-TECH
-problemas I-TECH
+lógica O
+de O
+solución O
+de O
+problemas O
 (scrap O
 coder) O
 
@@ -13206,8 +13206,8 @@ enfoque O
 distinto O
 mediante O
 la O
-psicología B-TECH
-positiva I-TECH
+psicología O
+positiva O
 
 prototipo O
 de O
@@ -13228,14 +13228,14 @@ controlado O
 
 aplicación B-TECH
 web I-TECH
-progresiva I-TECH
+progresiva O
 para O
 la O
 organzación O
 y O
-gestión B-TECH
-de I-TECH
-torneos I-TECH
+gestión O
+de O
+torneos O
 de O
 deportes O
 electrónicos O
@@ -13253,8 +13253,8 @@ archivos O
 con O
 autenticación O
 de O
-colores B-TECH
-rgb I-TECH
+colores O
+rgb O
 y O
 cifrado O
 mediante O
@@ -13265,8 +13265,8 @@ voz O
 aplicacón O
 móvil O
 de O
-sintetizador B-TECH
-musical I-TECH
+sintetizador O
+musical O
 con O
 fines O
 didácticos O
@@ -13321,8 +13321,8 @@ un O
 sistema B-TECH
 móvil I-TECH
 
-laboratorio B-TECH
-virtual I-TECH
+laboratorio O
+virtual O
 multimedia O
 para O
 la O
@@ -13350,18 +13350,18 @@ basada I-TECH
 en I-TECH
 web I-TECH
 
-prototipo O
-de O
-aplicación B-TECH
+prototipo B-TECH
+de I-TECH
+aplicación I-TECH
 para I-TECH
-dispositivos B-TECH
+dispositivos I-TECH
 móviles I-TECH
 android O
 para O
 el O
-control B-TECH
-de I-TECH
-acceso I-TECH
+control O
+de O
+acceso O
 a O
 laboratorios O
 de O
@@ -13379,8 +13379,8 @@ constancias O
 emitidas O
 por O
 los O
-departamentos B-TECH
-administrativos I-TECH
+departamentos O
+administrativos O
 de O
 la O
 escom O
@@ -13468,8 +13468,8 @@ multimedia O
 de O
 incidencias O
 en O
-espacios B-TECH
-públicos I-TECH
+espacios O
+públicos O
 en O
 la O
 cdmx O
@@ -13488,9 +13488,9 @@ por O
 software O
 para O
 el O
-centro B-TECH
-de I-TECH
-datos I-TECH
+centro O
+de O
+datos O
 de O
 la O
 dirección O
@@ -13510,9 +13510,9 @@ de O
 pulso O
 temperatura O
 y O
-saturación B-TECH
-de I-TECH
-oxígeno I-TECH
+saturación O
+de O
+oxígeno O
 para O
 seguimieno O
 de O
@@ -13543,8 +13543,8 @@ aws O
 y O
 google O
 
-herramienta B-TECH
-web I-TECH
+herramienta O
+web O
 para O
 el O
 uso O
@@ -13561,8 +13561,8 @@ para O
 la O
 mediación O
 de O
-signos B-TECH
-vitales I-TECH
+signos O
+vitales O
 en O
 personas O
 adulas O
@@ -13605,9 +13605,9 @@ la O
 evaluación B-TECH
 financiera I-TECH
 de O
-proyectos B-TECH
-de I-TECH
-inversión I-TECH
+proyectos O
+de O
+inversión O
 como O
 apoyo O
 para O
@@ -13616,8 +13616,8 @@ emprendimiento O
 
 sistema O
 para O
-fomentar B-TECH
-hábitos I-TECH
+fomentar O
+hábitos O
 saludables O
 en O
 la O
@@ -13644,19 +13644,19 @@ emergencias O
 prehospitalarias O
 empleando O
 una O
-ficha B-TECH
-médica I-TECH
+ficha O
+médica O
 digital O
 
-herramienta B-TECH
-web I-TECH
+herramienta O
+web O
 de O
 georreferenciación O
 para O
 la O
-gestión B-TECH
-de I-TECH
-trámites I-TECH
+gestión O
+de O
+trámites O
 relacionads O
 con O
 el O
@@ -13677,9 +13677,9 @@ entorno B-TECH
 virtual I-TECH
 de O
 una O
-línea B-TECH
-de I-TECH
-producción I-TECH
+línea O
+de O
+producción O
 utilizando O
 automatización O
 robótica O
@@ -13755,9 +13755,9 @@ de O
 posibles O
 amenazas O
 con O
-armas B-TECH
-de I-TECH
-fuego I-TECH
+armas O
+de O
+fuego O
 cortas O
 mediante O
 aprendizaje B-TECH
@@ -13768,9 +13768,9 @@ de O
 patrones O
 genotípicos O
 de O
-cáncer B-TECH
-de I-TECH
-mama I-TECH
+cáncer O
+de O
+mama O
 en O
 líneas O
 celulares O
@@ -13829,9 +13829,9 @@ de O
 optimización O
 para O
 la O
-asignación B-TECH
-de I-TECH
-horarios I-TECH
+asignación O
+de O
+horarios O
 escolares O
 
 aplicación B-TECH
@@ -13858,8 +13858,8 @@ para O
 el O
 apoyo O
 de O
-análisis B-TECH
-técnico I-TECH
+análisis O
+técnico O
 de O
 empresas O
 para O
@@ -13904,8 +13904,8 @@ para O
 el O
 monitoreo O
 de O
-signos B-TECH
-vitales I-TECH
+signos O
+vitales O
 en O
 adultos B-TECH
 mayores I-TECH
@@ -13924,8 +13924,8 @@ un O
 dispositivo O
 lector O
 de O
-signos B-TECH
-vitales I-TECH
+signos O
+vitales O
 
 aplicación O
 de O
@@ -13961,8 +13961,8 @@ para O
 la O
 trazabilidad O
 de O
-productos B-TECH
-alimenticios I-TECH
+productos O
+alimenticios O
 en O
 mexico O
 medinate O
@@ -13987,8 +13987,8 @@ consultar O
 información O
 académica O
 
-aula B-TECH
-virtual I-TECH
+aula O
+virtual O
 para O
 atención O
 de O
@@ -14008,9 +14008,9 @@ eléctrica O
 
 prototipo O
 de O
-sistema B-TECH
-de I-TECH
-rastreo I-TECH
+sistema O
+de O
+rastreo O
 para O
 pacientes O
 con O
@@ -14088,9 +14088,9 @@ estimación O
 de O
 costos O
 de O
-proyectos B-TECH
-de I-TECH
-software I-TECH
+proyectos O
+de O
+software O
 destinada O
 a O
 los O
@@ -14106,8 +14106,8 @@ aprendizaje O
 del O
 profesor O
 de O
-nivel B-TECH
-primaria I-TECH
+nivel O
+primaria O
 para O
 la O
 enseñanza O
@@ -14123,14 +14123,14 @@ del O
 lenguaje B-TECH
 de I-TECH
 señas I-TECH
-mexicana O
+mexicana I-TECH
 
 aplicación B-TECH
 web I-TECH
 de O
 un O
-pizarrón B-TECH
-virtual I-TECH
+pizarrón O
+virtual O
 con O
 colaboración O
 simultánea O
@@ -14183,11 +14183,11 @@ la O
 interacción O
 social O
 entre O
-personas B-TECH
-de I-TECH
-la I-TECH
-tercera I-TECH
-edad I-TECH
+personas O
+de O
+la O
+tercera O
+edad O
 
 1 O
 dancetracker: O
@@ -14207,9 +14207,9 @@ quema O
 de O
 calorías O
 
-herramienta B-TECH
-de I-TECH
-software I-TECH
+herramienta O
+de O
+software O
 para O
 consulta O
 de O
@@ -14255,9 +14255,9 @@ sistema O
 de O
 administración O
 y O
-control B-TECH
-de I-TECH
-calificaciones I-TECH
+control O
+de O
+calificaciones O
 en O
 línea O
 para O
@@ -14271,8 +14271,8 @@ capacitación O
 1 O
 aplicación O
 de O
-windows B-TECH
-desktop I-TECH
+windows O
+desktop O
 para O
 obtener O
 el O
@@ -14283,8 +14283,8 @@ steiner O
 como O
 auxiliar O
 de O
-diagnóstico B-TECH
-dental I-TECH
+diagnóstico O
+dental O
 
 sistema B-TECH
 web I-TECH
@@ -14293,10 +14293,10 @@ la O
 generación O
 de O
 las O
-actas B-TECH
-de I-TECH
-examen I-TECH
-profesional I-TECH
+actas O
+de O
+examen O
+profesional O
 en O
 la O
 escuela O
@@ -14319,9 +14319,9 @@ para O
 la O
 identificación O
 de O
-islas B-TECH
-de I-TECH
-calor I-TECH
+islas O
+de O
+calor O
 a O
 nivel O
 regional O
@@ -14340,8 +14340,8 @@ semi-automatizadas O
 para O
 la O
 plataforma O
-b2b B-TECH
-sterling I-TECH
+b2b O
+sterling O
 ibm O
 
 aplicación B-TECH
@@ -14354,14 +14354,14 @@ registro O
 y O
 control O
 del O
-tratamiento B-TECH
-médico I-TECH
+tratamiento O
+médico O
 en O
 mujeres O
 diagnosticadas O
 con O
-síndrome B-TECH
-de I-TECH
-ovario I-TECH
-poliquístico I-TECH
+síndrome O
+de O
+ovario O
+poliquístico O
 
