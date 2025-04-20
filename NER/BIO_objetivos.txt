@@ -51601,9 +51601,10 @@ agrupación O
 y O
 lenguaje B-TECH
 natural I-TECH
-(knn O
+o O
+knn B-TECH
 y O
-nlp) O
+nlp B-TECH
 a O
 la O
 información O
@@ -55224,8 +55225,9 @@ de O
 aprendizaje B-TECH
 de I-TECH
 máquina I-TECH
-(machine O
-learning) O
+o O
+machine B-TECH
+learning I-TECH
 como O
 reglas B-TECH
 de I-TECH
