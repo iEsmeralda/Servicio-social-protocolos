@@ -1,0 +1,56 @@
+/*Clase*/
+.container{
+	/* background: linear-gradient(319deg, rgba(115,193,33,1) 0%, rgba(34,185,135,1) 37%, rgba(0,212,255,1) 100%); */
+	max-width: 95%;
+	background-color: white;
+}
+
+.navbar-light{
+	/* background: rgba(0, 85, 128, 0.01); */
+	background: linear-gradient(180deg, rgba(0, 85, 128, 1) 0%, rgba(0, 102, 153, 1) 75%, rgba(0, 153, 230, 1) 100%);
+}
+
+/*Tamaño de letra del INICIO de la barra de navegación*/
+.navbar-brand{
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	padding-left: 2%;
+}
+
+/*Tamaño de letra de los item de la barra de navegación*/
+#escom{
+	font-size: 24px;
+	color: white;
+}
+
+body{
+	background-color: white;
+}
+
+#pdf:visited{ 
+	color: purple;
+}
+
+#prueba{
+	font-style: bold;
+}
+
+#form{
+	font-size: 22px;
+}
+
+#Recomendaciones{
+	font-size: 16px;
+}
+
+.tablaResultados{
+	text-align: center;
+	font-size: 16px;
+}
+
+#btn{
+	display: flex;
+  	justify-content: flex-start;
+  	align-items: flex-end;
+}

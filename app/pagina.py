@@ -1,0 +1,215 @@
+# Importando las Librerias
+import pandas as pd
+import os
+import pickle
+from sentence_transformers import SentenceTransformer
+from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+from sklearn.metrics.pairwise import cosine_similarity
+
+# Modelos para los embeddings
+MODELOS = {
+    "sentence-transformers": 'Santp98/SBERT-pairs-bert-base-spanish-wwm-cased',
+    "sentence_similarity": 'hiiamsid/sentence_similarity_spanish_es'
+}
+CAMPOS = ["Titulo", "resumen", "objetivos", "claves"]
+
+# Extracción de NER's
+def cargar_modelo_ner(nombre_modelo="iEsmeralda/mrm8488-finetuned-ner-tech"):
+    tokenizador = AutoTokenizer.from_pretrained(nombre_modelo)
+    modelo = AutoModelForTokenClassification.from_pretrained(nombre_modelo)
+    ner_pipeline = pipeline("ner", model=modelo, tokenizer=tokenizador, aggregation_strategy="simple")
+    # aggregation_strategy="simple" indica que se deben agrupar los tokens que pertenezcan a una misma entidad, por ejemplo si el modelo detecta "inteligencia" y "artificial"
+    # como parte de una misma entidad, los junta en una sola: "inteligencia artificial"
+
+    return ner_pipeline
+
+# funcion para agrupar entidades consecutivas del mismo tipo, esto se hizo porque habia entidades que no fueron "unidas" a pesar del aggregation_strategy
+def agrupar_entidades_consecutivas(entidades):
+    # si no hay entidades, se regresa una lista vacia
+    if not entidades:
+        return []
+    entidades_agrupadas = []
+    entidad_actual = entidades[0].copy() # se toma la primera entidad como "base"
+    for i in range(1, len(entidades)):
+        entidad = entidades[i]
+
+        # si la entidad es del mismo tipo y esta justo despues de la actual, entonces:
+        if entidad["entity_group"] == entidad_actual["entity_group"] and entidad["start"] == entidad_actual["end"] + 1:
+            # se une la palabra, se actualiza el fin y se promedia el puntaje de ambas entidades
+            entidad_actual["word"] += " " + entidad["word"]
+            entidad_actual["end"] = entidad["end"]
+            entidad_actual["score"] = (entidad_actual["score"] + entidad["score"]) / 2
+        else:
+            # si no son consecutivas, se guarda la actual y se pasa a la siguiente entidad
+            entidades_agrupadas.append(entidad_actual)
+            entidad_actual = entidad.copy()
+    entidades_agrupadas.append(entidad_actual)
+    return entidades_agrupadas
+
+# funcion para extraer las entidades nombradas de un texto largo
+def extraer_ners(texto, ner_pipeline, max_tokens=512):
+    tokenizador = ner_pipeline.tokenizer
+    modelo = ner_pipeline.model
+
+    tokens = tokenizador.tokenize(texto)
+    entidades = []
+
+    # se recorre la lista completa de tokens en bloques de tamaño max_tokens ya que la mayoria de los modelos de transformers solo aceptan secuencias de hasta 512 tokens como maximo
+    for i in range(0, len(tokens), max_tokens):
+        bloque_de_tokens = tokens[i:i+max_tokens]
+
+        # la lista de tokens nombrada como bloque_de_tokens se pasa a texto plano porque el pipeline de ner espera un texto como entrada
+        bloque_texto = tokenizador.convert_tokens_to_string(bloque_de_tokens)
+
+        # se vuelve a tokenizar el texto del bloque para asegurarse que no se pase del limite real de tokens del modelo
+        if len(tokenizador(bloque_texto)["input_ids"]) > max_tokens:
+            # si el bloque excede el limite de 512 tokens, se salta
+            continue
+
+        # se aplica el pipeline de ner al bloque de texto para obtener las entidades detectadas en ese bloque
+        entidades_en_bloque = ner_pipeline(bloque_texto)
+        entidades_agrupadas_bloque = agrupar_entidades_consecutivas(entidades_en_bloque)
+        entidades.extend(entidades_agrupadas_bloque)
+
+    return [entidad["word"] for entidad in entidades]
+
+# Lectura del archivo de protocolos
+protocolos=pd.read_csv("app/protocolos_completo_limpios.csv")
+protocolos_acentuados=pd.read_csv("app/protocolos_completo_limpios.csv")
+
+# Consulta de los protocolos similares
+def buscarProtocolos(consulta):
+    df_resultados_acentuados  = protocolos_acentuados
+    ner_pipeline = cargar_modelo_ner()
+
+    query = consulta.strip()
+
+    #print(f"\nConsulta original: {query}")
+    entidades_query = extraer_ners(query, ner_pipeline)
+    #print("Entidades NER detectadas:", entidades_query)
+
+    # si hay entidades, se enriquece un texto
+    query_enriquecida = f"{query} {' '.join(entidades_query)}" if entidades_query else query
+    query_con_contexto = f"Este trabajo trata sobre {query_enriquecida}" # se agrega contexto para el modelo, pues si solo ponemos la entidad, el modelo no sabe de que se trata
+
+    df_resultados_acentuados = protocolos_acentuados.copy()
+    df_resultados_acentuados["sim_total"] = 0
+
+    for clave_modelo, nombre_modelo in MODELOS.items():
+        modelo = SentenceTransformer(nombre_modelo)
+        # se genera el embedding de la consulta con contexto
+        embedding_query = modelo.encode(query_con_contexto, convert_to_tensor=False)
+
+        for campo in CAMPOS:
+            # se construye el nombre del archivo .pkl que contiene los embeddings del campo
+            nombre_pkl = f"{campo}_{clave_modelo}_embeddings.pkl"
+            ruta_pkl = os.path.join("app/pkl", nombre_pkl)
+            if not os.path.exists(ruta_pkl):
+                print(f"Falta el archivo: {ruta_pkl}")
+                continue
+
+            with open(ruta_pkl, "rb") as f:
+                embeddings_cargados = pickle.load(f)
+
+            # se calcula la similitud coseno entre el embedding de la consulta y los del archivo
+            simi_coseno = cosine_similarity([embedding_query], embeddings_cargados)[0]
+            df_resultados_acentuados[f"{campo}_{clave_modelo}"] = simi_coseno
+            # se acumula la similitud en la columna "sim_total" (ponderacion simple)
+            df_resultados_acentuados["sim_total"] += simi_coseno
+
+    df_resultados_acentuados = df_resultados_acentuados.sort_values("sim_total", ascending=False).head(10)
+
+    # Crear el diccionario con listas vacías para acumular los valores
+    diccionario_resultados = {
+        "#": [],
+        "TT": [],
+        "Título": [],
+        "Similitud": []
+    }
+
+    print("\nTop 10 resultados más similares:")
+    for idx, (i, row) in enumerate(df_resultados_acentuados.iterrows(), start=1):
+        print(f"TT: {row['TT']}")
+        print(f"Título: {row['Titulo']}")
+        print(f"Similitud total: {row['sim_total']:.4f}")
+        
+        # Llenar el diccionario
+        diccionario_resultados["#"].append(idx)
+        diccionario_resultados["TT"].append(row["TT"])
+        diccionario_resultados["Título"].append(row["Titulo"])
+        diccionario_resultados["Similitud"].append(round(row["sim_total"], 4))
+
+    return diccionario_resultados
+
+# -------------------------------------------- Página web --------------------------------------------------
+
+# Se importa la librería (framework) que permite desarrollar aplicaciones web
+from flask import Flask, render_template, request, jsonify
+
+# Se crea una instancia de la clase Flask, con una carpeta estatica para css e img
+app = Flask(__name__, static_folder='static')
+
+# Se definen las rutas y vistas: Define una ruta URL y una función de vista asociada a esa ruta, la cual será ejecutada cuando se acceda a la ruta especificada:
+@app.route('/') # La ruta "/" es la ruta raíz de la página web.
+def index():
+    # Se mostrará el archivo index.html cuando se accreda a esta ruta
+    return render_template('index.html')
+
+@app.route('/index')
+def inicio():
+    # Se mostrará el archivo index.html cuando se accreda a esta ruta
+    return render_template('index.html')
+
+# Para la conexión con el archivo de JavaScript
+@app.route('/ServicioSocial/app/static/js/script.js')
+def servir_script():
+    return app.send_static_file('script.js')
+
+# Recomendaciones
+@app.route('/resultadosProtocolos', methods=['POST'])
+def obtener_recomendaciones():
+    query = request.form['consulta'] # Ejemplo: Sistema de Monitoreo de Patineta Eléctrica 
+
+    # Llamar a la función buscarProtocolos que devuelve el diccionario con los resultados
+    diccionario_resultados = buscarProtocolos(consulta=query)
+
+    # Construcción del contenido HTML de la tabla
+    contenido_html = '''
+    <div class="table-responsive">
+      <table class="table table-bordered tablaResultados">
+        <thead class="table-primary">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Título</th>
+            <th scope="col">Similitud</th>
+            <th scope="col">Archivo <i class="fa-regular fa-file-lines"></i></th>
+          </tr>
+        </thead>
+        <tbody class="table-light">
+    '''
+
+    # Recorrer los datos y construir filas
+    for i in range(10):
+        contenido_html += f'''
+          <tr>
+            <th scope="row">{diccionario_resultados["#"][i]}</th>
+            <td>{diccionario_resultados["Título"][i]}</td>
+            <td>{diccionario_resultados["Similitud"][i]}</td>
+            <td><a id="pdf" href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank">Ver PDF</a></td>
+          </tr>
+        '''
+
+    contenido_html += '''
+        </tbody>
+      </table>
+    </div>
+    <p><br>Esperamos que estos resultados sean de utilidad.</p>
+    '''
+
+    return contenido_html
+
+# -----------------
+
+# Código para ejecutar la aplicación Flask
+if __name__ == '__main__':
+    app.run(debug=True)
