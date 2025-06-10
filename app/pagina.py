@@ -124,7 +124,10 @@ def buscarProtocolos(consulta):
         "#": [],
         "TT": [],
         "Título": [],
-        "Similitud": []
+        "Similitud": [],
+        "Resumen": [],
+        "Directores": [],
+        "Claves": []
     }
 
     print("\nTop 10 resultados más similares:")
@@ -138,6 +141,9 @@ def buscarProtocolos(consulta):
         diccionario_resultados["TT"].append(row["TT"])
         diccionario_resultados["Título"].append(row["Titulo"])
         diccionario_resultados["Similitud"].append(round(row["sim_total"], 4))
+        diccionario_resultados["Resumen"].append(row["resumen"])
+        diccionario_resultados["Directores"].append(row["directores"])
+        diccionario_resultados["Claves"].append(row["claves"])
 
     return diccionario_resultados
 
@@ -161,7 +167,7 @@ def inicio():
     return render_template('index.html')
 
 # Para la conexión con el archivo de JavaScript
-@app.route('/ServicioSocial/app/static/js/script.js')
+@app.route('/app/static/js/script.js')
 def servir_script():
     return app.send_static_file('script.js')
 
@@ -182,22 +188,55 @@ def obtener_recomendaciones():
             <th scope="col">#</th>
             <th scope="col">Título</th>
             <th scope="col">Similitud</th>
-            <th scope="col">Archivo <i class="fa-regular fa-file-lines"></i></th>
+            <th scope="col">Información <i class="fa-regular fa-file-lines"></i></th>
           </tr>
         </thead>
         <tbody class="table-light">
     '''
-
-    # Recorrer los datos y construir filas
+    
+    # Recorrer los datos y construir filas con modales individuales
     for i in range(10):
+        modal_id = f"modal{i}"  # id único para cada modal
+        ruta_pdf = f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf' #Ruta general de los pdf
+        existe_pdf = os.path.exists(ruta_pdf)
+        # Generar botón PDF solo si existe
+        boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
+
         contenido_html += f'''
-          <tr>
+        <tr>
             <th scope="row">{diccionario_resultados["#"][i]}</th>
             <td>{diccionario_resultados["Título"][i]}</td>
             <td>{diccionario_resultados["Similitud"][i]}</td>
-            <td><a id="pdf" href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank">Ver PDF</a></td>
-          </tr>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#{modal_id}">
+                    Ver detalles
+                </button>
+            </td>
+        </tr>
+
+        <!-- Modal para la fila {i} -->
+        <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="label{modal_id}">{diccionario_resultados["Título"][i]}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
+                <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
+                <p><strong>Palabras clave:</strong> {diccionario_resultados["Claves"][i]}</p>
+                <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
+                </div>
+                <div class="modal-footer">
+                {boton_pdf}
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
         '''
+
 
     contenido_html += '''
         </tbody>

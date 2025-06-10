@@ -26,3 +26,11 @@ document.getElementById("btnSistema").addEventListener("click", function(event) 
     console.log(data);
   });
 });
+
+// Modal de la información de cada TT
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
