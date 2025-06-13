@@ -5,6 +5,14 @@ import pickle
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 from sklearn.metrics.pairwise import cosine_similarity
+from flask import Flask, render_template, request, session, jsonify, redirect, url_for, flash
+import secrets
+import re, smtplib
+from email.message import EmailMessage
+from werkzeug.security import generate_password_hash, check_password_hash
+import sqlite3
+import uuid
+
 
 # Modelos para los embeddings
 MODELOS = {
@@ -150,10 +158,11 @@ def buscarProtocolos(consulta):
 # -------------------------------------------- Página web --------------------------------------------------
 
 # Se importa la librería (framework) que permite desarrollar aplicaciones web
-from flask import Flask, render_template, request, jsonify
+key = secrets.token_urlsafe(64)
 
 # Se crea una instancia de la clase Flask, con una carpeta estatica para css e img
 app = Flask(__name__, static_folder='static')
+app.secret_key = key
 
 # Se definen las rutas y vistas: Define una ruta URL y una función de vista asociada a esa ruta, la cual será ejecutada cuando se acceda a la ruta especificada:
 @app.route('/') # La ruta "/" es la ruta raíz de la página web.
@@ -201,53 +210,139 @@ def obtener_recomendaciones():
         existe_pdf = os.path.exists(ruta_pdf)
         # Generar botón PDF solo si existe
         boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
+        if 'usuario' in session:
+            # Abre el modal con los detalles
+            boton_info = (
+              f'<button class="btn btn-primary btn-sm" '
+              f'data-bs-toggle="modal" data-bs-target="#{modal_id}">'
+              'Ver detalles'
+              '</button>'
+            )
+        else:
+            # Lleva al usuario a login
+            boton_info = (
+              f'<a href="{url_for("login")}" class="btn btn-primary btn-sm">'
+              'Ver detalles'
+              '</a>'
+            )
 
+        # fila de la tabla
         contenido_html += f'''
         <tr>
-            <th scope="row">{diccionario_resultados["#"][i]}</th>
-            <td>{diccionario_resultados["Título"][i]}</td>
-            <td>{diccionario_resultados["Similitud"][i]}</td>
-            <td>
-                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#{modal_id}">
-                    Ver detalles
-                </button>
-            </td>
+          <td>{diccionario_resultados["#"][i]}</td>
+          <td>{diccionario_resultados["Título"][i]}</td>
+          <td>{diccionario_resultados["Similitud"][i]}</td>
+          <td>{boton_info}</td>
         </tr>
-
-        <!-- Modal para la fila {i} -->
-        <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
-            <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="label{modal_id}">{diccionario_resultados["Título"][i]}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
-                <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
-                <p><strong>Palabras clave:</strong> {diccionario_resultados["Claves"][i]}</p>
-                <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
-                </div>
-                <div class="modal-footer">
-                {boton_pdf}
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-            </div>
-        </div>
         '''
 
-
-    contenido_html += '''
-        </tbody>
-      </table>
-    </div>
-    <p><br>Esperamos que estos resultados sean de utilidad.</p>
-    '''
-
+        # solo incluimos el modal completo si el usuario está logueado
+        if 'usuario' in session:
+            existe_pdf = os.path.exists(f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf')
+            boton_pdf = (
+              f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" '
+              f'target="_blank" class="btn btn-info">Ver PDF</a>'
+              if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
+            )
+            contenido_html += f'''
+            <div class="modal fade" id="{modal_id}" tabindex="-1">
+              <div class="modal-dialog"><div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">{diccionario_resultados["Título"][i]}</h5>
+                  <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
+                  <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
+                  <p><strong>Claves:</strong> {diccionario_resultados["Claves"][i]}</p>
+                  <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
+                </div>
+                <div class="modal-footer">
+                  {boton_pdf}
+                  <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div></div>
+            </div>
+            
+            '''
+    contenido_html += '</tbody></table></div> <p><br>Esperamos que estos resultados sean de utilidad.</p>'
+    
     return contenido_html
 
 # -----------------
+
+# creamos la base de datos de usuarios
+def crear_db():
+    conexion = sqlite3.connect("app/usuarios.db")
+    cursor = conexion.cursor()
+    cursor.execute('''
+    CREATE TABLE if not exists usuarios
+    (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    correo TEXT UNIQUE NOT NULL,
+    contrasena TEXT NOT NULL)
+    ''')
+    conexion.commit()
+    conexion.close()
+
+crear_db()
+
+@app.route('/registro', methods=['GET', 'POST'])
+def registro():
+    if request.method == 'POST':
+        correo = request.form['correo'].strip().lower()
+        contrasena = request.form['contrasena']
+        # Solo validamos dominio
+        if not re.match(r".+@(alumno\.ipn\.mx|ipn\.mx|alumnoguinda\.mx)$", correo):
+            flash("Solo se permiten correos institucionales (@ipn.mx, @alumno.ipn.mx, @alumnoguinda.mx)", "danger")
+            return redirect(url_for('registro'))
+
+        hash_pass = generate_password_hash(contrasena)
+        conexion = sqlite3.connect("app/usuarios.db")
+        c = conexion.cursor()
+        try:
+            c.execute(
+                "INSERT INTO usuarios (correo, contrasena) VALUES (?, ?)",
+                (correo, hash_pass)
+            )
+            conexion.commit()
+            flash("Usuario registrado correctamente. Ahora puedes iniciar sesión.", "success")
+            return redirect(url_for('login'))
+        except sqlite3.IntegrityError:
+            flash("Ese correo ya está registrado.", "warning")
+            return redirect(url_for('registro'))
+        finally:
+            conexion.close()
+
+    return render_template('registro.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        correo = request.form['correo'].strip().lower()
+        contrasena = request.form['contrasena']
+        conexion = sqlite3.connect("app/usuarios.db")
+        c = conexion.cursor()
+        c.execute(
+            "SELECT contrasena FROM usuarios WHERE correo=?",
+            (correo,)
+        )
+        row = c.fetchone()
+        conexion.close()
+
+        if row and check_password_hash(row[0], contrasena):
+            session['usuario'] = correo
+            flash("Sesión iniciada exitosamente.", "success")
+            return redirect(url_for('index'))
+        else:
+            flash("Credenciales inválidas.", "danger")
+
+    return render_template('login.html')
+
+@app.route('/logout')
+def logout():
+    session.pop('usuario', None)
+    flash("Has cerrado sesión.", "info")
+    return redirect(url_for('index'))
 
 # Código para ejecutar la aplicación Flask
 if __name__ == '__main__':
