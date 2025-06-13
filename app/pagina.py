@@ -140,6 +140,14 @@ def buscarProtocolos(consulta):
         print(f"TT: {row['TT']}")
         print(f"Título: {row['Titulo']}")
         print(f"Similitud total: {row['sim_total']:.4f}")
+
+        # Construir nombre de directores
+        directores = []
+        if pd.notna(row.get("director1")) and str(row["director1"]).strip():
+            directores.append(str(row["director1"]).strip())
+        if pd.notna(row.get("director2")) and str(row["director2"]).strip():
+            directores.append(str(row["director2"]).strip())
+        directores_concatenados = ", ".join(directores)
         
         # Llenar el diccionario
         diccionario_resultados["#"].append(idx)
@@ -147,7 +155,7 @@ def buscarProtocolos(consulta):
         diccionario_resultados["Título"].append(row["Titulo"])
         diccionario_resultados["Similitud"].append(round(row["sim_total"], 4))
         diccionario_resultados["Resumen"].append(row["resumen"])
-        diccionario_resultados["Directores"].append(row["directores"])
+        diccionario_resultados["Directores"].append(directores_concatenados)
         diccionario_resultados["Claves"].append(row["claves"])
 
     return diccionario_resultados
