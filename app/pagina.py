@@ -5,6 +5,8 @@ import pickle
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 from sklearn.metrics.pairwise import cosine_similarity
+import unicodedata
+import re
 
 # Modelos para los embeddings
 MODELOS = {
@@ -77,6 +79,9 @@ def extraer_ners(texto, ner_pipeline, max_tokens=512):
 protocolos=pd.read_csv("app/protocolos_completo_limpios.csv")
 protocolos_acentuados=pd.read_csv("app/protocolos_completo_limpios.csv")
 
+# Lectura del archivo de profesores
+profesores=pd.read_csv("app/profesores_completos_2023.csv")
+
 # Consulta de los protocolos similares
 def buscarProtocolos(consulta):
     df_resultados_acentuados  = protocolos_acentuados
@@ -147,6 +152,47 @@ def buscarProtocolos(consulta):
 
     return diccionario_resultados
 
+def quitar_acentos(texto):
+    if not isinstance(texto, str):
+        return ''
+    # Quitar acentos
+    texto_sin_acentos = ''.join(
+        c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn'
+    )
+    # Eliminar todo excepto letras, espacios y comas
+    texto_limpio = re.sub(r'[^a-zA-Z\s,]', '', texto_sin_acentos)
+    return texto_limpio.lower().strip()
+
+def obtener_info_directores(tt_actual, nombres_directores, df_profesores):
+    info_directores = []
+    
+    nombres_directores = [n.strip() for n in nombres_directores.split(',')]
+    nombres_directores_sin_acentos = [quitar_acentos(n).lower() for n in nombres_directores]
+    
+    for index, fila in df_profesores.iterrows():
+        direcciones = str(fila['Direcciones']).split(',')
+        
+        if any(tt_actual in d for d in direcciones):
+            nombre_profesor = str(fila['Nombre_normalizado'])
+            nombre_profesor_sin_acentos = quitar_acentos(nombre_profesor).lower()
+            
+            for nombre_sin_acentos in nombres_directores_sin_acentos:
+                if nombre_sin_acentos in nombre_profesor_sin_acentos:
+                    info = f'''
+                        <p><strong>Nombre:</strong> {nombre_profesor.title()}</p>
+                        <p><strong>Unidades Académicas impartidas:</strong> {fila["UAs_impartidas"]}</p>
+                        <p><strong>Departamento:</strong> {fila["DEPTO"]}</p>
+                        <p><strong>Academia:</strong> {fila["ACADEMIA"]}</p>
+                        <p><strong>Estudios e intereses:</strong> {fila["Estudios_intereses"]}</p>
+                        <hr>
+                    '''
+                    info_directores.append(info)
+    
+    if not info_directores:
+        return "<p>No se encontró información de los directores.</p>"
+    
+    return "".join(info_directores)
+
 # -------------------------------------------- Página web --------------------------------------------------
 
 # Se importa la librería (framework) que permite desarrollar aplicaciones web
@@ -202,6 +248,9 @@ def obtener_recomendaciones():
         # Generar botón PDF solo si existe
         boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
 
+        # Llamar a la función para obtener la información de los directores
+        info_directores_modal = obtener_info_directores(diccionario_resultados["TT"][i], diccionario_resultados["Directores"][i], profesores)
+
         contenido_html += f'''
         <tr>
             <th scope="row">{diccionario_resultados["#"][i]}</th>
@@ -216,7 +265,7 @@ def obtener_recomendaciones():
 
         <!-- Modal para la fila {i} -->
         <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                 <h5 class="modal-title" id="label{modal_id}">{diccionario_resultados["Título"][i]}</h5>
@@ -230,13 +279,30 @@ def obtener_recomendaciones():
                 </div>
                 <div class="modal-footer">
                 {boton_pdf}
+                <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
             </div>
         </div>
-        '''
 
+        <div class="modal fade" id="{modal_id}_2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Información de los directores</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    {info_directores_modal}
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        '''
 
     contenido_html += '''
         </tbody>
