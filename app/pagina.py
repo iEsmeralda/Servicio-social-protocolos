@@ -89,8 +89,29 @@ protocolos_acentuados=pd.read_csv("app/protocolos_completo_limpios.csv")
 # Lectura del archivo de profesores
 profesores=pd.read_csv("app/profesores_completos_2023.csv")
 
+def quitar_acentos(texto):
+    if not isinstance(texto, str):
+        return ''
+    # Quitar acentos
+    texto_sin_acentos = ''.join(
+        c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn'
+    )
+    # Eliminar todo excepto letras, espacios y comas
+    texto_limpio = re.sub(r'[^a-zA-Z\s,]', '', texto_sin_acentos)
+    return texto_limpio.lower().strip()
+
+def contiene_subfrase_en_orden(nombre_completo, patron):
+    # Verifica si la secuencia de palabras en 'patron' aparece en orden en 'nombre_completo'.
+    palabras_completas = nombre_completo.split()
+    palabras_patron = patron.split()
+    
+    for i in range(len(palabras_completas) - len(palabras_patron) + 1):
+        if palabras_completas[i:i + len(palabras_patron)] == palabras_patron:
+            return True
+    return False
+
 # Consulta de los protocolos similares
-def buscarProtocolos(consulta):
+def buscarProtocolos(consulta, nombreProfesor=None, anioTT=None):
     df_resultados_acentuados  = protocolos_acentuados
     ner_pipeline = cargar_modelo_ner()
 
@@ -129,6 +150,27 @@ def buscarProtocolos(consulta):
             # se acumula la similitud en la columna "sim_total" (ponderacion simple)
             df_resultados_acentuados["sim_total"] += simi_coseno
 
+    df_similitud_global = df_resultados_acentuados.copy() # Copia por si al filtrar no queda nada
+
+    # Se realizan las comparativas para filtrar el profesor y año de TT si existen
+    if nombreProfesor:
+        patron = quitar_acentos(nombreProfesor.lower())
+        df_resultados_acentuados = df_resultados_acentuados[
+            df_resultados_acentuados.apply(
+                lambda row: contiene_subfrase_en_orden(quitar_acentos(str(row.get("director1", ""))), patron)
+                            or contiene_subfrase_en_orden(quitar_acentos(str(row.get("director2", ""))), patron),
+                axis=1
+            )
+        ]
+    if anioTT:
+        df_resultados_acentuados = df_resultados_acentuados[
+            df_resultados_acentuados["TT"].astype(str).str[:4] == str(anioTT)
+        ]
+
+    # Si por alguna razón el df queda vacío despues de los filtros entonces se obtienen los resultados sin filtros
+    if df_resultados_acentuados.empty:
+        df_resultados_acentuados = df_similitud_global
+
     df_resultados_acentuados = df_resultados_acentuados.sort_values("sim_total", ascending=False).head(10)
 
     # Crear el diccionario con listas vacías para acumular los valores
@@ -147,6 +189,7 @@ def buscarProtocolos(consulta):
         print(f"TT: {row['TT']}")
         print(f"Título: {row['Titulo']}")
         print(f"Similitud total: {row['sim_total']:.4f}")
+        print(nombreProfesor, anioTT)
 
         # Construir nombre de directores
         directores = []
@@ -166,17 +209,6 @@ def buscarProtocolos(consulta):
         diccionario_resultados["Claves"].append(row["claves"])
 
     return diccionario_resultados
-
-def quitar_acentos(texto):
-    if not isinstance(texto, str):
-        return ''
-    # Quitar acentos
-    texto_sin_acentos = ''.join(
-        c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn'
-    )
-    # Eliminar todo excepto letras, espacios y comas
-    texto_limpio = re.sub(r'[^a-zA-Z\s,]', '', texto_sin_acentos)
-    return texto_limpio.lower().strip()
 
 def obtener_info_directores(tt_actual, nombres_directores, df_profesores):
     info_directores = []
@@ -257,7 +289,7 @@ def obtener_recomendaciones():
     '''
     
     # Recorrer los datos y construir filas con modales individuales
-    for i in range(10):
+    for i in range(len(diccionario_resultados["TT"])):
         modal_id = f"modal{i}"  # id único para cada modal
         ruta_pdf = f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf' #Ruta general de los pdf
         existe_pdf = os.path.exists(ruta_pdf)
@@ -417,6 +449,107 @@ def logout():
     session.pop('usuario', None)
     flash("Has cerrado sesión.", "info")
     return redirect(url_for('index'))
+
+# Recomendaciones filtradas
+@app.route('/resultadosProtocolosConFiltro', methods=['POST'])
+def obtener_recomendaciones_filtradas():
+    query = request.form['consulta']
+    profesor = request.form['profesor']
+    anio = request.form['anio']
+
+    anio_TT = anio.strip() if anio else None
+    nombre_Profesor = profesor.strip() if profesor else None
+
+    # Llamar a la función buscarProtocolos que devuelve el diccionario con los resultados
+    diccionario_resultados = buscarProtocolos(consulta=query, nombreProfesor=nombre_Profesor, anioTT=anio_TT)
+
+    # Construcción del contenido HTML de la tabla
+    contenido_html = '''
+    <div class="table-responsive">
+      <table class="table table-bordered tablaResultados">
+        <thead class="table-primary">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Título</th>
+            <th scope="col">Similitud</th>
+            <th scope="col">Información <i class="fa-regular fa-file-lines"></i></th>
+          </tr>
+        </thead>
+        <tbody class="table-light">
+    '''
+
+    # Recorrer los datos y construir filas con modales individuales
+    for i in range(len(diccionario_resultados["TT"])):
+        modal_id = f"modal{i}"  # id único para cada modal
+        ruta_pdf = f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf' #Ruta general de los pdf
+        existe_pdf = os.path.exists(ruta_pdf)
+        # Generar botón PDF solo si existe
+        boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
+
+        # Llamar a la función para obtener la información de los directores
+        info_directores_modal = obtener_info_directores(diccionario_resultados["TT"][i], diccionario_resultados["Directores"][i], profesores)
+
+        contenido_html += f'''
+        <tr>
+            <th scope="row">{diccionario_resultados["#"][i]}</th>
+            <td>{diccionario_resultados["Título"][i]}</td>
+            <td>{diccionario_resultados["Similitud"][i]}</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#{modal_id}">
+                    Ver detalles
+                </button>
+            </td>
+        </tr>
+
+        <!-- Modal para la fila {i} -->
+        <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="label{modal_id}">{diccionario_resultados["Título"][i]}</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
+                <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
+                <p><strong>Palabras clave:</strong> {diccionario_resultados["Claves"][i]}</p>
+                <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
+                </div>
+                <div class="modal-footer">
+                {boton_pdf}
+                <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="{modal_id}_2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Información de los directores</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    {info_directores_modal}
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        '''
+
+    contenido_html += '''
+        </tbody>
+      </table>
+    </div>
+    <p><br>Esperamos que estos resultados sean de utilidad.</p>
+    '''
+
+    return contenido_html
 
 # Código para ejecutar la aplicación Flask
 if __name__ == '__main__':

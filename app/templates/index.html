@@ -104,24 +104,18 @@
 
 			<div class="row">
 			  <div class="col-12">
-				<form class="row g-3 needs-validation" novalidate>
+				<form class="row g-3 needs-validation" novalidate id="formFiltros">
 					<label id="form" for="cant" class="form-label"><i class="fa-solid fa-layer-group"></i> Búsqueda avanzada con filtros:</label>
 						<!-- onkeypress llama a la funcion al hacer click -->
 					<div class="col-sm-5">
-						<input type="text" class="form-control" placeholder="Nombre del profesor" id="consulta">
-						<!-- <div class="invalid-feedback">
-						  Por favor ingresa un texto del tema de interés para encontrar protocolos relacionados
-						</div> -->
+						<input type="text" class="form-control" placeholder="Nombre del profesor (director)" id="profe">
 					</div>
 					<div class="col-sm-3">
-						<input type="text" class="form-control" placeholder="Año del Trabajo Terminal" id="consulta">
-						<!-- <div class="invalid-feedback">
-						  Por favor ingresa un texto del tema de interés para encontrar protocolos relacionados
-						</div> -->
+						<input type="number" class="form-control" placeholder="Año del Trabajo Terminal (4 dígitos)" id="anio">
 					</div>
 
 					<div id="btn" class="col-md-3">
-						<button id="btnSistema"class="btn btn-primary btn-lg btnSistema" type="submit"><i class="fa-solid fa-filter"></i> Aplicar filtros </button>
+						<button id="btnFiltro"class="btn btn-primary btn-lg btnSistema" type="submit"><i class="fa-solid fa-filter"></i> Aplicar filtros </button>
 					</div>
 				  <hr class="my-4">
 				</form>
