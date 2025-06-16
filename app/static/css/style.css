@@ -54,3 +54,33 @@ body{
   	justify-content: flex-start;
   	align-items: flex-end;
 }
+
+#fondoLogin, #fondoRegistro{
+    background-image: url(/static/img/tbs.png); 
+    background-repeat: repeat;
+	flex: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#containerLogin, #containerRegistro{
+	flex: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+	width: 60%;
+	background-color: rgb(228, 227, 227);
+	border-radius: 20px;
+}
+
+#formLogin, #formRegistro{
+	flex: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#btnLogin, #btnRegistro{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}

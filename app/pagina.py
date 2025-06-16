@@ -335,7 +335,7 @@ def obtener_recomendaciones():
             )
             contenido_html += f'''
             <div class="modal fade" id="{modal_id}" tabindex="-1">
-              <div class="modal-dialog"><div class="modal-content">
+              <div class="modal-dialog modal-dialog-scrollable"><div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title">{diccionario_resultados["Título"][i]}</h5>
                   <button class="btn-close" data-bs-dismiss="modal"></button>

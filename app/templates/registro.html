@@ -14,7 +14,7 @@
   <script src="https://kit.fontawesome.com/c99d067221.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/EscudoESCOM.png') }}">
 </head>
-<body>
+<body id="fondoRegistro">
   <!-- Navbar idéntico al de index.html -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -42,7 +42,7 @@
     </nav>
   </header>
 
-  <div class="container py-5">
+  <div class="container py-5" id="containerRegistro">
     <h2 id="form" class="text-center mb-4">Registro de Usuario</h2>
 
     {% with messages = get_flashed_messages(with_categories=true) %}
@@ -55,10 +55,10 @@
       {% endif %}
     {% endwith %}
 
-    <form method="POST" action="{{ url_for('registro') }}" class="row g-3 needs-validation" novalidate>
+    <form method="POST" action="{{ url_for('registro') }}" class="row g-3 needs-validation" novalidate id="formRegistro">
       <div class="col-sm-8">
         <label for="correo" class="form-label">
-          <i class="fa-regular fa-envelope"></i> Correo institucional
+          <i class="fa-solid fa-envelope"></i> Correo institucional
         </label>
         <input type="email" class="form-control" id="correo" name="correo"
                required
@@ -70,20 +70,20 @@
       </div>
       <div class="col-sm-8">
         <label for="contrasena" class="form-label">
-          <i class="fa-regular fa-key"></i> Contraseña
+          <i class="fa-solid fa-key"></i> Contraseña
         </label>
         <input type="password" class="form-control" id="contrasena" name="contrasena" required>
         <div class="invalid-feedback">
           Ingresa tu contraseña.
         </div>
       </div>
-      <div class="col-md-3" id="btn">
+      <div class="col-md-5" id="btnRegistro">
         <button type="submit" class="btn btn-success btn-lg btnSistema">
           <i class="fa-solid fa-user-plus"></i> Crear cuenta
         </button>
       </div>
       <hr class="my-4">
-      <div class="col-12">
+      <div class="col-12 text-center">
         ¿Ya tienes cuenta? <a href="{{ url_for('login') }}">Inicia sesión aquí</a>
       </div>
     </form>
