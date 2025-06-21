@@ -12,7 +12,12 @@ from email.message import EmailMessage
 from werkzeug.security import generate_password_hash, check_password_hash
 import sqlite3
 import uuid
+import sys
 import unicodedata
+import shutil
+import threading
+import webbrowser
+import socket
 
 
 # Modelos para los embeddings
@@ -83,11 +88,19 @@ def extraer_ners(texto, ner_pipeline, max_tokens=512):
     return [entidad["word"] for entidad in entidades]
 
 # Lectura del archivo de protocolos
-protocolos=pd.read_csv("app/protocolos_completo_limpios.csv")
-protocolos_acentuados=pd.read_csv("app/protocolos_completo_limpios.csv")
+base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+pdfs_disponibles = []
+pdf_folder = os.path.join(base_path, 'static', 'pdf')
+
+try:
+    pdfs_disponibles = os.listdir(pdf_folder)
+except Exception as e:
+    print("No se pudieron listar los PDFs:", e)
+protocolos=pd.read_csv(os.path.join(base_path, 'protocolos_completo_limpios.csv'))
+protocolos_acentuados=pd.read_csv(os.path.join(base_path, 'protocolos_completo_limpios.csv'))
 
 # Lectura del archivo de profesores
-profesores=pd.read_csv("app/profesores_completos_2023.csv")
+profesores=pd.read_csv(os.path.join(base_path, 'profesores_completos_2023.csv'))
 
 def quitar_acentos(texto):
     if not isinstance(texto, str):
@@ -136,7 +149,7 @@ def buscarProtocolos(consulta, nombreProfesor=None, anioTT=None):
         for campo in CAMPOS:
             # se construye el nombre del archivo .pkl que contiene los embeddings del campo
             nombre_pkl = f"{campo}_{clave_modelo}_embeddings.pkl"
-            ruta_pkl = os.path.join("app/pkl", nombre_pkl)
+            ruta_pkl = os.path.join(base_path, 'pkl', nombre_pkl)
             if not os.path.exists(ruta_pkl):
                 print(f"Falta el archivo: {ruta_pkl}")
                 continue
@@ -268,118 +281,127 @@ def servir_script():
 # Recomendaciones
 @app.route('/resultadosProtocolos', methods=['POST'])
 def obtener_recomendaciones():
-    query = request.form['consulta'] # Ejemplo: Sistema de Monitoreo de Patineta Eléctrica 
-
-    # Llamar a la función buscarProtocolos que devuelve el diccionario con los resultados
+    query = request.form['consulta']
     diccionario_resultados = buscarProtocolos(consulta=query)
 
-    # Construcción del contenido HTML de la tabla
     contenido_html = '''
     <div class="table-responsive">
       <table class="table table-bordered tablaResultados">
         <thead class="table-primary">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Título</th>
-            <th scope="col">Similitud</th>
-            <th scope="col">Información <i class="fa-regular fa-file-lines"></i></th>
+            <th>#</th><th>Título</th><th>Similitud</th><th>Información</th>
           </tr>
         </thead>
         <tbody class="table-light">
     '''
-    
-    # Recorrer los datos y construir filas con modales individuales
-    for i in range(len(diccionario_resultados["TT"])):
-        modal_id = f"modal{i}"  # id único para cada modal
-        ruta_pdf = f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf' #Ruta general de los pdf
-        existe_pdf = os.path.exists(ruta_pdf)
-        # Generar botón PDF solo si existe
-        boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
 
-        # Llamar a la función para obtener la información de los directores
-        info_directores_modal = obtener_info_directores(diccionario_resultados["TT"][i], diccionario_resultados["Directores"][i], profesores)
+    for idx in range(len(diccionario_resultados["TT"])):
+        modal_id      = f"modal{idx}"
+        tt            = diccionario_resultados["TT"][idx]
+        titulo        = diccionario_resultados["Título"][idx]
+        sim           = diccionario_resultados["Similitud"][idx]
+        resumen       = diccionario_resultados["Resumen"][idx]
+        directores    = diccionario_resultados["Directores"][idx]
+        claves        = diccionario_resultados["Claves"][idx]
+        nombre_pdf    = f"{tt}.pdf"
+        existe_pdf    = nombre_pdf in pdfs_disponibles
 
+        # 1) Botón “Ver detalles”
         if 'usuario' in session:
-            # Abre el modal con los detalles
-            boton_info = (
-              f'<button class="btn btn-primary btn-sm" '
-              f'data-bs-toggle="modal" data-bs-target="#{modal_id}">'
-              'Ver detalles'
-              '</button>'
-            )
+            boton_info = (f'<button class="btn btn-primary btn-sm" '
+                          f'data-bs-toggle="modal" data-bs-target="#{modal_id}">'
+                          'Ver detalles</button>')
         else:
-            # Lleva al usuario a login
-            boton_info = (
-              f'<a href="{url_for("login")}" class="btn btn-primary btn-sm">'
-              'Ver detalles'
-              '</a>'
-            )
+            boton_info = (f'<a href="{url_for("login")}" class="btn btn-primary btn-sm">'
+                          'Ver detalles</a>')
 
-        # fila de la tabla
+        # 2) Botón “Ver PDF”
+        if 'usuario' in session:
+            if existe_pdf:
+                boton_pdf = (f'<a href="/static/pdf/{nombre_pdf}" '
+                             'target="_blank" class="btn btn-info">Ver PDF</a>')
+            else:
+                boton_pdf = '<span class="text-muted">PDF no disponible</span>'
+        else:
+            boton_pdf = (f'<a href="{url_for("login")}" '
+                         'class="btn btn-outline-secondary btn-sm">'
+                         'Inicia sesión para ver PDF</a>')
+
+        # 3) Fila de la tabla
         contenido_html += f'''
         <tr>
-          <td>{diccionario_resultados["#"][i]}</td>
-          <td>{diccionario_resultados["Título"][i]}</td>
-          <td>{diccionario_resultados["Similitud"][i]}</td>
+          <td>{idx+1}</td>
+          <td>{titulo}</td>
+          <td>{sim}</td>
           <td>{boton_info}</td>
         </tr>
         '''
 
-        # solo incluimos el modal completo si el usuario está logueado
+        # 4) Modal de detalles (solo si está logueado)
         if 'usuario' in session:
-            existe_pdf = os.path.exists(f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf')
-            boton_pdf = (
-              f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" '
-              f'target="_blank" class="btn btn-info">Ver PDF</a>'
-              if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
-            )
+            info_directores_modal = obtener_info_directores(tt, directores, profesores)
             contenido_html += f'''
-            <div class="modal fade" id="{modal_id}" tabindex="-1">
-              <div class="modal-dialog modal-dialog-scrollable"><div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">{diccionario_resultados["Título"][i]}</h5>
-                  <button class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                  <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
-                  <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
-                  <p><strong>Claves:</strong> {diccionario_resultados["Claves"][i]}</p>
-                  <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
-                </div>
-                <div class="modal-footer">
-                {boton_pdf}
-                <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="{modal_id}_2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Información de los directores</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="label{modal_id}">{titulo}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p><strong>Resumen:</strong> {resumen}</p>
+                    <p><strong>Directores:</strong> {directores}</p>
+                    <p><strong>Claves:</strong> {claves}</p>
+                    <p><strong>Año:</strong> {tt[:4]}</p>
+                  </div>
+                  <div class="modal-footer">
+                    {boton_pdf}
+                    <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
                 </div>
-                <div class="modal-body">
-                    {info_directores_modal}
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
-                </div>
-                </div>
+              </div>
             </div>
-                        '''
-    contenido_html += '</tbody></table></div> <p><br>Esperamos que estos resultados sean de utilidad.</p>'
-    
-    return contenido_html
+            <div class="modal fade" id="{modal_id}_2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Información de los directores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    {info_directores_modal}
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            '''
 
+    contenido_html += '''
+        </tbody>
+      </table>
+    </div>
+    <p>Esperamos que estos resultados sean de utilidad.</p>
+    '''
+    return contenido_html
 # -----------------
+# Ruta interna del .exe (solo lectura)
+origen_db = os.path.join(base_path, 'usuarios.db')
+
+# Ruta externa (escribible): junto al ejecutable
+destino_db = os.path.join(os.getcwd(), 'usuarios.db')
 
 # creamos la base de datos de usuarios
 def crear_db():
-    conexion = sqlite3.connect("app/usuarios.db")
+
+    
+    if not os.path.exists(destino_db):
+        shutil.copyfile(origen_db, destino_db)
+
+    conexion = sqlite3.connect(destino_db)
     cursor = conexion.cursor()
     cursor.execute('''
     CREATE TABLE if not exists usuarios
@@ -403,7 +425,10 @@ def registro():
             return redirect(url_for('registro'))
 
         hash_pass = generate_password_hash(contrasena)
-        conexion = sqlite3.connect("app/usuarios.db")
+        if not os.path.exists(destino_db):
+            shutil.copyfile(origen_db, destino_db)
+
+        conexion = sqlite3.connect(destino_db)
         c = conexion.cursor()
         try:
             c.execute(
@@ -426,7 +451,10 @@ def login():
     if request.method == 'POST':
         correo = request.form['correo'].strip().lower()
         contrasena = request.form['contrasena']
-        conexion = sqlite3.connect("app/usuarios.db")
+        if not os.path.exists(destino_db):
+            shutil.copyfile(origen_db, destino_db)
+
+        conexion = sqlite3.connect(destino_db)
         c = conexion.cursor()
         c.execute(
             "SELECT contrasena FROM usuarios WHERE correo=?",
@@ -453,104 +481,152 @@ def logout():
 # Recomendaciones filtradas
 @app.route('/resultadosProtocolosConFiltro', methods=['POST'])
 def obtener_recomendaciones_filtradas():
-    query = request.form['consulta']
-    profesor = request.form['profesor']
-    anio = request.form['anio']
-
-    anio_TT = anio.strip() if anio else None
+    query           = request.form['consulta']
+    profesor        = request.form['profesor']
+    anio            = request.form['anio']
+    anio_TT         = anio.strip() if anio else None
     nombre_Profesor = profesor.strip() if profesor else None
 
-    # Llamar a la función buscarProtocolos que devuelve el diccionario con los resultados
-    diccionario_resultados = buscarProtocolos(consulta=query, nombreProfesor=nombre_Profesor, anioTT=anio_TT)
+    # Buscamos resultados ya filtrados
+    dicc = buscarProtocolos(
+        consulta=query,
+        nombreProfesor=nombre_Profesor,
+        anioTT=anio_TT
+    )
 
-    # Construcción del contenido HTML de la tabla
-    contenido_html = '''
+    html = ['''
     <div class="table-responsive">
       <table class="table table-bordered tablaResultados">
         <thead class="table-primary">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Título</th>
-            <th scope="col">Similitud</th>
-            <th scope="col">Información <i class="fa-regular fa-file-lines"></i></th>
+            <th>#</th><th>Título</th><th>Similitud</th><th>Información</th>
           </tr>
         </thead>
         <tbody class="table-light">
-    '''
+    ''']
 
-    # Recorrer los datos y construir filas con modales individuales
-    for i in range(len(diccionario_resultados["TT"])):
-        modal_id = f"modal{i}"  # id único para cada modal
-        ruta_pdf = f'app/static/pdf/{diccionario_resultados["TT"][i]}.pdf' #Ruta general de los pdf
-        existe_pdf = os.path.exists(ruta_pdf)
-        # Generar botón PDF solo si existe
-        boton_pdf = f'<a href="static/pdf/{diccionario_resultados["TT"][i]}.pdf" target="_blank" class="btn btn-info">Ver PDF</a>' if existe_pdf else '<span class="text-muted">PDF no disponible</span>'
+    for idx in range(len(dicc["TT"])):
+        modal_id   = f"modal{idx}"
+        tt         = dicc["TT"][idx]
+        titulo     = dicc["Título"][idx]
+        sim        = dicc["Similitud"][idx]
+        resumen    = dicc["Resumen"][idx]
+        directores = dicc["Directores"][idx]
+        claves     = dicc["Claves"][idx]
 
-        # Llamar a la función para obtener la información de los directores
-        info_directores_modal = obtener_info_directores(diccionario_resultados["TT"][i], diccionario_resultados["Directores"][i], profesores)
+        nombre_pdf = f"{tt}.pdf"
+        existe_pdf = nombre_pdf in pdfs_disponibles
 
-        contenido_html += f'''
+        # Botón “Ver detalles”
+        if 'usuario' in session:
+            btn_info = (
+                f'<button class="btn btn-primary btn-sm" '
+                f'data-bs-toggle="modal" data-bs-target="#{modal_id}">'
+                'Ver detalles</button>'
+            )
+        else:
+            btn_info = (
+                f'<a href="{url_for("login")}" class="btn btn-primary btn-sm">'
+                'Ver detalles</a>'
+            )
+
+        # Botón “Ver PDF”
+        if 'usuario' in session and existe_pdf:
+            btn_pdf = (
+                f'<a href="/static/pdf/{nombre_pdf}" '
+                'target="_blank" class="btn btn-info">Ver PDF</a>'
+            )
+        elif 'usuario' in session:
+            btn_pdf = '<span class="text-muted">PDF no disponible</span>'
+        else:
+            btn_pdf = (
+                f'<a href="{url_for("login")}" '
+                'class="btn btn-outline-secondary btn-sm">'
+                'Inicia sesión para ver PDF</a>'
+            )
+
+        # Fila
+        html.append(f'''
         <tr>
-            <th scope="row">{diccionario_resultados["#"][i]}</th>
-            <td>{diccionario_resultados["Título"][i]}</td>
-            <td>{diccionario_resultados["Similitud"][i]}</td>
-            <td>
-                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#{modal_id}">
-                    Ver detalles
-                </button>
-            </td>
+          <td>{idx+1}</td>
+          <td>{titulo}</td>
+          <td>{sim}</td>
+          <td>{btn_info}</td>
         </tr>
+        ''')
 
-        <!-- Modal para la fila {i} -->
-        <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title" id="label{modal_id}">{diccionario_resultados["Título"][i]}</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                <p><strong>Resumen:</strong> {diccionario_resultados["Resumen"][i]}</p>
-                <p><strong>Directores:</strong> {diccionario_resultados["Directores"][i]}</p>
-                <p><strong>Palabras clave:</strong> {diccionario_resultados["Claves"][i]}</p>
-                <p><strong>Año:</strong> {diccionario_resultados["TT"][i][:4]}</p>
-                </div>
-                <div class="modal-footer">
-                {boton_pdf}
-                <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="{modal_id}_2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-scrollable">
+        # Modal detalles (sólo si está logueado)
+        if 'usuario' in session:
+            info_dir = obtener_info_directores(tt, directores, profesores)
+            html.append(f'''
+            <div class="modal fade" id="{modal_id}" tabindex="-1" aria-labelledby="label{modal_id}" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Información de los directores</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="label{modal_id}">{titulo}</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p><strong>Resumen:</strong> {resumen}</p>
+                    <p><strong>Directores:</strong> {directores}</p>
+                    <p><strong>Claves:</strong> {claves}</p>
+                    <p><strong>Año:</strong> {tt[:4]}</p>
+                  </div>
+                  <div class="modal-footer">
+                    {btn_pdf}
+                    <button class="btn btn-info" data-bs-target="#{modal_id}_2" data-bs-toggle="modal">Directores</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
                 </div>
-                <div class="modal-body">
-                    {info_directores_modal}
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
-                </div>
-                </div>
+              </div>
             </div>
-        </div>
-        '''
+            <div class="modal fade" id="{modal_id}_2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Información de los directores</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    {info_dir}
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-target="#{modal_id}" data-bs-toggle="modal">Regresar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            ''')
 
-    contenido_html += '''
+    html.append('''
         </tbody>
       </table>
     </div>
-    <p><br>Esperamos que estos resultados sean de utilidad.</p>
-    '''
+    <p>Esperamos que estos resultados sean de utilidad.</p>
+    ''')
 
-    return contenido_html
+    return ''.join(html)
+#-----------------------------
+def obtener_ip_local():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(('10.255.255.255', 1))
+        IP = s.getsockname()[0]
+    except Exception:
+        IP = '127.0.0.1'
+    finally:
+        s.close()
+    return IP
 
-# Código para ejecutar la aplicación Flask
+def abrir_navegador():
+    ip = obtener_ip_local()
+    webbrowser.open(f'http://{ip}:5000')
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    threading.Timer(1.5, abrir_navegador).start() 
+    app.run(host="0.0.0.0", port=5000)
+
+
+# comando para obtener el ejecutable:
+# NOTA: antes debe estar dentro de la carpeta app para que funcione el comando
+# python -m PyInstaller --noconfirm --windowed --add-data "templates;templates" --add-data "static;static" --add-data "pkl;pkl" --add-data "protocolos_completo_limpios.csv;." --add-data "profesores_completos_2023.csv;." --add-data "usuarios.db;." pagina.py
