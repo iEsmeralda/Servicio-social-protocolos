@@ -1,6 +1,6 @@
 ## Descarga del ejecutable
 
-El ejecutable de la aplicación se encuentra en la carpeta `pagina.zip`.  
+El ejecutable de la aplicación se encuentra en la carpeta `app/pagina.zip`.  
 Puedes descargarlo directamente haciendo clic aquí:
 
 [pagina.zip](https://github.com/iEsmeralda/Servicio-social-protocolos/raw/main/app/pagina.zip)
