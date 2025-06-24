@@ -1,10 +1,10 @@
-indice,Nombre_normalizado,UAs_impartidas,DEPTO,ACADEMIA,Direcciones,Sinodalias,Estudios_intereses,g_scholar
+indice,Nombre_normalizado,UAs_impartidas,DEPTO,ACADEMIA,Direcciones,Sinodalias,Estudios_intereses,g_scholar,correo
 1,hernandez aguilar jose luis,"Electrónica Analógica,Instrumentación,Instrumentación y Control",CIC,FSE,",2017-A104",",2017-B014,2018-A026,2018-A102","Terminó sus estudios como
 maestro en ciencias en electronica en ESIME Zacatenco en el
 2006 durante la cual enfocó su trabajo en instrumentación
 electrónica, Ingeniero en comunicaciones y electrónica de la
 ESIME-IPN en 1995. Sus areas de interés son aquellas
-relacionadas con los sistemas de instrumentación y sistemas de comunicaciones. Otras áres de interés son los sistemas digitales.",
+relacionadas con los sistemas de instrumentación y sistemas de comunicaciones. Otras áres de interés son los sistemas digitales.",,jlhernandeza@ipn.mx
 2,lopez ruiz gabriela de jesus,"Tecnologías para la Web,Artificial Intelligence,Trabajo Terminal II (Lab),Tecnologías para el Desarrollo de Aplicaciones Web",ISC,ISW,",2021-B032,2021-B033,2021-B041,2021-B061,2021-B103,2021_B031,2016-B051,2017-B110,2019-A074,2019-A079,2020-B077,2021-A018,2021-A020,2023-A090",",2016-A022,2016-A045,2016-A047,2016-A052,2016-A072,2016-A078,2016-A081,2016-B031,2016-B038,2016-B043,2016-B093,2017-A026,2017-A027,2017-A031,2017-A048,2017-A049,2017-A100,2017-B025,2017-B034,2017-B054,2018-A013,2018-A020,2018-A041,2018-B021,2018-B032,2018-B072,2018-B094,2018-B118,2019-A010,2019-A017,2019-A019,2019-A094","Maestra en 
 Ciencias de la Computación egresada del Centro de 
 Investigación en Computación del IPN, docente de la 
@@ -17,21 +17,21 @@ ESCOM - IPN. Áreas de interés:
 Educación inclusiva, TICs, Inteligencia Artificial, 
 Sistemas Expertos, Redes Neuronales Artificiales, 
 Algoritmos Genéticos, Robótica, Mecatrónica, 
-Biónica, Electrónica, Tecnologías para la Web,",https://scholar.google.com.mx/citations?user=rf2voQIAAAAJ&hl=es&oi=ao
-3,colin hernandez nestor,"Matemáticas Discretas,Cálculo Aplicado,Cálculo,Ecuaciones Diferenciales",FB,CB,,,Escuela Superior de Física y Matemáticas del IPN (ESFM). Posteriormente realicé mis estudios de maestría y doctorado en el Centro de Investigación y de Estudios Avanzados del IPN. (CINVESTAV),
+Biónica, Electrónica, Tecnologías para la Web,",https://scholar.google.com.mx/citations?user=rf2voQIAAAAJ&hl=es&oi=ao,glopezru@ipn.mx
+3,colin hernandez nestor,"Matemáticas Discretas,Cálculo Aplicado,Cálculo,Ecuaciones Diferenciales",FB,CB,,,Escuela Superior de Física y Matemáticas del IPN (ESFM). Posteriormente realicé mis estudios de maestría y doctorado en el Centro de Investigación y de Estudios Avanzados del IPN. (CINVESTAV),,ncolinh@ipn.mx
 4,gutierrez mejia darwin,"Análisis Vectorial,Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingeniería,Álgebra Lineal",FB,CB,",2020-A040,2020-B023,2021-A002",",2017-B050,2017-B067,2018-A029,2018-A076","Profesor Titular de la 
 Escuela Superior de Cómputo del IPN, Estudios 
 de posgrado en la Universidad Autónoma de 
 Barcelona y doctorado en la Escuela Superior de 
 Física y Matemáticas del IPN. Interesado en las 
 aplicaciones de las matemáticas en diversos 
-ámbitos del cómputo",
+ámbitos del cómputo",,dgutierrezm@ipn.mx
 5,coronilla contreras ukranio,"Sistemas Operativos,Desarrollo de Sistemas Distribuidos,Desarrollo de Sist Dist,Desarrollo de Sistemas Distribudios (Lab)",ISC,SDIST,",2021-B026,2021-B080,2021-B097,2016-B021,2016-B029,2016-B038,2017-A014,2018-A058,2018-B015,2018-B055,2018-B079,2018-B086,2019-A053,2019-B032,2020-A031,2020-A084",",2016-B017,2016-B037,2016-B066,2016-B102,2017-B042,2017-B051,2018-A037,2018-B010,2018-B024,2018-B063,2018-B126,2018-B127,2019-A034,2019-A080","Ingeniero Físico
 UAM - Azcapotzalco 1997, M. en C. de la
 Computación UAM - Azcapotzalco 2002, Profesor
 IPN/ESCOM (Dpto. de Programación y Desarrollo
 de Sistemas) desde 2001. Áreas de interés:
-Sistemas Distribuidos, Inteligencia Artificial",
+Sistemas Distribuidos, Inteligencia Artificial",,ucoronillac@ipn.mx
 6,sanchez garcia luz maria,"Algoritmos y Estructuras de Datos,Análisis y Diseño de Algoritmos,Trabajo Terminal I (Lab),Análisis de Algoritmos,Teoría de la Computación,Trabajo Terminal II (Lab)",CIC,CC,",2021-B083,2020-B021",",2016-A006,2016-A023,2016-A036,2016-A088,2016-B004,2016-B051,2017-A005,2017-A042,2017-B023,2018-A009,2018-A031,2018-A082,2018-B011,2018-B054","Doctorando en Educación en 
 Universidad de España y México 
 en 2020. M. en Sistemas y 
@@ -43,23 +43,23 @@ Profesora de ESCOM (Depto. CIC)
 desde 2010. Áreas de interés: 
 Teoría de lenguajes y autómatas, 
 Sistemas de información y 
-Educación",
+Educación",,
 7,cabrera chavez gloria lourdes,"Fundamentos Económicos,Tecnologías para la Web(Lab),Ingeniería de Software (Lab),Web Application Development (Lab),Métodos Cuantitativos para la Toma de  Decisiones (Lab),Finanzas Empresariales,Trabajo Terminal II,Análisis y Diseño Orientado a Objetos (Lab),Administración de Proyectos,Gestión Empresarial (Lab),Trabajo Terminal II (Lab),Administración de Proyectos (Lab),Trabajo Terminal I (Lab),Formulación y Evaluación de Proyectos Informáticos",ISC,PETD,",2023-A046",",2017-A069,2017-A083,2017-B033,2017-B064,2018-A071,2018-B116,2019-A096","Licenciada en Ingeniera en Sistemas
 Computacionales por parte del Instituto
 Politécnico Nacional. Maestra en Dirección de
 tecnologías de la Información. Actualmente se
 dedica a la docencia relacionada con dirección de
 empresas y cuestiones de la misma en la Escuela
-Superior de Cómputo.",
-8,rodriguez ordaz marisol,"Administración de Proyectos,Gestión Empresarial,Trabajo Terminal II (Lab),Ingeniería Ética y Sociedad,Administración de Proyectos (Lab),Finanzas Empresariales,Métodos Cuantitativos para la Toma de  Decisiones (Lab),Gestión Empresarial (Lab)",ISC,CS,",2020-A024,2020-A028",,"Maestra en Ciencias en Ingeniería en Sistemas de Información y jefa de departamento de posgrado,",
+Superior de Cómputo.",,gcabrerac@ipn.mx
+8,rodriguez ordaz marisol,"Administración de Proyectos,Gestión Empresarial,Trabajo Terminal II (Lab),Ingeniería Ética y Sociedad,Administración de Proyectos (Lab),Finanzas Empresariales,Métodos Cuantitativos para la Toma de  Decisiones (Lab),Gestión Empresarial (Lab)",ISC,CS,",2020-A024,2020-A028",,"Maestra en Ciencias en Ingeniería en Sistemas de Información y jefa de departamento de posgrado,",,mrodriguezor@ipn.mx
 9,duran camarillo edmundo rene,"Circuitos Eléctricos,Trabajo Terminal II,Trabajo Terminal II (Lab),Circuitos Eléctricos (Lab)",CIC,FSE,",2021-B078,2017-A051,2018-B001,2019-A022,2019-A025,2020-A010,2021-A031",",2017-A013,2018-B041,2019-A063","Docente de la ESCOM-IPN; ha dirigido trabajos terminales durante 25 años.
 
-Áreas de Interés: Automatización, Inteligencia Artificial, Sistemas Neurodifusos sistemas expertos.",
-10,rodriguez flores eduardo,"Administración Financiera,Administración de Proyectos,Finanzas Empresariales,Formulación y Evaluación de Proyectos Informáticos",ISC,PETD,",2021-B079,2023-A009,2016-B071",",2016-A012,2017-A060,2017-B046,2018-A004,2018-B020","M. en Administración (Facultad de Contaduría y Administración de la UNAM). Ingeniero Industrial (UNAM, 11986). Profesor de tiempo completo en ESCOM desde 2002. Áreas de interés: Proyectos informáticos, administración y finanzas",
+Áreas de Interés: Automatización, Inteligencia Artificial, Sistemas Neurodifusos sistemas expertos.",,eduranc@ipn.mx
+10,rodriguez flores eduardo,"Administración Financiera,Administración de Proyectos,Finanzas Empresariales,Formulación y Evaluación de Proyectos Informáticos",ISC,PETD,",2021-B079,2023-A009,2016-B071",",2016-A012,2017-A060,2017-B046,2018-A004,2018-B020","M. en Administración (Facultad de Contaduría y Administración de la UNAM). Ingeniero Industrial (UNAM, 11986). Profesor de tiempo completo en ESCOM desde 2002. Áreas de interés: Proyectos informáticos, administración y finanzas",,erodrigrezf@ipn.mx
 11,aguilar sanchez fernando,"Fundamentos de Diseño Digital,Introducción a los Microcontroladores,Sistemas en Chip",ISC,SDIG,",2018-A049,2018-B040,2018-B055,2019-B060,2020-B029,2021-A042",",2017-A102,2018-B095,2019-A022","Profesor Titular de
 carrera de la ESCOM desde 1998. Áreas de interés:
 Sistemas digitales, Instrumentación, Sistemas
-embebidos.",
+embebidos.",,faguilars@ipn.mx
 12,dorantes gonzalez marco antonio,"Análisis y Diseño Orientado a Objetos,Ingeniería de Software,Trabajo Terminal II (Lab),Análisis y Diseño de Sistemas",ISC,ISW,",2016-A003,2016-A055,2016-B006,2016-B028,2016-B033,2017-A013,2017-A103,2017-B001,2017-B004,2017-B030,2017-B064,2018-B023,2018-B031,2018-B059,2018-B133,2019-A091,2019-B018,2020-A003,2020-A004,2020-A134,2020-B001,2020-B057,2020-B073,2021-A030,23-2-0001",",2016-B026,2016-B029,2016-B050,2018-A026,2018-A088,2018-B131","Maestro en Ciencias de la Computaciónn, CINVESTAV, Ing. En
 Electronica, ITO, Profesor de la ESCOM desde 1996, Sus areas de interés son: Computo Movil, Ingenieria
 de Software, Base de Datos, ha sido director de mas de 70 trabajos terminales a la fecha, revisor técnico de
@@ -67,14 +67,14 @@ libros de las dreas de interés para diferentes editoriales (McGraw Gill, Thomps
 otros), ha participado en diversos proyectos de investigacién y ha ocupado diversos cargos administrativos
 en el IPN, también cuenta con experiencia en el sector industrial en el érea de Instrumentación y electrónica;
 ha realizado estudios de diplomado en diversas areas, ha participado en diversos programas de television y
-publicaciones en revistas de carácter científico. ",
-13,pastrana fernandez carlos jesus,"Programación Orientada a Objetos (Lab),Teoría Computacional (Lab),Diseño de Sistemas Digitales,Análisis de Algoritmos (Lab),Compiladores (Lab),Computational Geometry (Lab),Introducción a los Microcontroladores (Lab),Computing Selected Topics (Lab),Arquitectura de Computadoras,Fundamentos de Diseño Digital",ISC,SDIG,,",2016-A012,2016-A047,2016-A076,2017-A036,2017-B062,2018-A042,2018-B063",LICENCIATURA EN INGENIERÍA EN SISTEMAS ELECTRÓNICOS,
+publicaciones en revistas de carácter científico. ",,madorantesg@ipn.mx
+13,pastrana fernandez carlos jesus,"Programación Orientada a Objetos (Lab),Teoría Computacional (Lab),Diseño de Sistemas Digitales,Análisis de Algoritmos (Lab),Compiladores (Lab),Computational Geometry (Lab),Introducción a los Microcontroladores (Lab),Computing Selected Topics (Lab),Arquitectura de Computadoras,Fundamentos de Diseño Digital",ISC,SDIG,,",2016-A012,2016-A047,2016-A076,2017-A036,2017-B062,2018-A042,2018-B063",LICENCIATURA EN INGENIERÍA EN SISTEMAS ELECTRÓNICOS,,cpastrana@ipn.mx
 14,romero herrera rodolfo,"Análisis Fundamental de Circuitos,Fundamentos de Comunicaciones Móviles,Trabajo Terminal II (Lab),Arquitectura de dispositivos Móviles,Circuitos Eléctricos,Trabajo Terminal I (Lab),Inteligencia Artificial",CIC,POSGR,",2023-A013,2016-A022,2016-A051,2017-A049,2018-B063,2019-A049,2019-A061,2019-B054,2020-A026",",2016-A055,2017-B015,2017-B086,2018-A072,2019-A022","Profesor de tiempo completo Laboratorio de posgrado Sistemas computacionales
 móviles. Candidato a Doctor en ciencias en Comunicaciones y Electrónica. Maestríıa en ciencias en Ingeniería
 electrónica. Ingeniería en comunicaciones y Electrónica.
-Área de trabajo Inteligencia Artificial y Procesamiento digital de senales.",
+Área de trabajo Inteligencia Artificial y Procesamiento digital de senales.",,rromeroh@ipn.mx
 15,alcantara mendez alberto jesus,"Teoría Computacional,Algoritmos y Estructuras de Datos,Instrumentación,Circuitos Eléctricos,Teoría de la Computación,Compiladores,Instrumentación y Control",CIC,CC,",2015-B013,2021-B002,2021-B003,2021-B025,2023-A050,2016-A046,2017-A046,2018-B066,2018-B138,2020-A118,2021-A022,23-2-0002",",2016-A090,2016-B032,2017-A014,2017-A081,2017-A099,2018-B042,2018-B053,2018-B095","Ingeniero en sistemas computacionales egresado de la ESCOM, maestría en ciencias en informática de UPIICSA, maestría en docencia científica y tecnológica del CIECAS IPN. Ha sido jefe de la UDI en la ESE IPN, presidente de la academia de electrónica analógica y presidente de la academia de fundamentos de sistemas electrónicos. Intereses:
-microelectrónica aplicada, redes neuronales y ciencia de datos.",
+microelectrónica aplicada, redes neuronales y ciencia de datos.",,ajalcantaram@ipn.mx
 16,muñoz salazar laura,"Mecánica y Electromagnetismo (Lab),Mecánica y Electromagnetismo",FB,CB,",2023-A040,2020-B037",",2017-B095,2018-B138","Estudios de Doctorado en Simulación
 de Sistemas Complejos, Depto. de Nanoestructuras y
 Materiales en el Instituto Mexicano del Petróleo (IMP) en
@@ -87,42 +87,42 @@ Escuela Superior de Cómputo (ESCOM-IPN) Depto. de
 Formación básica desde 2009. Áreas de interés: Física
 Aplicada, Modelado y simulación numérica, Evaluación y
 seguimiento de trayectorias académicas de estudiantes IPN,
-Didáctica de la Física",
-17,montes meza adbel anahi,Introducción a los Microcontroladores,ISC,SDIG,,,"Sistemas Información Satelital, Ingeniero de Hardware, sistemas digitales",
-18,melara abarca reyna elia,"Análisis y Diseño Orientado a Objetos,Ingeniería de Software,Bases de Datos,Trabajo Terminal I (Lab),Trabajo Terminal I,Análisis y Diseño de Sistemas",ISC,ISW,",2021-B091,2016-A088,2016-B016,2016-B120,2017-A064,2018-A089,2018-B009,2018-B067,2018-B075,2018-B119,2019-A076,2019-A080,2019-B019,2019-B105,2019-B117,2020-A012,2020-B064,2020-B069,2021-A090,2021-A096",",2016-B006,2016-B022,2016-B036,2016-B106,2017-A039,2017-A044,2017-A053,2017-A105,2017-B020,2017-B061,2017-B066,2017-B086,2018-A028,2018-A076,2018-B013,2018-B023,2018-B112,2018-B124,2019-A014,2019-A038","Licenciatura en Ciencias de la Informática, UPIICSA-IPN, Maestría en Ciencias de la Computación, CIC-IPN, Áreas de interés: Ingeniería de Software, Procesamiento de Lenguaje Natural",
+Didáctica de la Física",,lmunozs@ipn.mx
+17,montes meza adbel anahi,Introducción a los Microcontroladores,ISC,SDIG,,,"Sistemas Información Satelital, Ingeniero de Hardware, sistemas digitales",,amontesm@ipn.mx
+18,melara abarca reyna elia,"Análisis y Diseño Orientado a Objetos,Ingeniería de Software,Bases de Datos,Trabajo Terminal I (Lab),Trabajo Terminal I,Análisis y Diseño de Sistemas",ISC,ISW,",2021-B091,2016-A088,2016-B016,2016-B120,2017-A064,2018-A089,2018-B009,2018-B067,2018-B075,2018-B119,2019-A076,2019-A080,2019-B019,2019-B105,2019-B117,2020-A012,2020-B064,2020-B069,2021-A090,2021-A096",",2016-B006,2016-B022,2016-B036,2016-B106,2017-A039,2017-A044,2017-A053,2017-A105,2017-B020,2017-B061,2017-B066,2017-B086,2018-A028,2018-A076,2018-B013,2018-B023,2018-B112,2018-B124,2019-A014,2019-A038","Licenciatura en Ciencias de la Informática, UPIICSA-IPN, Maestría en Ciencias de la Computación, CIC-IPN, Áreas de interés: Ingeniería de Software, Procesamiento de Lenguaje Natural",,remabarca@ipn.mx
 19,palacios solano rocio,"IT Governance,Administración de Proyectos,Formulación y Evaluación de Proyectos Informáticos",ISC,PETD,",2021-B006,2021-B075,2019-A039,2019-B017,2019-B111,2019-B112,2020-A109,2020-B020,2020-B027,2021-A025",",2017-B031,2018-A091","M. en C. en Administración de Negocios (ESCA/IPN, 2012), 
 Lic. en Ciencias de la Informática (IPN,2002). 
 Profesora de ESCOM/IPN, Depto. Ingeniería en 
 Sistemas Computacionales. Áreas de interés: 
 Administración de Proyectos (PMI), Gobierno de 
 IT, Seguridad de la Información, Desarrollo de 
-Aplicaciones.",
+Aplicaciones.",,rpalacioss@ipn.mx
 20,albortante morato cecilia,"Fundamentos de Programación,Análisis y Diseño de Algoritmos,Compiladores,Procesamiento Digital de Imágenes,Algoritmos y Estructuras de Datos,Paradigmas de Programación",CIC,CC,",2021-B023",,"Maestría en Ciencias 
 de la Computación del CIC en el 2009. Ing. en 
 Sistemas Computacionales de la ESCOM en 2006. 
 Profesora de ESCOM desde 2021. Áreas de interés: 
-Aplicaciones Web, Procesamiento de imágenes y Reconocimiento de patrones. ",
-21,fernandez quiroz silvia leticia,Ingeniería Ética y Sociedad,FII,CS,,,MAESTRÍA EN COMUNICACIÓN Y TECNOLOGÍAS EDUCATIVAS,
+Aplicaciones Web, Procesamiento de imágenes y Reconocimiento de patrones. ",,calbortantem@ipn.mx
+21,fernandez quiroz silvia leticia,Ingeniería Ética y Sociedad,FII,CS,,,MAESTRÍA EN COMUNICACIÓN Y TECNOLOGÍAS EDUCATIVAS,,lfernandezq@ipn.mx
 22,martinez rosales ricardo,"Aplicaciones  para Comunicaciones en Red,Administración de Servicios en Red",ISC,SDIST,",2021-B066,2019-A096,2020-B071,2021-A046",,"Ingeniero en Electrónica UAMAzc. Profesor en ESCOM Depto. de Ingeniería en Sistemas 
 Computacionales. Áreas de interés: bases de datos, redes de 
-computadoras, arquitectura P2P y Blockchain. ",
+computadoras, arquitectura P2P y Blockchain. ",,rrosales@ipn.mx
 23,lopez rabadan jose jaime,Análisis y Diseño Orientado a Objetos,ISC,ISW,",2017-A048,2017-B074,2018-A071,2018-B036,2018-B140,2019-B121,2020-A082",",2016-A021,2016-B005,2016-B006,2016-B031,2016-B042,2017-A026,2017-A033,2017-B111,2018-A057","M. en C. en Ingeniería Eléctrica
 con especialidad en Computación del CINVESTAV en 2004.
 Lic. en computación por la UAM-I en 2001,
 Profesor de UPIICSA/IPN desde 2019.
-Áreas de interés Ingeniería de Software, Desarrollo web, y Reingeniería de procesos.",
-24,mujica ascencio cesar,"Diseño de Sistemas Digitales,Teoría de Comunicaciones y Señales,Fundamentos de Diseño Digital,Trabajo Terminal I (Lab),Arquitectura de Computadoras",ISC,SDIG,",2016-B037",",2016-B055,2016-B093,2017-A046,2017-B067,2018-B025,2018-B073,2018-B091,2018-B123,2019-A069","M. en C. en Ingeniería Electrónica de Esime Zacatenco en 2009, Ing. en Sistemas Computacionales de ESCOM en 2003, Profesor de ESCOM/IPN (Departamento de Ingeniería en Sistemas Computacionales) desde 2010, Áreas de Interés: Quimiometría, Láseres, Electrónica",
+Áreas de interés Ingeniería de Software, Desarrollo web, y Reingeniería de procesos.",,jlopezra@ipn.mx
+24,mujica ascencio cesar,"Diseño de Sistemas Digitales,Teoría de Comunicaciones y Señales,Fundamentos de Diseño Digital,Trabajo Terminal I (Lab),Arquitectura de Computadoras",ISC,SDIG,",2016-B037",",2016-B055,2016-B093,2017-A046,2017-B067,2018-B025,2018-B073,2018-B091,2018-B123,2019-A069","M. en C. en Ingeniería Electrónica de Esime Zacatenco en 2009, Ing. en Sistemas Computacionales de ESCOM en 2003, Profesor de ESCOM/IPN (Departamento de Ingeniería en Sistemas Computacionales) desde 2010, Áreas de Interés: Quimiometría, Láseres, Electrónica",,cmujica@ipn.mx
 25,martinez nuño jesus alfredo,"Métodos Matemáticos para el análisis de sistemas y señales,Análisis Vectorial,Matemáticas Avanzadas  para la Ingeniería,Trabajo Terminal II,Visión Computacional,Matemáticas Avanzadas para la Ingeniería",POSGR,CB,",2021-B102,2016-A068,2017-B035,2017-B099,2020-A033,2021-A032",",2016-B061,2016-B072,2017-A071","Licenciado en 
 Física y Matemáticas y maestría en Ciencias en 
 Física por la ESFM IPN, áreas de interés: Física y 
-Matemáticas",
-26,de luna caballero roberto,"Algoritmos y Estructuras de Datos,Trabajo Terminal II (Lab),Fundamentos de Programación",CIC,CC,",2016-A043",",2016-B091,2016-B096,2016-B111,2016-B112,2016-B128,2017-A015,2017-A035,2017-A053,2017-A103,2017-B023,2017-B055,2017-B058,2017-B074,2018-A053,2018-A061,2018-B137,2019-A066,2019-A068","Licenciado en Ciencias de la Computación (UAM), maestría en tecnología educativa (Universidad Autónoma de Tamaulipas).",
-27,esquivel centeno jose armando,"Cálculo Aplicado(Lab),Mecánica y Electromagnetismo",FB,CB,,,,
+Matemáticas",,jmartinezn@ipn.mx
+26,de luna caballero roberto,"Algoritmos y Estructuras de Datos,Trabajo Terminal II (Lab),Fundamentos de Programación",CIC,CC,",2016-A043",",2016-B091,2016-B096,2016-B111,2016-B112,2016-B128,2017-A015,2017-A035,2017-A053,2017-A103,2017-B023,2017-B055,2017-B058,2017-B074,2018-A053,2018-A061,2018-B137,2019-A066,2019-A068","Licenciado en Ciencias de la Computación (UAM), maestría en tecnología educativa (Universidad Autónoma de Tamaulipas).",,rdeluna@ipn.mx
+27,esquivel centeno jose armando,"Cálculo Aplicado(Lab),Mecánica y Electromagnetismo",FB,CB,,,,,jesquivelc@ipn.mx
 28,gonzalez albarran gisela,"Ingeniería Ética y Sociedad,Liderazgo y Desarrollo Profesional,Trabajo Terminal I,Comunicación Oral y Escrita,Trabajo Terminal II (Lab)",FII,CS,",2021-B026,2021-B080,2021-B086,2017-B110,2018-B116,2020-A084,2020-B025,2021-A080",",2016-A009,2016-B005,2016-B033,2016-B126,2017-A019,2017-B001,2018-A020,2018-A034,2018-B120,2018-B128","M. en C. de la Educación
 
 por la Universidad del Valle de México. Lic. en Psicología
 
-por la Universidad Autónoma del Estado de México. Docente de tiempo completo en la Academia de Ciencias Sociales de la Escuela Superior de Cómputo (ESCOM). Áreas de interés: Psicología, Tutorías, Autismo, Procesos de enseñanza-aprendizaje, ciencias sociales.",
+por la Universidad Autónoma del Estado de México. Docente de tiempo completo en la Academia de Ciencias Sociales de la Escuela Superior de Cómputo (ESCOM). Áreas de interés: Psicología, Tutorías, Autismo, Procesos de enseñanza-aprendizaje, ciencias sociales.",,ggonzaleza@ipn.mx
 29,pineda guerrero carlos,"Desarrollo de Sistemas Distribuidos,Administración de Servicios en Red",ISC,SDIST,",2021-B088,2019-A060,2020-A122",,"Licenciado en Física y 
 Matemáticas ESFM IPN, Maestro en Ciencias en Ingeniería de 
 Cómputo con Especialidad en Sistemas Digitales CIC IPN, 
@@ -134,24 +134,24 @@ ESCOM IPN, Departamento de Ingeniería en Sistemas
 Computacionales. Áreas de interés: Bases de Datos, Sistemas
 Operativos, Cómputo de Alto Rendimiento, Inteligencia 
 Artificial, Robótica, Compiladores, Data Warehouse, 
-Programación OOP, Ingeniería de Software. ",
-30,ramirez tenorio rafael,"Administración Financiera,Trabajo Terminal I,Finanzas Empresariales,Trabajo Terminal I (Lab),Fundamentos Económicos",ISC,PETD,,,,
+Programación OOP, Ingeniería de Software. ",,capineda@ipn.mx
+30,ramirez tenorio rafael,"Administración Financiera,Trabajo Terminal I,Finanzas Empresariales,Trabajo Terminal I (Lab),Fundamentos Económicos",ISC,PETD,,,,,rramirezt@ipn.mx
 31,ocotitla rojas nancy,"Bases de Datos,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab)",ISC,ISW,",2021-B012,2021-B022,2021-B081,2023-A009,2023-A020,2016-A031,2016-A048,2017-A090,2017-B046,2017-B109,2018-A076,2018-B027,2019-B038,2020-A001,2020-B088",",2016-A055,2016-A071,2016-B076,2016-B127,2017-B057,2017-B076,2017-B087,2017-B111,2017-B112,2018-A002,2018-A011,2018-A032,2018-A066,2018-A072,2018-B073,2018-B101,2019-A074","M. en C. en 
 Computación (CIC-IPN). Ingeniero en
 Sistemas Computacionales (ESCOM 2002). 
 Profesora de tiempo completo en ESCOM 
 (Dpto. ISC) desde 2004. Áreas de interés: 
 Bases de datos, Ingeniería de software, 
-Minería de datos",
+Minería de datos",,nocotitla@ipn.mx
 32,rodriguez sarabia tania,"Bases de Datos,IT Governance (Lab),Data Mining (Lab),Trabajo Terminal II (Lab),Introducción a la Ciencia de Datos",ISC,CD,",2018-B047,2019-B001,2020-A008,2020-B061",",2018-A091,2018-B100,2019-A034,2019-A076,2019-A085","Docente de la carrera Ingeniería en Sistemas computacionales 
 en la Escuela Superior de Cómputo (ESCOM), Jefa del departamento del departamento de 
-Capital Humano,",
-33,escamilla miranda patricia,"Tecnologías para la Web,Tecnologías para el Desarrollo de Aplicaciones Web",ISC,ISW,,,,
-34,tecla parra roberto,"Programación Orientada a Objetos,Compiladores,Paradigmas de Programación",CIC,CIC,,",2016-A009,2016-A044,2016-A055,2017-A029,2018-A018,2018-B133,2018-B141",,
-35,tirado lule judith margarita,"Matemáticas Avanzadas para la Ingenería (Lab),Álgebra Lineal,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab),Probabilidad y Estadística",FB,CB,",2016-A075,2016-B062,2017-A023",",2017-B099,2018-B006","M. en C. en Matemática Educativa CICATA-IPN LIC. En Física y Matemáticas ESFM-IPN, Profesor de ESCOM/IPN (Dpto. de Formación Básica) desde 2005, Áreas de Interés: Estadística",
-36,sanchez vargas perla rebeca,"Matemáticas Discretas,Matemáticas Avanzadas para la Ingenería (Lab),Cálculo,Economic Engineering (Lab),Mecánica y Electromagnetismo (Lab)",FB,CB,,,,
-37,juarez mendez ana belem,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,",2020-A021",,"Maestra en Ciencias de la Computación del CINVESTAV-IPN en 2016, Ing. en Sistemas Computacionales de ESCOM-IPN en 2012, Profesora de ESCOM-IPN desde septiembre del 2019, Áreas de interés: Algoritmos, Teoría de Gráficas, Geometría Computacional, Programación Paralela, Programación Concurrente, abelem.juarezm@gmail.com Realidad Virtual,",
-38,rosas trigueros jorge luis,"Arquitectura de dispositivos Móviles,Bioinformatics,Evolutionary Computing,Programación de Dispositivos de Altas Prestaciones,Programación de Dispositivos de Hardware,Algoritmos Bioinspirados",CIC,CC,",2021-B029,2023-A048,2016-B003,2016-B007,2016-B014,2016-B018,2016-B046,2016-B061,2017-B015,2017-B050,2017-B108,2018-A051,2018-A061,2018-B034,2018-B046,2018-B118,2018-B124,2019-A004,2019-A013,2019-A032,2019-B042,2020-A036,2020-B091,2021-A016,2021-A024,2021-A041,2021-A054",",2016-B015,2016-B028,2016-B033,2017-A039,2018-A030,2018-B020","Dr. En Biotecnología por el IPN (2012). M en C. en Ing. Eléctrica por la Universidad de Texas A&M en College Station, Estados Unidos (2002), es Ing. en Sistemas Computacionales por la Escuela Superior de Cómputo del IPN (1998). Actualmente es profesor Titular en ESCOM y sus áreas de interés son: Modelado y Simulación Molecular, Bioinformática y Graficación,",
+Capital Humano,",,tsarabiar@ipn.mx
+33,escamilla miranda patricia,"Tecnologías para la Web,Tecnologías para el Desarrollo de Aplicaciones Web",ISC,ISW,,,,,pescamilla@ipn.mx
+34,tecla parra roberto,"Programación Orientada a Objetos,Compiladores,Paradigmas de Programación",CIC,CIC,,",2016-A009,2016-A044,2016-A055,2017-A029,2018-A018,2018-B133,2018-B141",,,rteclap@ipn.mx
+35,tirado lule judith margarita,"Matemáticas Avanzadas para la Ingenería (Lab),Álgebra Lineal,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab),Probabilidad y Estadística",FB,CB,",2016-A075,2016-B062,2017-A023",",2017-B099,2018-B006","M. en C. en Matemática Educativa CICATA-IPN LIC. En Física y Matemáticas ESFM-IPN, Profesor de ESCOM/IPN (Dpto. de Formación Básica) desde 2005, Áreas de Interés: Estadística",,jtirado@ipn.mx
+36,sanchez vargas perla rebeca,"Matemáticas Discretas,Matemáticas Avanzadas para la Ingenería (Lab),Cálculo,Economic Engineering (Lab),Mecánica y Electromagnetismo (Lab)",FB,CB,,,,,psanchezv@ipn.mx
+37,juarez mendez ana belem,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,",2020-A021",,"Maestra en Ciencias de la Computación del CINVESTAV-IPN en 2016, Ing. en Sistemas Computacionales de ESCOM-IPN en 2012, Profesora de ESCOM-IPN desde septiembre del 2019, Áreas de interés: Algoritmos, Teoría de Gráficas, Geometría Computacional, Programación Paralela, Programación Concurrente, abelem.juarezm@gmail.com Realidad Virtual,",,abjuarezm@ipn.mx
+38,rosas trigueros jorge luis,"Arquitectura de dispositivos Móviles,Bioinformatics,Evolutionary Computing,Programación de Dispositivos de Altas Prestaciones,Programación de Dispositivos de Hardware,Algoritmos Bioinspirados",CIC,CC,",2021-B029,2023-A048,2016-B003,2016-B007,2016-B014,2016-B018,2016-B046,2016-B061,2017-B015,2017-B050,2017-B108,2018-A051,2018-A061,2018-B034,2018-B046,2018-B118,2018-B124,2019-A004,2019-A013,2019-A032,2019-B042,2020-A036,2020-B091,2021-A016,2021-A024,2021-A041,2021-A054",",2016-B015,2016-B028,2016-B033,2017-A039,2018-A030,2018-B020","Dr. En Biotecnología por el IPN (2012). M en C. en Ing. Eléctrica por la Universidad de Texas A&M en College Station, Estados Unidos (2002), es Ing. en Sistemas Computacionales por la Escuela Superior de Cómputo del IPN (1998). Actualmente es profesor Titular en ESCOM y sus áreas de interés son: Modelado y Simulación Molecular, Bioinformática y Graficación,",,jlrosas@ipn.mx
 39,carranza castillo oscar,"Electrónica Analógica,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab)",CIC,TT,",2023-A006,2023-A011,2023-A028,2023-A043,2023-A076,2016-B030,2017-A014,2017-B025,2017-B028,2017-B063,2019-B061",,"Dr. en Ingeniería Electrónica
 por la Universidad Politécnica de Valencia en 2012,
 Maestría en Ingeniería Electrónica por la Universidad
@@ -164,38 +164,38 @@ Miembro del Sistema Nacional de Investigadores de
 México Nivel I. Miembro de la Red de Energía del IPN.
 Senior Member de la IEEE. Áreas de Interés: Electrónica
 Analógica, Electrónica de Potencia, Instrumentación,
-Microcontroladores, ",
-40,enriquez zarate jose asuncion,"Web Application Development,Desarrollo de Aplicaciones Web,Tecnologías para el Desarrollo de Aplicaciones Web",ISC,ISW,",2021-B006,2021-B069,2023-A003,2016-A024,2016-A027,2016-B124,2017-A032,2018-B126,2019-A031,2019-A064,2019-B115,2020-A083,2020-B081,2020-B090,2021-A039",",2016-A002,2016-A004,2016-A028,2016-A033,2016-A036,2016-A065,2016-A079,2016-B119,2016-B120,2017-A029,2017-A041,2017-B005,2017-B007,2017-B031,2017-B033,2017-B064,2017-B097,2018-A015,2018-A019,2018-A091,2018-A093,2018-A104,2018-A105,2018-B028,2018-B076,2018-B128,2019-A001,2019-A012,2019-A039,2019-A057,2019-A066","M. en C. en Computación UAEM en 2011, Lic. En Informática administrativa UAEM 2003, Profesor de ESCOM/IPN (Depto. de Programación y Desarrollo de sistemas) desde 2012, Áreas de Interés: Aplicaciones Web, Apis y Servicios Web, Integración de Sistemas, Bases de Datos, Realidad Aumentada, Desarrollo de aplicaciones para dispositivos móviles, Aplicaciones Empresariales Java (Jakarta EE)",
+Microcontroladores, ",,ocarranzac@ipn.mx
+40,enriquez zarate jose asuncion,"Web Application Development,Desarrollo de Aplicaciones Web,Tecnologías para el Desarrollo de Aplicaciones Web",ISC,ISW,",2021-B006,2021-B069,2023-A003,2016-A024,2016-A027,2016-B124,2017-A032,2018-B126,2019-A031,2019-A064,2019-B115,2020-A083,2020-B081,2020-B090,2021-A039",",2016-A002,2016-A004,2016-A028,2016-A033,2016-A036,2016-A065,2016-A079,2016-B119,2016-B120,2017-A029,2017-A041,2017-B005,2017-B007,2017-B031,2017-B033,2017-B064,2017-B097,2018-A015,2018-A019,2018-A091,2018-A093,2018-A104,2018-A105,2018-B028,2018-B076,2018-B128,2019-A001,2019-A012,2019-A039,2019-A057,2019-A066","M. en C. en Computación UAEM en 2011, Lic. En Informática administrativa UAEM 2003, Profesor de ESCOM/IPN (Depto. de Programación y Desarrollo de sistemas) desde 2012, Áreas de Interés: Aplicaciones Web, Apis y Servicios Web, Integración de Sistemas, Bases de Datos, Realidad Aumentada, Desarrollo de aplicaciones para dispositivos móviles, Aplicaciones Empresariales Java (Jakarta EE)",,jenriquezz@ipn.mx
 41,jimenez contreras edith adriana,"Cálculo Aplicado(Lab),Álgebra Lineal,Cálculo,Matemáticas Discretas",FB,CB,",2018-B127",",2016-A060,2017-A056","Licenciatu¡a' en
 Matemáticas Aplicadas y Computación, UNAM. Maestría y
 Doctorado en Ciencias de la Computación, CIC-IPN,
 Profesora del IPN en la ESCOM (Dpto. de Formación
 Básica) Á¡eas de Interés: Tecnología de Software, Sistemas
 de Información, Optimizaciór¡ lógica matemática, algoritnrcs
-matemá",
-42,quintero tellez rolando,Analítica Avanzada,CIC,CD,",2018-B093",,"Doctor en Ciencias de la Computación, CIC-IPN 2007, Maestro en Ciencias de la Computación, CIC-IPN 2000, Ingeniero en Sistemas Computacionales, ESCOM- IPN 1997, Profesor-Investigador CIC-IPN. Áreas de interés: Dispositivos móviles, Administración del conocimiento, Semántica espacial.",
-43,rodriguez villarreal jose gregorio,Álgebra Lineal,FB,CB,,,,
-44,reyes bermejo tlatoani de jesus,"Álgebra Lineal,Matemáticas Discretas",FB,CB,,",2016-B014,2016-B015,2016-B046,2017-B077",,
-45,resendiz muñoz rocio,"Fundamentos de Programación,Trabajo Terminal I,Algoritmos y Estructuras de Datos,Trabajo Terminal II (Lab)",CIC,CC,",2016-A072,2018-B138",",2016-A048,2016-B016,2016-B031,2016-B048,2017-A012,2017-B010,2017-B030,2017-B105,2018-A019,2018-A058,2018-A064,2018-A067,2018-A068,2018-B005,2019-A069","Lic. En Computación egresada de la UAM Iztapalapa, Maestra en Ciencias por el CINVESTAV IPN. Actualmente es docente en la Escuela Superior de Cómputo del IPN.",
-46,tellez reyes maria del socorro,Comunicación Oral y Escrita,FII,CS,,",2016-A054,2016-A065,2016-B065,2017-A031,2017-B012,2017-B087,2018-A028,2018-B029,2019-A026",,
-47,winfield reyes ana maria,"Comunicación Oral y Escrita,Trabajo Terminal II (Lab),Ética y Legalidad,Ingeniería Ética y Sociedad,Trabajo Terminal I (Lab)",FII,CS,",2016-A065,2017-B032,2018-A030,2019-B057,2020-B052",",2016-A086,2016-B067,2018-A018,2018-A093,2018-A103,2018-B005,2018-B052,2018-B138","Doctor en Ciencias de Administración por la Sección de Estudios de Posgrado de la Escuela Superior de Comercio y Administración, ESCA Santo Tomás del IPN en 2011; Maestría en Ciencias en Administración y Desarrollo de la Educación, ESCA Santo Tomás del IPN en 2008; profesora de la Escuela Superior de Cómputo del IPN (Departamento de Formación Integral e Institucional) desde 2009. Lineas de investigación: Administración, Educación, Liderazgo, Ética y Valores.",
-48,galindo duran cristal karina,"Programación para la Ciencia de Datos,Fundamentos de Inteligencia Artificial,Teoría de la Computación,Análisis y Diseño de Algoritmos,Aprendizaje de Máquina,Inteligencia Artificial",CIC,CC,,,,
-49,sanchez brito miguel,"Fundamentos de Programación,Compiladores,Análisis y Diseño de Algoritmos",CIC,CC,,,,
-50,aleman arce miguel angel,Arquitectura de Computadoras,ISC,SDIG,,,,
-51,jimenez ruiz rene baltazar,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales,Instrumentación (Lab),Teoría de Comunicaciones y Señales (Lab),Introducción a los Microcontroladores (Lab),Introducción a los Microcontroladores,Embedded Systems (Lab),Fundamentos de Diseño Digital,Arquitectura de Computadoras",ISC,SDIG,",2021-B096,2023-A008,2023-A064,2016-B055,2017-A030,2017-A068,2018-A039,2018-B026,2019-B010,2019-B028,2020-B075,2021-A034",",2016-A037,2017-A091,2018-B032,2019-A099","obtuvo el grado de M. en C. en Sistemas Computacionales Móviles en ESCOM, IPN en septiembre de 2015. Obtuvo el grado de Ingeniero en Mecatrónica en UPIITA, IPN en enero de 2011. Es profesor de la academia de sistemas digitales en ESCOM, IPN desde 2015. Áreas de interés: Robots móviles, sistemas mecatrónicos y sistemas digitales",
-52,estrada elizalde serafin,"Fundamentos Económicos,Finanzas Empresariales",ISC,PETD,,",2015-B027,2016-B104,2017-A032,2018-B140",,
-53,viveros vela karina,"Matemáticas Avanzadas para la Ingenería (Lab),Cálculo Aplicado,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab)",FB,CB,,",2016-B016,2016-B082,2017-B007,2018-A020,2018-A090,2018-B073,2018-B085",,
+matemá",,eajimenez@ipn.mx
+42,quintero tellez rolando,Analítica Avanzada,CIC,CD,",2018-B093",,"Doctor en Ciencias de la Computación, CIC-IPN 2007, Maestro en Ciencias de la Computación, CIC-IPN 2000, Ingeniero en Sistemas Computacionales, ESCOM- IPN 1997, Profesor-Investigador CIC-IPN. Áreas de interés: Dispositivos móviles, Administración del conocimiento, Semántica espacial.",,rquintero@ipn.mx
+43,rodriguez villarreal jose gregorio,Álgebra Lineal,FB,CB,,,,,jgrodriguezv@ipn.mx
+44,reyes bermejo tlatoani de jesus,"Álgebra Lineal,Matemáticas Discretas",FB,CB,,",2016-B014,2016-B015,2016-B046,2017-B077",,,treyesb@ipn.mx
+45,resendiz muñoz rocio,"Fundamentos de Programación,Trabajo Terminal I,Algoritmos y Estructuras de Datos,Trabajo Terminal II (Lab)",CIC,CC,",2016-A072,2018-B138",",2016-A048,2016-B016,2016-B031,2016-B048,2017-A012,2017-B010,2017-B030,2017-B105,2018-A019,2018-A058,2018-A064,2018-A067,2018-A068,2018-B005,2019-A069","Lic. En Computación egresada de la UAM Iztapalapa, Maestra en Ciencias por el CINVESTAV IPN. Actualmente es docente en la Escuela Superior de Cómputo del IPN.",,rresendizm@ipn.mx
+46,tellez reyes maria del socorro,Comunicación Oral y Escrita,FII,CS,,",2016-A054,2016-A065,2016-B065,2017-A031,2017-B012,2017-B087,2018-A028,2018-B029,2019-A026",,,stellez@ipn.mx
+47,winfield reyes ana maria,"Comunicación Oral y Escrita,Trabajo Terminal II (Lab),Ética y Legalidad,Ingeniería Ética y Sociedad,Trabajo Terminal I (Lab)",FII,CS,",2016-A065,2017-B032,2018-A030,2019-B057,2020-B052",",2016-A086,2016-B067,2018-A018,2018-A093,2018-A103,2018-B005,2018-B052,2018-B138","Doctor en Ciencias de Administración por la Sección de Estudios de Posgrado de la Escuela Superior de Comercio y Administración, ESCA Santo Tomás del IPN en 2011; Maestría en Ciencias en Administración y Desarrollo de la Educación, ESCA Santo Tomás del IPN en 2008; profesora de la Escuela Superior de Cómputo del IPN (Departamento de Formación Integral e Institucional) desde 2009. Lineas de investigación: Administración, Educación, Liderazgo, Ética y Valores.",,awinfieldr@ipn.mx
+48,galindo duran cristal karina,"Programación para la Ciencia de Datos,Fundamentos de Inteligencia Artificial,Teoría de la Computación,Análisis y Diseño de Algoritmos,Aprendizaje de Máquina,Inteligencia Artificial",CIC,CC,,,,,cgalindod@ipn.mx
+49,sanchez brito miguel,"Fundamentos de Programación,Compiladores,Análisis y Diseño de Algoritmos",CIC,CC,,,,,msanchezbr@ipn.mx
+50,aleman arce miguel angel,Arquitectura de Computadoras,ISC,SDIG,,,,,maleman@ipn.mx
+51,jimenez ruiz rene baltazar,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales,Instrumentación (Lab),Teoría de Comunicaciones y Señales (Lab),Introducción a los Microcontroladores (Lab),Introducción a los Microcontroladores,Embedded Systems (Lab),Fundamentos de Diseño Digital,Arquitectura de Computadoras",ISC,SDIG,",2021-B096,2023-A008,2023-A064,2016-B055,2017-A030,2017-A068,2018-A039,2018-B026,2019-B010,2019-B028,2020-B075,2021-A034",",2016-A037,2017-A091,2018-B032,2019-A099","obtuvo el grado de M. en C. en Sistemas Computacionales Móviles en ESCOM, IPN en septiembre de 2015. Obtuvo el grado de Ingeniero en Mecatrónica en UPIITA, IPN en enero de 2011. Es profesor de la academia de sistemas digitales en ESCOM, IPN desde 2015. Áreas de interés: Robots móviles, sistemas mecatrónicos y sistemas digitales",,rbjimenez@ipn.mx
+52,estrada elizalde serafin,"Fundamentos Económicos,Finanzas Empresariales",ISC,PETD,,",2015-B027,2016-B104,2017-A032,2018-B140",,,sestradae@ipn.mx
+53,viveros vela karina,"Matemáticas Avanzadas para la Ingenería (Lab),Cálculo Aplicado,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab)",FB,CB,,",2016-B016,2016-B082,2017-B007,2018-A020,2018-A090,2018-B073,2018-B085",,,kviveros@ipn.mx
 54,ortiz ramirez jose antonio,"Tecnologías para la Web,Tecnologías para la Web(Lab),Tecnologías para el Desarrollo de Aplicaciones Web,Desarrollo de Aplicaciones Web",ISC,ISW,",2016-B036,2017-A064,2018-A001,2018-B064,2018-B067,2019-B009",",2016-A003,2016-B101,2016-B104,2016-B111,2016-B126,2017-A012,2017-A015,2017-A108","M. en C. en Ingeniería de 
 Sistemas, Ingeniero en Sistemas Computacionales en ESCOM,
 Docente en ESCOM. Experiencia en la Unidad de Tecnología 
 Educativa y Campus Virtual. Áreas de Interés: Bases de Datos, 
-Aplicaciones para la Web, Técnicas de desarrollo de sistemas. ",
-55,cifuentes alvarez alejandro sigfrido,"App. Dev. for Mobile Devices,Tecnologías para el Desarrollo de Aplicaciones Web,Computer Security",ISC,ISW,",2015-B066,2023-A060,2016-A052,2016-B099,2017-A041,2017-B014,2018-A004,2018-A020,2018-B100,2019-A057,2019-B026,2019-B030,2019-B033,2020-A081,2020-B097,2021-A055,2020-A093",",2016-A068,2016-B005,2017-A036,2017-A047,2017-A090,2017-B017,2017-B083,2018-A053,2018-A102,2018-B015,2018-B023,2018-B130","Ing. en Electronica y comunicaciones, M. en C. Ingeniería de Sistemas, AI para aplicaciones móviles",
-56,juarez ramirez jazmin adriana,"Cálculo,Seminario III,Ecuaciones Diferenciales,Seminario I,Probabilidad y Estadística,Matemáticas Avanzadas para la Ingeniería",FB,POSGR,,",2018-B075",,
-57,uriarte arcia abril valeria,Algoritmos Bioinspirados,CIC,CC,,,,
-58,jimenez benitez jose alfredo,"Sistemas Operativos,Trabajo Terminal I (Lab)",ISC,SDIST,",2021-B030,2021-B095,2023-A042,2023-A078,2023_A087,2017-B051,2018-A028,2018-A059,2018-A088,2019-B014,2019-B017,2019-B066,2019-B084,2020-A100,2020-A130,2021-A027,2021-A028,2021-A040,2021-A058,2023-A087",",2016-B111,2017-A098,2017-A103,2017-B097,2018-A037,2018-B001,2018-B015,2018-B048,2018-B079,2019-A032,2019-A080","Ingeniero en electrónica por la Universidad Autónoma Metropolitana. Maestro en Tecnología Avanzada por CICATA Legaria. Doctor en Tecnología Avanzada por ICATA Legaria. Areas de interés: Educación, psicología y sistemas",
-59,leal pacheco christian rene,"Cálculo,Cálculo Multivariable",FB,CB,,,,
-60,sanchez garcia octavio,"Algoritmos y Estructuras de Datos,Compiladores,Visión Artificial",CIC,CC,,,,
+Aplicaciones para la Web, Técnicas de desarrollo de sistemas. ",,jortizr@ipn.mx
+55,cifuentes alvarez alejandro sigfrido,"App. Dev. for Mobile Devices,Tecnologías para el Desarrollo de Aplicaciones Web,Computer Security",ISC,ISW,",2015-B066,2023-A060,2016-A052,2016-B099,2017-A041,2017-B014,2018-A004,2018-A020,2018-B100,2019-A057,2019-B026,2019-B030,2019-B033,2020-A081,2020-B097,2021-A055,2020-A093",",2016-A068,2016-B005,2017-A036,2017-A047,2017-A090,2017-B017,2017-B083,2018-A053,2018-A102,2018-B015,2018-B023,2018-B130","Ing. en Electronica y comunicaciones, M. en C. Ingeniería de Sistemas, AI para aplicaciones móviles",,ascifuentesa@ipn.mx
+56,juarez ramirez jazmin adriana,"Cálculo,Seminario III,Ecuaciones Diferenciales,Seminario I,Probabilidad y Estadística,Matemáticas Avanzadas para la Ingeniería",FB,POSGR,,",2018-B075",,,jjuarezr@ipn.mx
+57,uriarte arcia abril valeria,Algoritmos Bioinspirados,CIC,CC,,,,,auriartea@ipn.mx
+58,jimenez benitez jose alfredo,"Sistemas Operativos,Trabajo Terminal I (Lab)",ISC,SDIST,",2021-B030,2021-B095,2023-A042,2023-A078,2023_A087,2017-B051,2018-A028,2018-A059,2018-A088,2019-B014,2019-B017,2019-B066,2019-B084,2020-A100,2020-A130,2021-A027,2021-A028,2021-A040,2021-A058,2023-A087",",2016-B111,2017-A098,2017-A103,2017-B097,2018-A037,2018-B001,2018-B015,2018-B048,2018-B079,2019-A032,2019-A080","Ingeniero en electrónica por la Universidad Autónoma Metropolitana. Maestro en Tecnología Avanzada por CICATA Legaria. Doctor en Tecnología Avanzada por ICATA Legaria. Areas de interés: Educación, psicología y sistemas",,jajimenezb@ipn.mx
+59,leal pacheco christian rene,"Cálculo,Cálculo Multivariable",FB,CB,,,,,chlealpa@ipn.mx
+60,sanchez garcia octavio,"Algoritmos y Estructuras de Datos,Compiladores,Visión Artificial",CIC,CC,,,,,osanchezg@ipn.mx
 61,mendez segundo laura,"Análisis y Diseño Orientado a Objetos,Mobile E-Bussiness,Ingeniería de Software,Trabajo Terminal II (Lab),Mobile Commerce,Trabajo Terminal I (Lab),Análisis y Diseño de Sistemas,Security in Mobile Systems (M)",ISC,ISW,",2021-B015,2021-B043,2021-B076,2021-B100,2016-A023,2016-B104,2016-B124,2017-A002,2017-A012,2017-B007,2017-B087,2017-B105,2019-A002,2020-A075,2020-B026,2020-B045,2020-B108,2021-A011,2021-A068,2021-A075,2021-A093,2023-A089",",2016-A027,2016-A031,2016-B046,2016-B064,2016-B065,2016-B072,2017-A020,2017-A037,2017-B001,2017-B020,2017-B039,2017-B064,2018-B130","Profesora investigadora de
 la Escuela Superior de Cómputo del IPN. M.
 en C. en Ingeniería Eléctrica con especialidad en
@@ -204,9 +204,9 @@ Informática (Universidad Veracruzana 1991).
 Certificado de SCRUM Master en el 2017, Áreas de
 Interés: Bases de Datos, Ingeniería de Software,
 UML. cómputo educativo, realidad aumentada y
-procesamiento de imágenes",
-62,marquez arreguin guillermo,"Métodos Cuantitativos para la Toma de  Decisiones,Trabajo Terminal II,Trabajo Terminal I (Lab),Métodos Cuantitativos para la Toma de Desiciones",ISC,PETD,",2018-B043",",2016-A023,2017-A044,2019-A064","M. en C. en Administración y Evaluación Educativa, Profesor en ESCOM desde 1995, Profesor titular. Áreas de interés: Inventarios, calidad, evaluación y administración",
-63,macias perez francisco javier,Algoritmos y Estructuras de Datos,CIC,CC,,,,
+procesamiento de imágenes",,lmendezs@ipn.mx
+62,marquez arreguin guillermo,"Métodos Cuantitativos para la Toma de  Decisiones,Trabajo Terminal II,Trabajo Terminal I (Lab),Métodos Cuantitativos para la Toma de Desiciones",ISC,PETD,",2018-B043",",2016-A023,2017-A044,2019-A064","M. en C. en Administración y Evaluación Educativa, Profesor en ESCOM desde 1995, Profesor titular. Áreas de interés: Inventarios, calidad, evaluación y administración",,gmarquez@ipn.mx
+63,macias perez francisco javier,Algoritmos y Estructuras de Datos,CIC,CC,,,,,fmaciasp@ipn.mx
 64,carballo jimenez juan manuel,"Ecuaciones Diferenciales,Análisis Vectorial,Matemáticas Avanzadas para la Ingeniería",FB,CB,",2021-A032",,"Profesor del
 IPN desde 1994 , adscrito a la academia de
 Ciencias Básicas en el departamento de
@@ -214,12 +214,12 @@ Formación Básica de ESCOM desde 1998. Lic.
 En Física y Matemáticas por ESFM. IPN M en C.
 Por ESFM. IPN
 Áreas de interés : Física Matemática ,
-particularmente Mecánica cuántica supersimétrica.",
-65,hernandez rubio erika,"Bases de Datos,Programación de Dispositivos  Móviles,Distributed Database,Trabajo Terminal I (Lab),Seminario IV,Trabajo Terminal II",ISC,ISW,",2021-B035,2021-B048,2021-B086,2016-A026,2017-B009,2018-B005,2018-B039,2020-A021,2020-A091,2020-B034,2020-B037,2020-B074",",2016-A023,2016-B013,2016-B020,2016-B028,2016-B048,2016-B095,2017-A010,2017-B012,2017-B038,2017-B097,2017-B105,2018-A058,2018-A060,2018-A104,2018-B008,2018-B009,2018-B012,2018-B018,2018-B028,2018-B047,2018-B056,2019-A016","Maestra en Ciencias de la Computación Instituto Politécnico Nacional - Centro de Investigación en Computación. Licenciada en Ciencias de la Informática Instituto Politécnico Nacional – Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales Administrativas (UPIICSA). Áreas de interés y líneas de investigación: Bases de Datos, Inteligencia Artificial, Cómputo Móvil.",
-66,ramirez martinez elia tzindejhe,"Ética y Legalidad,Trabajo Terminal I (Lab),Ingeniería Ética y Sociedad,Trabajo Terminal II (Lab),Liderazgo y Desarrollo Profesional",FII,CS,,,,
-67,salazar ramirez manuel,"Ecuaciones Diferenciales,Cálculo Aplicado,Seminario IV,Métodos Matemáticos para el análisis de sistemas y señales,Análisis Vectorial",POSGR,CB,",2017-B003,2018-A003",,Licenciatura: Licenciado en Física en la Universidad Veracruzana. Maestría: Maestro en Ciencias en Fisica en Instituto Politécnico Nacional Doctorado: Ciencias en Física en Instituto Politécnico Nacional Investigador a Nivel Candidato en CONACYT.,
-68,sanchez arroyo jose emilio,"Análisis y Diseño Orientado a Objetos (Lab),Ingeniería Ética y Sociedad,Análisis de Algoritmos (Lab),Aplicaciones para Comunicaciones en Red (Lab),IT Governance (Lab),App .Dev. for Mobile Devices (Lab),Programación Orientada a Objetos (Lab),Ingeniería de Software (Lab)",FII,CS,",2018-A020",,"M. en C. en Psicología Clínica, Especialidad en Programación Neurolingüística, Áreas de Interés: Programación Neurolingüística y Psicología Clínica.",
-69,martinez guerrero jose alfredo,"Electrónica Analógica,Circuitos Eléctricos",CIC,FSE,,",2016-A046,2016-B013,2017-A046,2017-A104,2017-B051,2018-A049,2018-B066",,
+particularmente Mecánica cuántica supersimétrica.",,jcarballo@ipn.mx
+65,hernandez rubio erika,"Bases de Datos,Programación de Dispositivos  Móviles,Distributed Database,Trabajo Terminal I (Lab),Seminario IV,Trabajo Terminal II",ISC,ISW,",2021-B035,2021-B048,2021-B086,2016-A026,2017-B009,2018-B005,2018-B039,2020-A021,2020-A091,2020-B034,2020-B037,2020-B074",",2016-A023,2016-B013,2016-B020,2016-B028,2016-B048,2016-B095,2017-A010,2017-B012,2017-B038,2017-B097,2017-B105,2018-A058,2018-A060,2018-A104,2018-B008,2018-B009,2018-B012,2018-B018,2018-B028,2018-B047,2018-B056,2019-A016","Maestra en Ciencias de la Computación Instituto Politécnico Nacional - Centro de Investigación en Computación. Licenciada en Ciencias de la Informática Instituto Politécnico Nacional – Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales Administrativas (UPIICSA). Áreas de interés y líneas de investigación: Bases de Datos, Inteligencia Artificial, Cómputo Móvil.",,ehernandezru@ipn.mx
+66,ramirez martinez elia tzindejhe,"Ética y Legalidad,Trabajo Terminal I (Lab),Ingeniería Ética y Sociedad,Trabajo Terminal II (Lab),Liderazgo y Desarrollo Profesional",FII,CS,,,,,etramirez@ipn.mx
+67,salazar ramirez manuel,"Ecuaciones Diferenciales,Cálculo Aplicado,Seminario IV,Métodos Matemáticos para el análisis de sistemas y señales,Análisis Vectorial",POSGR,CB,",2017-B003,2018-A003",,Licenciatura: Licenciado en Física en la Universidad Veracruzana. Maestría: Maestro en Ciencias en Fisica en Instituto Politécnico Nacional Doctorado: Ciencias en Física en Instituto Politécnico Nacional Investigador a Nivel Candidato en CONACYT.,,msalazarra@ipn.mx
+68,sanchez arroyo jose emilio,"Análisis y Diseño Orientado a Objetos (Lab),Ingeniería Ética y Sociedad,Análisis de Algoritmos (Lab),Aplicaciones para Comunicaciones en Red (Lab),IT Governance (Lab),App .Dev. for Mobile Devices (Lab),Programación Orientada a Objetos (Lab),Ingeniería de Software (Lab)",FII,CS,",2018-A020",,"M. en C. en Psicología Clínica, Especialidad en Programación Neurolingüística, Áreas de Interés: Programación Neurolingüística y Psicología Clínica.",,jsanchezar@ipn.mx
+69,martinez guerrero jose alfredo,"Electrónica Analógica,Circuitos Eléctricos",CIC,FSE,,",2016-A046,2016-B013,2017-A046,2017-A104,2017-B051,2018-A049,2018-B066",,,jamartinezg@ipn.mx
 70,vazquez gonzalez leonor,"Probabilidad y Estadística,Cálculo Multivariable,Mecánica y Electromagnetismo (Lab),Probabilidad,Matemáticas Avanzadas para la Ingeniería",FB,CB,",2020-A040,2021-A002",,"Profesora de 
 Asignatura de la Escuela Superior de Física y 
 Matemáticas. Maestría en Ciencias en la 
@@ -230,25 +230,25 @@ Cataluña, España. Experiencia como líder de
 desarrollo en aplicaciones y soluciones para la 
 industria petrolera. Su interés se centra en el 
 análisis y desarrollo de algoritmos, optimización 
-y criptografía",
-71,guzman aguilar florencio,"Análisis Vectorial,Mecánica y Electromagnetismo",FB,CB,,",2016-A058,2016-B007,2016-B091",,
-72,gutierrez aldana eduardo,"Teoría de Comunicaciones y Señales,Administración de Servicios en Red,Aplicaciones  para Comunicaciones en Red",ISC,SDIST,",2017-A054,2017-B011,2018-B026",",2016-A083,2016-B072,2017-A072","Ing. en Comunicaciones y Electrónica, ESIME. Profesor de ESCOM academia de sistemas distribuidos. Áreas de trabajo: redes de computadoras, comunicaciones y señales",
-73,flores estrada ituriel enrique,"Algoritmos y Estructuras de Datos,Desarrollo de Aplicaciones para Análisis de Datos,Paradigmas de Programación,Tecnologías de Lenguaje Natural",CIC,CC,,,,
-74,tenorio marron marco antonio,"Redes de Computadoras,Desarrollo de Sistemas Distribudios (Lab)",ISC,SDIST,,,,
-75,ortega gonzalez ruben,"Instrumentación,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab),Instrumentación y Control",CIC,FSE,",2021-B049,2023-A001,2023-A006,2023-A019,2016-B013,2016-B030,2017-A071,2017-A081,2017-B080,2018-A038,2018-A040,2018-A041,2018-B042,2018-B099,2019-A020,2019-B044,2019-B061,2019-B077,2020-A032,2020-A086,2020-A124,2020-B041,2020-B046,2020-B051,2021-A035,2021-A069,2023-A032",",2016-A037,2016-A052,2016-B022,2016-B050,2017-B030,2017-B078,2018-A003,2018-A037","Recibí el grado de licenciatura en ingeniería eléctrica por el Instituto Politécnico Nacional, Ciudad de México, México, 1999, el grado de M.Sc. en ingeniería de sistemas en el Instituto Politécnico Nacional, México, el de M.Sc. en ingeniería eléctrica, electrónica de computadores y sistemas de la Universidad de Oviedo, Oviedo, España, en 2009. El grado de Ph.D con mención honorífica en ingeniería electrónica por la Universidad Politécnica de Valencia, Valencia, España, en 2012. He sido profesor en la Escuela Superior de Computo, Instituto Politécnico Nacional desde 1995. Mis principales campos de investigación son en el modelado y control de convertidores de potencia aplicados en la generación de energía en el ámbito de las microrredes, smart grids y energías renovables, así como procesamiento digital de señales.",
+y criptografía",,levazquezg@ipn.mx
+71,guzman aguilar florencio,"Análisis Vectorial,Mecánica y Electromagnetismo",FB,CB,,",2016-A058,2016-B007,2016-B091",,,fguzmana@ipn.mx
+72,gutierrez aldana eduardo,"Teoría de Comunicaciones y Señales,Administración de Servicios en Red,Aplicaciones  para Comunicaciones en Red",ISC,SDIST,",2017-A054,2017-B011,2018-B026",",2016-A083,2016-B072,2017-A072","Ing. en Comunicaciones y Electrónica, ESIME. Profesor de ESCOM academia de sistemas distribuidos. Áreas de trabajo: redes de computadoras, comunicaciones y señales",,egutierreza@ipn.mx
+73,flores estrada ituriel enrique,"Algoritmos y Estructuras de Datos,Desarrollo de Aplicaciones para Análisis de Datos,Paradigmas de Programación,Tecnologías de Lenguaje Natural",CIC,CC,,,,,iflorese@ipn.mx
+74,tenorio marron marco antonio,"Redes de Computadoras,Desarrollo de Sistemas Distribudios (Lab)",ISC,SDIST,,,,,mtenorio@ipn.mx
+75,ortega gonzalez ruben,"Instrumentación,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab),Instrumentación y Control",CIC,FSE,",2021-B049,2023-A001,2023-A006,2023-A019,2016-B013,2016-B030,2017-A071,2017-A081,2017-B080,2018-A038,2018-A040,2018-A041,2018-B042,2018-B099,2019-A020,2019-B044,2019-B061,2019-B077,2020-A032,2020-A086,2020-A124,2020-B041,2020-B046,2020-B051,2021-A035,2021-A069,2023-A032",",2016-A037,2016-A052,2016-B022,2016-B050,2017-B030,2017-B078,2018-A003,2018-A037","Recibí el grado de licenciatura en ingeniería eléctrica por el Instituto Politécnico Nacional, Ciudad de México, México, 1999, el grado de M.Sc. en ingeniería de sistemas en el Instituto Politécnico Nacional, México, el de M.Sc. en ingeniería eléctrica, electrónica de computadores y sistemas de la Universidad de Oviedo, Oviedo, España, en 2009. El grado de Ph.D con mención honorífica en ingeniería electrónica por la Universidad Politécnica de Valencia, Valencia, España, en 2012. He sido profesor en la Escuela Superior de Computo, Instituto Politécnico Nacional desde 1995. Mis principales campos de investigación son en el modelado y control de convertidores de potencia aplicados en la generación de energía en el ámbito de las microrredes, smart grids y energías renovables, así como procesamiento digital de señales.",,rortegag@ipn.mx
 76,sanchez quintanilla gilberto,"Redes de Computadoras,Aplicaciones  para Comunicaciones en Red,Gestión Empresarial (Lab),Administración de Servicios en Red,Trabajo Terminal I",ISC,SDIST,",2016-A044,2020-A122",",2016-B075,2016-B093,2017-A051,2017-B025,2018-A068,2018-A099,2018-B003","Ing. En Comunicaciones y Electrónica; Redes de
 Computadoras, Maestría en Ciencias en Ingeniería de Telecomunicaciones SEPI ESIME
 Zacatenco, 2000; Profesor de la ESCOM IPN, Departamento de Ing. En Sistemas
-Computacionales desde 2000. Áreas de Interés: Seguridad en Redes, Voz Sobre IP",
-77,chavarria baez lorena,"Bases de Datos,Ingeniería Software para Cómputo Móvil(Maestría),Trabajo Terminal II (Lab),Trabajo Terminal I,Trabajo Terminal II",ISC,POSGR,",2021-B012,2021-B081,2023-A058,2016-A048,2017-A071,2018-A034,2019-B088,2020-A079,2021-A008,2021-A012",",2016-A007,2016-A086,2017-B034,2017-B058,2017-B074,2017-B109,2018-A004,2018-A060,2019-A009,2019-A056","Ingeniería en Sistemas Computacionales por la Escuela Superior de Cómputo. Maestría y Doctorado en Ingeniería Eléctrica opción Computación por el CINVESTAV-IPN. Profesora de la ESCOM. Áreas de interés: bases de datos, sistemas de información,",
-78,morales cruz juan carlos,"Diseño de Sistemas Digitales,Introducción a los Microcontroladores,Arquitectura de Computadoras",ISC,SDIG,",2016-A037,2017-B083",",2016-A081,2017-B014,2018-B004","Profesor de ESCOM/IPN (Departamento de Ing. en Sistemas Computacionales) desde 1998. Ingeniero en Comunicaciones y Electrónica, Maestriteen Instrumentación Electrónica. Areas de Interés: Sistemas Digitales",
+Computacionales desde 2000. Áreas de Interés: Seguridad en Redes, Voz Sobre IP",,gsanchezq@ipn.mx
+77,chavarria baez lorena,"Bases de Datos,Ingeniería Software para Cómputo Móvil(Maestría),Trabajo Terminal II (Lab),Trabajo Terminal I,Trabajo Terminal II",ISC,POSGR,",2021-B012,2021-B081,2023-A058,2016-A048,2017-A071,2018-A034,2019-B088,2020-A079,2021-A008,2021-A012",",2016-A007,2016-A086,2017-B034,2017-B058,2017-B074,2017-B109,2018-A004,2018-A060,2019-A009,2019-A056","Ingeniería en Sistemas Computacionales por la Escuela Superior de Cómputo. Maestría y Doctorado en Ingeniería Eléctrica opción Computación por el CINVESTAV-IPN. Profesora de la ESCOM. Áreas de interés: bases de datos, sistemas de información,",,lchavarria@ipn.mx
+78,morales cruz juan carlos,"Diseño de Sistemas Digitales,Introducción a los Microcontroladores,Arquitectura de Computadoras",ISC,SDIG,",2016-A037,2017-B083",",2016-A081,2017-B014,2018-B004","Profesor de ESCOM/IPN (Departamento de Ing. en Sistemas Computacionales) desde 1998. Ingeniero en Comunicaciones y Electrónica, Maestriteen Instrumentación Electrónica. Areas de Interés: Sistemas Digitales",,jmoralesc@ipn.mx
 79,velez saldaña ulises,"Ingeniería de Software,Software Engineering for Mobile Devices,Bases de Datos,Trabajo Terminal I (Lab),Análisis y Diseño Orientado a Objetos,Trabajo Terminal II (Lab),Tecnologías para la Web,Análisis y Diseño de Sistemas",ISC,ISW,",2021-B092,2016-A039,2017-A035,2017-A044,2017-A108,2017-B017,2017-B029,2017-B031,2018-A002,2018-A019,2018-A079,2018-A104,2018-B052,2019-A080,2020-A106,2021-A099",",2016-A006,2017-A002,2017-B047,2017-B092,2017-B113,2018-A009,2018-A053,2018-B093,2018-B145,2019-A039,2019-A069","Profesor de la Escuela Superior de Computo del 
 Instituto Politécnico Nacional, con Licenciatura el Computación por la 
 UAM-I y Estudios de Maestría en Ciencias en el CINVESTAV-IPN 
-especialista en Ingeniería de software y Sistemas de tiempo Real",
-80,buitron damaso israel,Matemáticas Discretas,FB,CB,",2017-A096,2019-B082",",2016-A066,2016-B045,2016-B076,2017-A091,2018-A031","M en C. en Computación por el CINVESTAV-IPN e Ing. en Sistemas Computacionales por la ESCOM-IPN. Realizó sus estudios de posgrado en temas relacionados con la criptografia y la combinatoria aplicada a protocolos de autenticación, Áreas de interés: criptografia, teoría de grafos, combinatoria, dinero electrónico.",
-81,morales rodriguez ursula samantha,"Métodos Numéricos,Algoritmos y Estructuras de Datos,Fundamentos de Diseño Digital,Procesamiento de Señales,Procesamiento Digital de Señales",CIC,CC,",2023-A061,2023-A016",,"Dra. en Ciencias de la Computación (2022) y M. en C. en Ingeniería de Cómputo(2018) del Centro de Investigación en Computación del Instituto Politécnico Nacional. Ing. en Sistemas Computacionales (2016) de la Escuela Superior de Cómputo/IPN. Áreas de interés: Reconocimiento de patrones, procesamiento digital de señales, IA.",
-82,perez vera sandra mercedes,"Liderazgo y Desarrollo Profesional,Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II (Lab),Comunicación Oral y Escrita,Liderazgo Personal,Trabajo Terminal I (Lab)",FII,CS,,",2016-A036,2016-A078,2017-B030,2018-A059,2018-A079,2019-A099",,
+especialista en Ingeniería de software y Sistemas de tiempo Real",,uvelez@ipn.mx
+80,buitron damaso israel,Matemáticas Discretas,FB,CB,",2017-A096,2019-B082",",2016-A066,2016-B045,2016-B076,2017-A091,2018-A031","M en C. en Computación por el CINVESTAV-IPN e Ing. en Sistemas Computacionales por la ESCOM-IPN. Realizó sus estudios de posgrado en temas relacionados con la criptografia y la combinatoria aplicada a protocolos de autenticación, Áreas de interés: criptografia, teoría de grafos, combinatoria, dinero electrónico.",,ibuitron@ipn.mx
+81,morales rodriguez ursula samantha,"Métodos Numéricos,Algoritmos y Estructuras de Datos,Fundamentos de Diseño Digital,Procesamiento de Señales,Procesamiento Digital de Señales",CIC,CC,",2023-A061,2023-A016",,"Dra. en Ciencias de la Computación (2022) y M. en C. en Ingeniería de Cómputo(2018) del Centro de Investigación en Computación del Instituto Politécnico Nacional. Ing. en Sistemas Computacionales (2016) de la Escuela Superior de Cómputo/IPN. Áreas de interés: Reconocimiento de patrones, procesamiento digital de señales, IA.",,umoralesr@ipn.mx
+82,perez vera sandra mercedes,"Liderazgo y Desarrollo Profesional,Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II (Lab),Comunicación Oral y Escrita,Liderazgo Personal,Trabajo Terminal I (Lab)",FII,CS,,",2016-A036,2016-A078,2017-B030,2018-A059,2018-A079,2019-A099",,,sperezv@ipn.mx
 83,araujo diaz david,"Sistemas Operativos,Trabajo Terminal I (Lab),Security in Mobile Systems (M),Realidad Virtual,Cómputo de Alto Desempeño,Redes Inalámbricas",POSGR,POSGR,",2021-B010,2016-A023,2016-A060,2016-B101,2017-A002,2017-A012,2017-A029,2017-B007,2017-B023,2017-B087,2017-B105,2018-B019,2018-B056,2019-A002,2019-A065,2020-B026,2020-B032,2020-B045,2020-B108,2021-A011,2021-A014,2021-A050,2021-A065,2021-A068,2021-A075",",2016-A058,2017-A037,2017-A066,2017-B004,2018-A039,2018-B026,2018-B040,2018-B108","Profesor de la Escuela Superior de 
 Cómputo (Depto. de Posgrado), Ing. en Comunicaciones y 
 Electrónica (ESIME-Zacatenco), M. en C. en Ingeniería 
@@ -257,19 +257,19 @@ Aumentada, Diseño y Simulación de Circuitos
 Electrónicos, Modelación Matemática, Cómputo Paralelo, 
 Robótica, Procesamiento de Imágenes, Reconocimiento de 
 Patrones, Computabilidad, Complejidad Algorítmica y 
-Seguridad Informática",
-84,cañedo suarez leticia,"Probabilidad y Estadística,Cálculo Aplicado,Economic Engineering (Lab),Álgebra Lineal",FB,CB,,",2019-A013",,
+Seguridad Informática",,daraujo@ipn.mx
+84,cañedo suarez leticia,"Probabilidad y Estadística,Cálculo Aplicado,Economic Engineering (Lab),Álgebra Lineal",FB,CB,,",2019-A013",,,lcanedos@ipn.mx
 85,martinez perales jose cruz,"Fundamentos Económicos,Programación Orientada a Objetos (Lab),Finanzas Empresariales,Cryptography (Lab),IT Governance (Lab),App .Dev. for Mobile Devices (Lab),Administración de Servicios en Red (Lab),Métodos Cuantitativos para la Toma de  Decisiones,Métodos Cuantitativos para la Toma de Desiciones",ISC,PETD,",2023-A007,2023-A082,2016-B075,2017-B014,2018-B100,2019-A005,2019-A068,2023-A016",",2016-A026,2016-A078,2016-B003,2016-B068,2016-B106,2017-A002,2017-A090,2017-B061,2017-B077,2017-B086,2018-B039,2019-A057,2019-A060","Profesor Titular en
 ESCOM del IPN desde 2019, egresado de
 Administración Industrial UPIICSA. Maestro en
 Administración de Negocios. Áreas de interés:
-autómatas celulares, reconocimiento de patrones, etc.",
-86,lopez rojas ariel,"Métodos Cuantitativos para la Toma de  Decisiones,High Technology Enterprise Management",ISC,PETD,",2021-B040,2021-B056,2021-B105,2018-A009,2018-A026,2018-A036,2018-A049,2018-B001,2018-B021,2018-B047,2019-A010,2019-A069,2019-B003,2019-B012,2019-B019,2019-B060,2019-B117,2020-A005,2020-A008,2020-A010,2020-A018,2020-B002,2020-B004,2020-B011,2020-B048,2020-B061,2021-A031,2021-A042,23-2-0003,23-2-0012,23-2-0013",",2016-B027,2017-A031,2017-A064,2017-B085",Profesor de ESCOM/IPN,
-87,herrera luna edith cristina,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,,,,
+autómatas celulares, reconocimiento de patrones, etc.",,jmartinezp@ipn.mx
+86,lopez rojas ariel,"Métodos Cuantitativos para la Toma de  Decisiones,High Technology Enterprise Management",ISC,PETD,",2021-B040,2021-B056,2021-B105,2018-A009,2018-A026,2018-A036,2018-A049,2018-B001,2018-B021,2018-B047,2019-A010,2019-A069,2019-B003,2019-B012,2019-B019,2019-B060,2019-B117,2020-A005,2020-A008,2020-A010,2020-A018,2020-B002,2020-B004,2020-B011,2020-B048,2020-B061,2021-A031,2021-A042,23-2-0003,23-2-0012,23-2-0013",",2016-B027,2017-A031,2017-A064,2017-B085",Profesor de ESCOM/IPN,,arilopez@ipn.mx
+87,herrera luna edith cristina,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,,,,,echerrera@ipn.mx
 88,paredes cadena myriam noemi,"Análisis y Diseño Orientado a Objetos (Lab),Tecnologías para la Web(Lab),Programación Orientada a Objetos,Ingeniería de Software (Lab),Web Application Development (Lab),Compiladores (Lab),Administración de Servicios en Red (Lab),Desarrollo de Sistemas Distribudios (Lab),Administración de Proyectos (Lab),Fundamentos de Programación,Análisis de Algoritmos (Lab)",CIC,CC,",2020-B028",",2017-A025,2017-A069,2018-A064,2018-A067,2018-A105,2018-B010,2018-B014,2018-B018,2019-A012,2019-A015,2019-A020,2019-A026,2019-A079","Licenciado en Ciencias de la Informática de la UPIICSA, Maestría en
-Gestión empresarial, actualmente estoy estudiando el doctorado en Educación",
-89,pachuca herrera yanira,"Matemáticas Discretas,Álgebra Lineal",FB,CB,,,,
-90,aguilar garcia rafael,"Paradigmas de Programación,Teoría de la Computación,Teoría Computacional,Trabajo Terminal II (Lab)",CIC,CC,,",2017-B107,2018-A066,2018-B082,2018-B103,2019-A014,2019-A074",,
+Gestión empresarial, actualmente estoy estudiando el doctorado en Educación",,mparedesc@ipn.mx
+89,pachuca herrera yanira,"Matemáticas Discretas,Álgebra Lineal",FB,CB,,,,,ypachucah@ipn.mx
+90,aguilar garcia rafael,"Paradigmas de Programación,Teoría de la Computación,Teoría Computacional,Trabajo Terminal II (Lab)",CIC,CC,,",2017-B107,2018-A066,2018-B082,2018-B103,2019-A014,2019-A074",,,raguilarg@ipn.mx
 91,mosso garcia ivan giovanny,"Álgebra Lineal,Matemáticas Discretas",FB,CB,",2023-A077,2018-B145,2020-A035",",2016-B077,2017-A056,2017-A077,2017-B033,2017-B042,2018-B004,2018-B013,2018-B025,2018-B141,2019-A091","Es
 Ingeniero en Sistemas Computacionales por la
 Escuela Superior de Cómputo del Instituto
@@ -279,69 +279,69 @@ el CINVESTAV. Áreas de interés: Lógica, Teoría
 de Números, Matemáticas para la Computación.
 Actualmente destacando como Subdirector
 Académico de la Escuela Superior de Cómputo del
-Instituto Politécnico Nacional.",
-92,sanchez juarez jose,"Programación Orientada a Objetos,Compiladores",CIC,CC,,",2016-B018,2016-B062,2017-A025",,
+Instituto Politécnico Nacional.",,mosso garcia ivan giovanny
+92,sanchez juarez jose,"Programación Orientada a Objetos,Compiladores",CIC,CC,,",2016-B018,2016-B062,2017-A025",,,jsanchezju@ipn.mx
 93,bautista rosales sandra ivette,"Sistemas Operativos (Lab),Redes de Computadoras(Lab),Web Application Development,Aplicaciones  para Comunicaciones en Red,Administración de Servicios en Red (Lab),Trabajo Terminal I (Lab),Fundamentos de Programación,Aplicaciones para Comunicaciones en Red (Lab)",ISC,CC,",2021-B038,2021-B064,2021-B107,2023-A059,2023-A074,2016-A054,2016-A076,2016-B106,2016-B126,2017-B097,2018-A082,2018-B029,2018-B069,2018-B143,2020-A048,2019-B097",",2015-B066,2016-A001,2016-B017,2017-A022,2018-B011,2018-B017,2018-B021,2018-B052,2018-B054,2018-B112,2019-A057","M en C, en Sistemas
 Computacionales Móviles, egresada del Instituto
 Politécnico Nacional en Ing, en Sistemas
 Computacionales, Áreas de interés: Desarrollo de
 aplicaciones web, administración y gestión, seguridad
 de la información, seguridad de redes y aplicaciones
-móviles",
-94,ferrer tenorio jorge,"Liderazgo y Desarrollo Profesional,Trabajo Terminal I (Lab),Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II,Trabajo Terminal II (Lab),Liderazgo Personal",FII,CS,",2015-B027,2021-B045,2021-B073,2021-B108,2021-B110,2021-B111,2016-A084,2017-B005,2018-B054,2019-A034,2019-A038,2019-B032,2019-B034,2020-A065,2020-B003,2020-B022,2020-B072,2020-B078,2020-B106",",2018-A105,2018-B072,2018-B085,2019-A010","Maestría en Estudios Latinoamericanos por parte de la UNAM- FFL, Profesor de ESCOM/IPN (Departamento de Formación Integral e Institucional) desde 1999, Áreas de Interés: Educación y , Redes Sociales y Materiales digitales para la Educación.",
-95,sanchez mendoza israel,Métodos Numéricos,CIC,CC,,,,
+móviles",,sbautistar@ipn.mx
+94,ferrer tenorio jorge,"Liderazgo y Desarrollo Profesional,Trabajo Terminal I (Lab),Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II,Trabajo Terminal II (Lab),Liderazgo Personal",FII,CS,",2015-B027,2021-B045,2021-B073,2021-B108,2021-B110,2021-B111,2016-A084,2017-B005,2018-B054,2019-A034,2019-A038,2019-B032,2019-B034,2020-A065,2020-B003,2020-B022,2020-B072,2020-B078,2020-B106",",2018-A105,2018-B072,2018-B085,2019-A010","Maestría en Estudios Latinoamericanos por parte de la UNAM- FFL, Profesor de ESCOM/IPN (Departamento de Formación Integral e Institucional) desde 1999, Áreas de Interés: Educación y , Redes Sociales y Materiales digitales para la Educación.",,jferrert@ipn.mx
+95,sanchez mendoza israel,Métodos Numéricos,CIC,CC,,,,,isanchezmen@ipn.mx
 96,cruz garcia daniel,"Algoritmos y Estructuras de Datos,Trabajo Terminal I (Lab),Fundamentos de Programación,Compiladores",CIC,CC,",2015-B047,2023-A091",",2016-A087,2016-B044,2016-B076,2017-B020,2017-B109,2018-A104,2018-B008,2019-A048","Docente del departamento de 
-Ingeniería en Sistemas Computacionales en ESCOM",
+Ingeniería en Sistemas Computacionales en ESCOM",,dcruzg@ipn.mx
 97,davalos lopez jose carlos,"Estructuras de Datos,Algoritmos y Estructuras de Datos,Trabajo Terminal I (Lab),Fundamentos de Programación,Trabajo Terminal II",CIC,CC,",2023-A021,2023-A075,2016-A088,2021-A094",",2016-A044,2016-A058,2016-A084,2016-B061,2016-B095,2016-B123,2016-B127,2017-A056,2017-B023,2017-B110,2018-A011,2018-A089,2018-B065,2018-B087,2019-A049,2019-A094","Maestro en Ciencias de
 Ingeniería Electrónica egresado de la ESIME, profesor de
-ESCOM desde 1999",
-98,rojas mexicano ismael,Fundamentos de Programación,CIC,CC,,,,
+ESCOM desde 1999",,jdavalosl@ipn.mx
+98,rojas mexicano ismael,Fundamentos de Programación,CIC,CC,,,,,irojasm@ipn.mx
 99,perez de los santos mondragon tanibet,"Aplicaciones con Microcontroladores para el Automóvil (ISISA),Aplicaciones para Comunicaciones en Red (Lab),Administración de Servicios en Red,Trabajo Terminal I (Lab),Sistemas Operativos,Trabajo Terminal II (Lab)",ISC,SDIST,",2021-B005,2021-B020,2023-A034,2023-A038,2020-A067",,"M. en C. de la Computación del CINVESTAV en 2011, Ing. En Sistemas
 
 Computacionales en ESCOM 2008,
 
-Profesor de ESCOM/IPN desde 2011,",
+Profesor de ESCOM/IPN desde 2011,",,tperezdm@ipn.mx
 100,medina mejia virginia,"Fundamentos Económicos,Métodos Cuantitativos para la Toma de  Decisiones",ISC,PETD,",2021-B097,2020-A031",",2016-A048,2017-A019,2017-B046,2018-B064,2018-B067,2018-B119","Licenciada en
 Administración Industrial UPIICSA/IPN en 1995,
 M. en C. de la Administración UPIICSA/IPN en
 2001, Profesor de ESCOM/IPN (Academia de
 Proyectos Estratégicos y Toma de Decisiones)
 desde 2004, Áreas de interés: Transferencia de
-tecnología y equidad de género",
-101,botello castillo alejandro,"Introducción a la Ciencia de Datos,Bases de Datos,Bases de Datos Avanzadas",ISC,CD,",2023-A063,2016-A002,2016-B119,2017-A016,2017-A090,2017-B109,2017-B112,2018-A032,2018-A076,2018-A104,2018-B028,2018-B073,2019-A026,2019-A076",",2016-A039,2016-A087,2017-A009,2017-B009,2017-B047,2018-A079,2018-A082,2018-B005,2018-B039,2018-B082,2019-A031,2019-A065","Egresado como Ing. en Comunicaciones y Electrónica de ESIME Zacatenco, y Maestro en Ciencias de la Computación, en el Centro de Investigación en Computación CIC-IPN, actualmente es Profesor de tiempo completo en ESCOM-IPN. Áreas de Interés: Bases de Datos, Interoperabilidad de Sistemas, Aprendizaje Máquina, Ciencia de Datos",
+tecnología y equidad de género",,vmedinam@ipn.mx
+101,botello castillo alejandro,"Introducción a la Ciencia de Datos,Bases de Datos,Bases de Datos Avanzadas",ISC,CD,",2023-A063,2016-A002,2016-B119,2017-A016,2017-A090,2017-B109,2017-B112,2018-A032,2018-A076,2018-A104,2018-B028,2018-B073,2019-A026,2019-A076",",2016-A039,2016-A087,2017-A009,2017-B009,2017-B047,2018-A079,2018-A082,2018-B005,2018-B039,2018-B082,2019-A031,2019-A065","Egresado como Ing. en Comunicaciones y Electrónica de ESIME Zacatenco, y Maestro en Ciencias de la Computación, en el Centro de Investigación en Computación CIC-IPN, actualmente es Profesor de tiempo completo en ESCOM-IPN. Áreas de Interés: Bases de Datos, Interoperabilidad de Sistemas, Aprendizaje Máquina, Ciencia de Datos",,abotelloca@ipn.mx
 102,blanco almazan ivan eduardo,"Álgebra Lineal,Cálculo Aplicado,Matemáticas Discretas,Bases de Datos,Desarrollo de Aplicaciones Web,Tecnologías para el Desarrollo de Aplicaciones Web,Análisis y Diseño de Sistemas,Software Quality Assurance and Desing Patterns",ISC,ISW,",2021-B109,2020-A115",," Ingeniero en Sistemas 
 Computacionales por el Instituto Politécnico Nacional en la 
 Escuela Superior de Cómputo (IPN-ESCOM).
 Maestría en Ciencias en Sistemas Computacionales Móviles en 
 el Instituto Politécnico Nacional por la Escuela Superior de 
-Cómputo (IPN-ESCOM). Profesor de la ESCOM desde 2019.",
+Cómputo (IPN-ESCOM). Profesor de la ESCOM desde 2019.",,iblancoa@ipn.mx
 103,salas ramirez israel,"Redes de Computadoras,Aplicaciones  para Comunicaciones en Red,Desarrollo de Sist Dist,Redes de Computadoras(Lab),Sistemas Operativos (Lab),Diseño de Sistemas Digitales(Lab),Aplicaciones para Comunicaciones en Red (Lab),Sistemas Operativos,Fundamentos de Diseño Digital,Arquitectura de Computadoras,Formulación y Evaluación de Proyectos Informáticos",ISC,SDIG,",23-2-0008",,"Doctor en Ciencias de la Educación, 
 Jefe de la Unidad de Informática y Catedrático en la Escuela 
 Nacional de Medicina y Homeopatia IPN del 2006 al 2015, 
 Jefe de la Unidad de Informática y Catedrático en la Escuela 
 Superior de Turismo IPN desde 2015. Catedrático de la 
-Escuela Superior de Cómputo desde 2020,",
+Escuela Superior de Cómputo desde 2020,",,isalasr@ipn.mx
 104,rivera de la rosa monica,"Tecnologías para la Web,Software Engineering for Mobile Devices,e-Commerce,Trabajo Terminal I,Tecnologías para el Desarrollo de Aplicaciones Web,Trabajo Terminal II",ISC,ISW,",2021-B014,2021-B053,2021-B083,2018-B101,2020-B042,2020-B065,2020-B088",",2016-A031,2016-B052,2017-A054,2017-A060,2017-B007,2017-B099,2017-B109,2018-A036,2018-A071,2018-B001","Maestría en Ingeniera Eléctrica 
 opción computación. 
 CINVESTAV-IPN, desde el 
 2004, Áreas de Interés: 
 Tecnologías Web, Programación, 
 visualización de algoritmos, 
-programación para móviles",
+programación para móviles",,mriverad@ipn.mx
 105,vazquez arreguin roberto,"Análisis Vectorial,Cálculo Aplicado,Matemáticas Avanzadas para la Ingenería (Lab),Álgebra Lineal,Ecuaciones Diferenciales,Cálculo",FB,CB,",2021-B037,2019-B101,2020-A015",,"Post Doctorado en Nanociencias en el CINVESTAV, Doctor en Ciencia 
 Aplicada a Tecnología Avanzada en el CICATA Legaria IPN, Maestría en Ciencia Aplicada a Tecnología 
 Avanzada en el CICATA Legaria IPN Licenciatura en Física por la UNAM. Es miembro del Sistema 
 Nacional de Investigadores del CONACYT, Nivel 1. Profesor de la ESCOM desde 2008 en el departamento 
 de Formación Básica, director de proyectos de investigación SIP-IPN, revisor de revistas científicas 
 internacionales. Áreas de investigación: desarrollo de nanomateriales por diferentes métodos de depósito, 
-caracterización por medio de espectroscopias ultra rápidas resueltas en tiempo.",
-106,miguel pilar zelin,"Mecánica y Electromagnetismo (Lab),Mecánica y Electromagnetismo,Análisis Vectorial",FB,CB,,,,
-107,rangel gonzalez josue,"Redes de Computadoras(Lab),Sistemas Operativos,Sistemas Operativos (Lab),Aplicaciones para Comunicaciones en Red (Lab),Aplicaciones  para Comunicaciones en Red,Desarrollo de Sistemas Distribudios (Lab),Administración de Servicios en Red (Lab),Trabajo Terminal II (Lab),Administración de Servicios en Red,Fundamentos de Programación,Aplicaciones para Comunicaciones en Red",ISC,CC,",2023-A052,2017-A105,2018-A031,2018-A102,2018-B130,2019-B086,2020-A011,2020-A094,2021-A060",",2018-B003,2018-B131","Men C. de la Computación por CIC (2007), Ing. en Cómputo por ESMIE Cufmuacán (2004). Actualmente es profesor Titular en ESCOM y sus áreas de interés son: Desarrollo web y sistemas distribuidos",
+caracterización por medio de espectroscopias ultra rápidas resueltas en tiempo.",,rvazquezar@ipn.mx
+106,miguel pilar zelin,"Mecánica y Electromagnetismo (Lab),Mecánica y Electromagnetismo,Análisis Vectorial",FB,CB,,,,,zmiguelp@ipn.mx
+107,rangel gonzalez josue,"Redes de Computadoras(Lab),Sistemas Operativos,Sistemas Operativos (Lab),Aplicaciones para Comunicaciones en Red (Lab),Aplicaciones  para Comunicaciones en Red,Desarrollo de Sistemas Distribudios (Lab),Administración de Servicios en Red (Lab),Trabajo Terminal II (Lab),Administración de Servicios en Red,Fundamentos de Programación,Aplicaciones para Comunicaciones en Red",ISC,CC,",2023-A052,2017-A105,2018-A031,2018-A102,2018-B130,2019-B086,2020-A011,2020-A094,2021-A060",",2018-B003,2018-B131","Men C. de la Computación por CIC (2007), Ing. en Cómputo por ESMIE Cufmuacán (2004). Actualmente es profesor Titular en ESCOM y sus áreas de interés son: Desarrollo web y sistemas distribuidos",,jrangelgo@ipn.mx
 108,jimenez villanueva martha patricia,"Matemáticas Discretas,Mecánica y Electromagnetismo (Lab)",FB,CB,",2020-B006",",2017-A027,2018-B009,2018-B046,2018-B049","Profesora titular de la 
 Escuela Superior de Cómputo (ESCOM). Profesora de la 
 academia de formación básica. Doctora en ciencias con 
 especialidad en matemática educativa, por el centro de 
-investigación y de estudios avanzados (CINVESTAV).",
+investigación y de estudios avanzados (CINVESTAV).",,mjimenezv@ipn.mx
 109,diaz santiago sandra,"Cryptography,Trabajo Terminal I (Lab),Teoría de la Computación,Trabajo Terminal II (Lab),Análisis y Diseño de Algoritmos",CIC,SDIST,",2016-A021,2016-B009,2016-B045,2017-A044,2017-B008,2017-B107,2018-B003,2018-B004,2018-B008,2019-B053,2019-B072,2020-A022,2020-A112,2020-B007,2020-B018",",2016-A007,2016-A013,2016-A022,2016-B052,2017-A010,2017-A057,2017-B003,2017-B042,2017-B055,2018-A029,2018-A058,2018-B024,2018-B101","Doctorado en Ciencias en
 Computación en CINVESTAV-IPN, en 2014,
 Maestría en Ciencias (Matemáticas) en la
@@ -350,7 +350,7 @@ Computación en UAM-Iztapalapa, en 1998.
 Profesor en ESCOM (Departamento de Ciencias e
 Ingeniería de la Computación), desde 2004, Áreas
 de Interés: Criptografía, Pseudoaleatoriedad,
-Seguridad Demostrable",
+Seguridad Demostrable",,sdiazsa@ipn.mx
 110,duran ledezma angel adalberto,"Cálculo,Mecánica y Electromagnetismo,Análisis Vectorial,Mecánica y Electromagnetismo (Lab)",FB,CB,",2021-B094",,"Doctor en
 ciencias, especialidad en Física CINVESTAV 
 2017, M. en C especialidad en Física CINVESTAV 
@@ -359,26 +359,26 @@ ciencias, especialidad en Física CINVESTAV
 Básica) desde 2012, Áreas de interés: Dispersión 
 de Luz Múltiple, Instrumentación y caracterización 
 óptica de nano materiales, Espectroscopias 
-ultrarrápidas,",
-111,carbajal hernandez jose juan,Teoría de Comunicaciones y Señales,ISC,SDIST,,,,
-112,centeno arrazola maria soledad,Comunicación Oral y Escrita,FII,CS,,,,
-113,rodriguez jordan gabriel de jesus,"Programación para la Ciencia de Datos,Compiladores",CIC,CD,,,,
+ultrarrápidas,",,aduranl@ipn.mx
+111,carbajal hernandez jose juan,Teoría de Comunicaciones y Señales,ISC,SDIST,,,,,jcarbajalh@ipn.mx
+112,centeno arrazola maria soledad,Comunicación Oral y Escrita,FII,CS,,,,,mscenteno@ipn.mx
+113,rodriguez jordan gabriel de jesus,"Programación para la Ciencia de Datos,Compiladores",CIC,CD,,,,,grodriguezj@ipn.mx
 114,torres ruiz miguel jesus,Analítica y Visualización de Datos,ISC,CD,",2020-A007,2020-A109",,"Dr. en Ciencias de la
 Computación (IPN, 2007), M en C de la
 Computación (IPN 2001), Ing. en Sistemas
 Computacionales (IPN, 1998). Áreas de interés.
 Ciencia de Datos Geoespaciales, Cómputo
-Urbano",
+Urbano",,mtorresru@ipn.mx
 115,gonzalez garcia gustavo,"Fundamentos de Programación,Programación para la Ciencia de Datos,Algoritmos y Estructuras de Datos,Introducción a la Ciencia de Datos,Paradigmas de Programación",CIC,CD,",2021-A034",,"Profesor de la Escuela Superior de Cómputo (Academia de Ciencias de la
 Computación). Obtuvo el título de Ingeniero en Sistemas Computacionales y el grado de M. en C. en Sistemas
 Computacionales Móviles en la Escuela Superior de Cómputo (ESCOM-IPN) en 2015 y 2017, respectivamente.
 Áreas de interés: ingeniería de software, seguridad informática, análisis de datos, procesamiento de señales y
-sistemas digitales",
+sistemas digitales",,gugonzalezg@ipn.mx
 116,rueda melendez jose marco antonio,"Fundamentos de Programación,Algoritmos y Estructuras de Datos,Trabajo Terminal I (Lab),Estructuras de Datos,Desarrollo de Aplicaciones para Análisis de Datos",CIC,CC,",2018-B101,2020-B065",",2016-A037,2016-A065,2016-A068,2018-A064,2018-B014,2018-B065,2019-A002,2019-A019,2019-A061","Profesor 
 Titular C en el Departamento de Ciencias e 
 Ingeniería en Computación de la Escuela Superior 
-de Cómputo.",
-117,diaz toala ivan,"Teoría de Comunicaciones y Señales,Fundamentos de Diseño Digital,Procesamiento de Señales,Procesamiento Digital de Señales",ISC,SDIG,",2016-B050",",2015-B027,2016-B123,2017-A068,2018-B012,2018-B041,2018-B053","Prof. Titular C de ESCOM, del 2000 a la fecha. Ing. En Comunicaciones y Electrónica con especialidad en Electronica por la ESIME Zacatenco. Áreas de interés, Electrónica, Procesamiento Digital de Señales. Departamento de Ingeniería en Sistemas Computacionales, Edificio de Laboratorios de ESCOM, ler. Piso.",
+de Cómputo.",,jrueda@ipn.mx
+117,diaz toala ivan,"Teoría de Comunicaciones y Señales,Fundamentos de Diseño Digital,Procesamiento de Señales,Procesamiento Digital de Señales",ISC,SDIG,",2016-B050",",2015-B027,2016-B123,2017-A068,2018-B012,2018-B041,2018-B053","Prof. Titular C de ESCOM, del 2000 a la fecha. Ing. En Comunicaciones y Electrónica con especialidad en Electronica por la ESIME Zacatenco. Áreas de interés, Electrónica, Procesamiento Digital de Señales. Departamento de Ingeniería en Sistemas Computacionales, Edificio de Laboratorios de ESCOM, ler. Piso.",,idiazt@ipn.mx
 118,garcia sales juan vicente,"Fundamentos de Programación,Paradigmas de Programación,Trabajo Terminal I,Trabajo Terminal II (Lab)",CIC,CC,",2020-B008,2020-B025",",2016-A033,2016-A043,2016-A054,2016-A090,2016-B003,2016-B036,2016-B077,2017-A071,2017-B032,2017-B046,2017-B057,2017-B111,2018-A002,2018-A016,2018-A059,2018-A093,2018-B031,2018-B059,2018-B100,2018-B119,2018-B123,2019-A005,2019-A061","Departamento de 
 Ciencias e Ingeniería de la Computación, Escuela 
 Superior de Cómputo, Tel.57296000 ext.52022,
@@ -388,11 +388,11 @@ Maestría en Ciencias de la Computación. Área
 Inteligencia Artificial. CIC IPN 2003, Ing. En 
 sistemas computacionales. ESCOM IPN. 1999. 
 Áreas de interés. Ciencias de datos, programación 
-orientada a objetos, programación estructurada",
-119,cordero lopez martha rosa,"Análisis y Diseño Orientado a Objetos,Ingeniería de Software,Trabajo Terminal II (Lab),Análisis y Diseño de Sistemas,Trabajo Terminal II",ISC,ISW,",2016-A003,2016-A055,2016-B006,2016-B028,2016-B033,2017-A013,2017-A053,2017-A103,2017-B001,2017-B004,2017-B010,2018-A003,2018-B023,2018-B025,2018-B031,2018-B059,2018-B133,2019-A012,2019-A091,2019-B018,2019-B035,2020-A003,2020-A057,2020-A134,2020-B001,2020-B033,2020-B038,2020-B043,2021-A010,2021-A088,23-2-0001",",2016-B014,2016-B015,2017-B021,2017-B035,2018-A047,2018-B009,2018-B076,2018-B119,2018-B140","Maestra en Ciencias de la Computación en Cinvestav IPN. Maestría en tecnologías de cómputo en Cidetec IPN. Lic. En Informática. Profesora de la ESCOM desde 1995. Sus áreas de interés son: Ingeniería en software, Cómputo móvil, base de datos, cómputo afectivo, ha sido la directora de más de 100 trabajos terminales a la fecha. Revisor Técnico de libros de las áreas de interés para diferentes Editoriales. Ha participado en diversos proyectos de investigación y ha ocupado diversos cargos administrativos en el IPN, también cuenta con experiencia en el sector privado en el área de desarrollo de sistemas: ha realizado estudios de diplomado en diversas áreas. Ha participado en diversos programas de televisión y publicaciones en revistas de carácter científico.",
-120,lazcano xoxotla laura,"Comunicación Oral y Escrita,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab)",FII,CS,,",2016-A006,2016-B114,2017-A049,2018-A032,2018-A090,2018-B018,2018-B047,2019-A061",,
-121,lopez rodriguez claudia alejandra,"Fundamentos de Diseño Digital,Diseño de Sistemas Digitales",ISC,SDIG,",2021-B008,2021-B101,2018-B048,2023-A012",",2016-B022,2016-B043,2017-A007,2017-A051,2017-A072,2017-B069,2018-B041,2018-B049","Maestra en Ciencias de la Ingeniería egresada del Centro de investigaciones y Estudios Avanzados del IPN (Cinvestav). Profesora investigadora de la Escuela Superior de Cómputo (ESCOM), Departamento de Ingeniería en Sistemas Computacionales. Áreas de estudio: Sistemas Digitales, Sistemas embebidos, Pedagogía y Sostenibilidad.",
-122,garcia mendoza consuelo varinia,"Análisis de Algoritmos,Trabajo Terminal I (Lab),Análisis y Diseño de Algoritmos,Trabajo Terminal II (Lab),Aprendizaje de Máquina e Inteligencia Artificial,Aprendizaje de Máquina",CIC,IA,",2016-A006,2017-A042,2018-B013,2018-B103,2020-A127,2021-A023",",2016-A027,2016-A063,2016-B088,2017-B076,2018-B124","Ingeniera en Sistemas Computacionales por la ESCOM, IPN Doctora en Ciencias en Tecnologia Avanzada por el CICATA-Legaria, IPN Sus áreas de estudio son: Optimización y Aprendizaje Automático. Departamento de Ciencias e Ingeniería de la Computación, ESCOM,",
+orientada a objetos, programación estructurada",,jgarciasa@ipn.mx
+119,cordero lopez martha rosa,"Análisis y Diseño Orientado a Objetos,Ingeniería de Software,Trabajo Terminal II (Lab),Análisis y Diseño de Sistemas,Trabajo Terminal II",ISC,ISW,",2016-A003,2016-A055,2016-B006,2016-B028,2016-B033,2017-A013,2017-A053,2017-A103,2017-B001,2017-B004,2017-B010,2018-A003,2018-B023,2018-B025,2018-B031,2018-B059,2018-B133,2019-A012,2019-A091,2019-B018,2019-B035,2020-A003,2020-A057,2020-A134,2020-B001,2020-B033,2020-B038,2020-B043,2021-A010,2021-A088,23-2-0001",",2016-B014,2016-B015,2017-B021,2017-B035,2018-A047,2018-B009,2018-B076,2018-B119,2018-B140","Maestra en Ciencias de la Computación en Cinvestav IPN. Maestría en tecnologías de cómputo en Cidetec IPN. Lic. En Informática. Profesora de la ESCOM desde 1995. Sus áreas de interés son: Ingeniería en software, Cómputo móvil, base de datos, cómputo afectivo, ha sido la directora de más de 100 trabajos terminales a la fecha. Revisor Técnico de libros de las áreas de interés para diferentes Editoriales. Ha participado en diversos proyectos de investigación y ha ocupado diversos cargos administrativos en el IPN, también cuenta con experiencia en el sector privado en el área de desarrollo de sistemas: ha realizado estudios de diplomado en diversas áreas. Ha participado en diversos programas de televisión y publicaciones en revistas de carácter científico.",,mcorderol@ipn.mx
+120,lazcano xoxotla laura,"Comunicación Oral y Escrita,Trabajo Terminal I (Lab),Trabajo Terminal II (Lab)",FII,CS,,",2016-A006,2016-B114,2017-A049,2018-A032,2018-A090,2018-B018,2018-B047,2019-A061",,,llazcano@ipn.mx
+121,lopez rodriguez claudia alejandra,"Fundamentos de Diseño Digital,Diseño de Sistemas Digitales",ISC,SDIG,",2021-B008,2021-B101,2018-B048,2023-A012",",2016-B022,2016-B043,2017-A007,2017-A051,2017-A072,2017-B069,2018-B041,2018-B049","Maestra en Ciencias de la Ingeniería egresada del Centro de investigaciones y Estudios Avanzados del IPN (Cinvestav). Profesora investigadora de la Escuela Superior de Cómputo (ESCOM), Departamento de Ingeniería en Sistemas Computacionales. Áreas de estudio: Sistemas Digitales, Sistemas embebidos, Pedagogía y Sostenibilidad.",,calopezr@ipn.mx
+122,garcia mendoza consuelo varinia,"Análisis de Algoritmos,Trabajo Terminal I (Lab),Análisis y Diseño de Algoritmos,Trabajo Terminal II (Lab),Aprendizaje de Máquina e Inteligencia Artificial,Aprendizaje de Máquina",CIC,IA,",2016-A006,2017-A042,2018-B013,2018-B103,2020-A127,2021-A023",",2016-A027,2016-A063,2016-B088,2017-B076,2018-B124","Ingeniera en Sistemas Computacionales por la ESCOM, IPN Doctora en Ciencias en Tecnologia Avanzada por el CICATA-Legaria, IPN Sus áreas de estudio son: Optimización y Aprendizaje Automático. Departamento de Ciencias e Ingeniería de la Computación, ESCOM,",,cvgarcia@ipn.mx
 123,kolesnikova olga,"Matemáticas Discretas,Procesamiento de Lenguaje Natural",FB,IA,",2017-B042,2017-B095,2018-A066,2018-B017,2018-B046,2018-B082,2019-A013,2019-A014,2019-A015,2019-A048,2019-B098,2020-A007,2020-A015,2020-A022,2020-A053,2020-B002,2020-B009,2020-B011,2020-B049,2021-A009,2021-A071",",2017-B021"," Doctora en Ciencias de 
 Computación por el Centro de Investigación en 
 Computación del IPN, Profesora de la ESCOM 
@@ -405,9 +405,9 @@ Sociedad Mexicana de Inteligencia Artificial
 directora de proyectos de investigación SIP-IPN, 
 revisora de revistas científicas internacionales. 
 Áreas de investigación: procesamiento de lenguaje 
-natural e inteligencia artificial.",
+natural e inteligencia artificial.",,okolesnikova@ipn.mx
 124,de la o torres saul,"Programación Orientada a Objetos,Análisis de Algoritmos,Teoría Computacional,Paradigmas de Programación,Visión Artificial",CIC,CC,",2021-B071,2016-A068,2017-A049,2018-A030,2018-A060",",2016-A005,2016-A022,2016-A033,2016-A072,2016-B026,2017-A013,2017-A022","Ing. en Comunicaciones y Electrónica, Maestro en Electrónica opción Instrumentación. Áreas de interés: 
-Procesamiento de Imagen, Inteligencia Artificial, Simuladores, Programación Orientada a Objetos.",
+Procesamiento de Imagen, Inteligencia Artificial, Simuladores, Programación Orientada a Objetos.",,sdelaot@ipn.mx
 125,moreno cervantes axel ernesto,"Redes de Computadoras,Aplicaciones  para Comunicaciones en Red,Trabajo Terminal II,Aplicaciones para Comunicaciones en Red",ISC,SDIST,",2015-B066,2021-B022,2021-B037,2023-A020,2023-A033,2023-A069,2023-A072,2016-A001,2016-A020,2016-A031,2016-A065,2016-B009,2016-B017,2017-A022,2017-A066,2017-A072,2018-A041,2018-A064,2018-B003,2018-B008,2018-B010,2018-B076,2019-A019,2019-B053,2019-B072,2019-B073,2019-B099,2019-B114,2020-A001,2020-A103,2020-B018,2020-B021,2020-B066,2021-A014,2021-A015,2021-A022",",2016-A026,2016-A028,2016-A060,2016-B106,2016-B127,2017-A014,2017-A048,2017-A051,2017-A054,2017-B003,2017-B005,2017-B008,2018-A016,2018-A025,2018-A029,2018-A030,2018-B015,2018-B017,2018-B019,2018-B066,2018-B067,2018-B126,2018-B127,2019-A025,2019-A031,2019-A068,2019-A075,2019-A080","Dr. en Educación (GUGS 2021).
 M. en C. en Ingeniería Eléctrica
 con especialidad en computación
@@ -418,8 +418,8 @@ tiempo completo en ESCOM
 (Dpto. ISC) desde 2004. Áreas de
 interés: redes de computadoras,
 sistemas distribuidos, cómputo
-educativo.",
-126,salinas lugo sergio,"Bases de Datos,Distributed Database",ISC,ISW,,",2017-B069",,
+educativo.",,amorenoc@ipn.mx
+126,salinas lugo sergio,"Bases de Datos,Distributed Database",ISC,ISW,,",2017-B069",,,
 127,ojeda guillen didier,Cálculo,FB,CB,",2018-B053,2020-B023,2021-A043",,"Lic. En Física y 
 Matemáticas egresado de la Escuela Superior de 
 Física y Matemáticas del Instituto Politécnico 
@@ -429,22 +429,22 @@ y Matemáticas del IPN (2014). Actualmente es
 profesor de carrera en la Escuela Superior de 
 Cómputo del IPN trabajando en el área de Métodos 
 Matemáticos en la Mecánica Cuántica y Óptica 
-Cuántica,",
+Cuántica,",,dojedag@ipn.mx
 128,franco martinez edgardo adrian,"Algoritmos y Estructuras de Datos,Análisis de Algoritmos,Trabajo Terminal I,Análisis y Diseño de Algoritmos,Trabajo Terminal II (Lab)",CIC,CC,",2021-B001,2021-B004,2021-B065,2023-A022,2023-A073,2016-B004,2016-B018,2016-B046,2016-B076,2016-B077,2017-B076,2018-B014,2018-B017,2020-A023,2020-A054,2020-B084",",2015-B027,2016-A020,2016-A079,2017-A008,2017-A032,2017-A053,2017-B010,2017-B092,2018-A015,2018-A024","Profesor de la ESCOM 
 del IPN. Ingeniería en Sistemas Computacionales con 
 especialidad en Electrónica (ESCOM-IPN). Maestría en 
 Ciencias de la Computación (CINVESTAV-IPN).
 Áreas de interés: Educación, Programación y Sistemas, 
-Algoritmia y Programación Competitiva",
-129,hernandez olvera luis enrique,"Estructuras de Datos(Lab),Programación Orientada a Objetos (Lab),Compiladores,Teoría Computacional (Lab),Teoría Computacional,Análisis de Algoritmos (Lab),Evolutionary Computing (Lab),Compiladores (Lab),Análisis y Diseño de Algoritmos,Bioinformatics (Lab),Computing Selected Topics (Lab),Web Application Development (Lab),Teoría de la Computación",CIC,CC,",2021-B064,2021-B107,2016-A054,2016-B091,2016-B106,2016-B126,2018-A011,2018-A082,2018-B069,2018-B143,2019-A099,2020-A051,2019-B097",",2019-A009,2019-A048","Ing. en Sistemas Computacionales, Egresado del Instituto Politécnico Nacional, M. en C. en Sistemas Computacionales Móviles, egresado del Instituto Politécnico Nacional. Áreas de Interés: Sistemas Web, Sistemas de Información Geográfico, Seguridad en redes y Sistemas Móviles.",
-130,cervantes espinosa luis moctezuma,"Ecuaciones Diferenciales,Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,
+Algoritmia y Programación Competitiva",,edfrancom@ipn.mx
+129,hernandez olvera luis enrique,"Estructuras de Datos(Lab),Programación Orientada a Objetos (Lab),Compiladores,Teoría Computacional (Lab),Teoría Computacional,Análisis de Algoritmos (Lab),Evolutionary Computing (Lab),Compiladores (Lab),Análisis y Diseño de Algoritmos,Bioinformatics (Lab),Computing Selected Topics (Lab),Web Application Development (Lab),Teoría de la Computación",CIC,CC,",2021-B064,2021-B107,2016-A054,2016-B091,2016-B106,2016-B126,2018-A011,2018-A082,2018-B069,2018-B143,2019-A099,2020-A051,2019-B097",",2019-A009,2019-A048","Ing. en Sistemas Computacionales, Egresado del Instituto Politécnico Nacional, M. en C. en Sistemas Computacionales Móviles, egresado del Instituto Politécnico Nacional. Áreas de Interés: Sistemas Web, Sistemas de Información Geográfico, Seguridad en redes y Sistemas Móviles.",,lehernandez@ipn.mx
+130,cervantes espinosa luis moctezuma,"Ecuaciones Diferenciales,Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,,lcervantese@ipn.mx
 131,palma orozco rosaura,"Computational Geometry,Tópicos en Inteligencia Artificial Actual,Modelos Combinatorios para Sistemas de Dispositivos Móviles,Análisis y Diseño de Algoritmos,Modelos Combinatorios para Sistemas de Dispositivos Móviles (Lab),Sistemas en Tiempo Real,Sistemas Multiagentes",CIC,CC,",2021-B029,2021-B072,2023-A048,2016-B003,2016-B007,2016-B014,2016-B061,2017-B050,2018-A051,2018-A061,2018-A070,2019-A004,2019-A032,2019-B042,2020-A071,2020-B055,2020-B091,2021-A016,2021-A024,2021-A041,2021-A054",",2016-A003,2016-A040,2016-B028,2016-B038,2016-B045,2016-B046,2018-A001,2018-A011,2018-A042,2018-B046,2018-B118,2019-A013","Dra. En Tecnología Avanzada por el IPN (2012), M. en C. en Matemáticas por el CIN-VESTAV, Ing. en Sistemas Computacionales por la Escuela Superior de Cómputo del IPN (1998). Actualmente 
 es profesora Titular en ESCOM y sus áreas de interés son: Modelado y Simulación de Sistemas, Biología 
-Sintética y Optimización Combinatoria. ",
-132,ocampo botello fabiola,"Data Mining,Data Mining (Lab),Trabajo Terminal I (Lab),Trabajo Terminal II (Lab),Introducción a la Ciencia de Datos,Minería de Datos,Bases de Datos",ISC,ISW,",2021-B057,2023-A014,2023-A026,2023-A045,2016-A043,2016-B042,2016-B119,2016-B128,2017-A016,2017-A077,2017-B012,2018-A032,2018-B075,2018-B119,2019-B065,2019-B103,2019-B109,2020-A035,2020-A069,2020-B012,2020-B014,2020-B028,2020-B063,2021-A047",",2016-A013,2016-B018,2016-B082,2017-A032,2017-A035,2017-B011,2017-B055,2017-B061,2018-A034,2018-A088,2018-A090,2018-B028,2018-B029,2018-B067,2018-B085,2018-B143,2019-A010,2019-A048,2019-A076","Ingeniero en Sistemas Computacionales por el Instituto Tecnológico de Ciudad Madero, Maestría en Ciencias de la Computación por el CINVESTAV-IPN y Doctorado en Educación Internacional por la Universidad Autónoma de Tamaulipas (UAT). Profesora de la Escuela Superior de Cómputo (ESCOM) desde 1995",
-133,galeana chavez maria del rosario,"Database Selected Topics,Bases de Datos",ISC,ISW,,,,
-134,aragon garcia maribel,"Comunicación Oral y Escrita,Trabajo Terminal II (Lab),Trabajo Terminal I",FII,CS,",2021-B040,2016-A013,2016-B128,2018-A009,2018-A025,2018-B056,2018-B066,2018-B082,2019-A066,2020-B049,2021-A015,23-2-0013",",2016-A071,2016-B064,2017-A016,2017-A108,2017-B032,2018-A070,2018-B047,2018-B095",Profesora de ESCOM/IPN,
-135,hernandez garcia rosa alba,"Ingeniería Ética y Sociedad,Liderazgo Personal,Trabajo Terminal II (Lab),Liderazgo y Desarrollo Profesional",FII,CS,,",2018-A072,2018-B011,2018-B056,2018-B075,2019-A019",,
+Sintética y Optimización Combinatoria. ",,rpalma@ipn.mx
+132,ocampo botello fabiola,"Data Mining,Data Mining (Lab),Trabajo Terminal I (Lab),Trabajo Terminal II (Lab),Introducción a la Ciencia de Datos,Minería de Datos,Bases de Datos",ISC,ISW,",2021-B057,2023-A014,2023-A026,2023-A045,2016-A043,2016-B042,2016-B119,2016-B128,2017-A016,2017-A077,2017-B012,2018-A032,2018-B075,2018-B119,2019-B065,2019-B103,2019-B109,2020-A035,2020-A069,2020-B012,2020-B014,2020-B028,2020-B063,2021-A047",",2016-A013,2016-B018,2016-B082,2017-A032,2017-A035,2017-B011,2017-B055,2017-B061,2018-A034,2018-A088,2018-A090,2018-B028,2018-B029,2018-B067,2018-B085,2018-B143,2019-A010,2019-A048,2019-A076","Ingeniero en Sistemas Computacionales por el Instituto Tecnológico de Ciudad Madero, Maestría en Ciencias de la Computación por el CINVESTAV-IPN y Doctorado en Educación Internacional por la Universidad Autónoma de Tamaulipas (UAT). Profesora de la Escuela Superior de Cómputo (ESCOM) desde 1995",,focampob@ipn.mx
+133,galeana chavez maria del rosario,"Database Selected Topics,Bases de Datos",ISC,ISW,,,,,mgaleanac@ipn.mx
+134,aragon garcia maribel,"Comunicación Oral y Escrita,Trabajo Terminal II (Lab),Trabajo Terminal I",FII,CS,",2021-B040,2016-A013,2016-B128,2018-A009,2018-A025,2018-B056,2018-B066,2018-B082,2019-A066,2020-B049,2021-A015,23-2-0013",",2016-A071,2016-B064,2017-A016,2017-A108,2017-B032,2018-A070,2018-B047,2018-B095",Profesora de ESCOM/IPN,,maragong@ipn.mx
+135,hernandez garcia rosa alba,"Ingeniería Ética y Sociedad,Liderazgo Personal,Trabajo Terminal II (Lab),Liderazgo y Desarrollo Profesional",FII,CS,,",2018-A072,2018-B011,2018-B056,2018-B075,2019-A019",,,rhernandezg@ipn.mx
 136,acosta bermejo raul,Computing Selected Topics,POSGR,CC,",2021-B032,2021-B073,2017-B005,2018-A068,2018-A099,2018-B054,2019-A034,2019-A038,2020-B106",,"Doctorado
 en Informática, Tiempo Real,
 Robótica y Automatismo, en el Ecole
@@ -454,13 +454,13 @@ del IPN desde 1993 en el CECYT No.
 (actualmente en el Laboratorio de
 Ciberseguridad). Áreas de Interés:
 Ciberseguridad y Desarrollo de
-Software.",
+Software.",,racostab@ipn.mx
 137,castillo cabrera gelacio,"Arquitectura de Computadoras,Embedded Systems,Procesamiento Digital de Señales,Tópicos Selectos de Procesamiento de Señales de Voz en Cómputo Móvil",ISC,SDIG,",2017-A102,2019-B087,2020-B006",",2016-A052,2016-A056,2017-B034,2017-B069,2017-B078,2018-A003,2018-B004,2018-B031,2018-B099,2018-B130,2019-A091","Profesor titular de la Escuela 
 Superior de Cómputo (ESCOM). Profesor del curso de 
 arquitectura de computadoras. Doctor en ciencias con 
 especialidad en ingeniería eléctrica, por el centro de 
 investigación y de estudios avanzados (CINVESTAV). Áreas 
-de interés inteligencia artificial",
+de interés inteligencia artificial",,gcastilloc@ipn.mx
 138,catalan salgado edgar armando,"Artificial Intelligence,Bases de Datos,Trabajo Terminal II (Lab),Image Analysis,Trabajo Terminal I (Lab)",ISC,ISW,",2021-B034,2021-B067,2021-B092,2023-A071,2016-A078,2017-A083,2017-A104,2018-A072,2018-B029,2020-A082,2020-A107,2020-B077,2021-A018",",2016-A001,2016-A043,2016-A046,2016-B040,2016-B088,2017-A098,2017-B032,2017-B054,2018-A003,2018-A089,2019-A094","Profesor en la ESCOMIPN, ha participado en diferentes proyectos de desarrollo 
 tecnológico. Termino sus estudios como maestro en ciencias 
 de la computación en el CIC-IPN en el 2007 durante la cual 
@@ -469,33 +469,33 @@ computación de la ESIME-IPN en el 2002. Sus áreas de
 interés son aquellas relacionadas con la inteligencia artificial 
 específicamente memorias asociativas, redes neuronales, 
 algoritmos genéticos y visión artificial. Otras áreas de interés 
-son análisis de imágenes y morfología matemática. ",
-139,olivares ceja jesus manuel,Fundamentos de Inteligencia Artificial,CIC,IA,",2016-A087",,"Dr. en Ciencias de la Computación, CIC-IPN, Lic. en Ciencias de la Informática UPIICSA-IPN, Profesor-investigador en el Centro de Investigación en Computación del IPN adscrito al Laboratorio de Base de Datos y Tecnología de Software, área de interés MCC - Base de Datos y Tecnología de Software,",
-140,ramirez romero tonahtiu arturo,"Seminario I,Algoritmos y Estructuras de Datos,Tópicos en Inteligencia Artificial Actual",CIC,POSGR,",2021-B021,2023-A025,2023-A029,2023-A050,2023-A064,2016-B015,2017-A098,2017-A100,2017-B039,2017-B101,2018-B065,2019-A056,2019-A066,2019-B007,2019-B008,2019-B098,2020-B064,2020-B075,2021-A005,2021-A006,2021-A021",",2016-B001,2016-B007,2016-B119,2016-B120,2016-B121,2016-B128,2017-A009,2017-A026,2017-B050,2017-B054,2017-B077,2017-B108,2018-A076,2019-A004","Doctor en Ingeniería de Sistemas, profesor investigador de la Escuela Superior de Cómputo, áreas de interés: Inteligencia artificial, bases de datos, desarrollo de sistemas web y sistemas complejos. Publicaciones en congresos nacionales e internacionales, así como en revistas científicas arbitradas",
-141,fernandez breton david jose,Matemáticas Discretas,FB,CB,,,,
-142,hernandez secundino jose celestino elias,"Fundamentos de Diseño Digital,Diseño de Sistemas Digitales(Lab),Arquitectura de Computadoras (Lab),Teoría de Comunicaciones y Señales (Lab),Introducción a los Microcontroladores (Lab),Diseño de Sistemas Digitales (Lab),Fundamentos de Diseño Digital (Lab)",ISC,SDIG,,,,
-143,flores escobar jose antonio,"Embedded Systems,Arquitectura de Computadoras,Procesamiento Digital de Señales",ISC,SDIG,,,,
-144,mata gil patricia,Finanzas Empresariales,ISC,PETD,,,,
-145,gonzalez cisneros alejandro,"Cálculo,Matemáticas Discretas,Probabilidad y Estadística,Cálculo Aplicado,Álgebra Lineal",FB,CB,",23-2-0015",",2017-B107,2018-B035,2019-A004,2019-A032","Doctorado en simulación en fisica de estado sólido, docente de ESCOM áreas de interés: simulación numérica y aplicación de matemáticas en la música.",
-146,ortuño araujo jesus,"Análisis Vectorial,Cálculo Aplicado,Álgebra Lineal",FB,CB,,,,
-147,vasquez gomez juan irving,Redes Neuronales y Aprendizaje Profundo,CIC,IA,,,,
+son análisis de imágenes y morfología matemática. ",,ecatalans@ipn.mx
+139,olivares ceja jesus manuel,Fundamentos de Inteligencia Artificial,CIC,IA,",2016-A087",,"Dr. en Ciencias de la Computación, CIC-IPN, Lic. en Ciencias de la Informática UPIICSA-IPN, Profesor-investigador en el Centro de Investigación en Computación del IPN adscrito al Laboratorio de Base de Datos y Tecnología de Software, área de interés MCC - Base de Datos y Tecnología de Software,",,jolivaresc@ipn.mx
+140,ramirez romero tonahtiu arturo,"Seminario I,Algoritmos y Estructuras de Datos,Tópicos en Inteligencia Artificial Actual",CIC,POSGR,",2021-B021,2023-A025,2023-A029,2023-A050,2023-A064,2016-B015,2017-A098,2017-A100,2017-B039,2017-B101,2018-B065,2019-A056,2019-A066,2019-B007,2019-B008,2019-B098,2020-B064,2020-B075,2021-A005,2021-A006,2021-A021",",2016-B001,2016-B007,2016-B119,2016-B120,2016-B121,2016-B128,2017-A009,2017-A026,2017-B050,2017-B054,2017-B077,2017-B108,2018-A076,2019-A004","Doctor en Ingeniería de Sistemas, profesor investigador de la Escuela Superior de Cómputo, áreas de interés: Inteligencia artificial, bases de datos, desarrollo de sistemas web y sistemas complejos. Publicaciones en congresos nacionales e internacionales, así como en revistas científicas arbitradas",,tramirezr@ipn.mx
+141,fernandez breton david jose,Matemáticas Discretas,FB,CB,,,,,
+142,hernandez secundino jose celestino elias,"Fundamentos de Diseño Digital,Diseño de Sistemas Digitales(Lab),Arquitectura de Computadoras (Lab),Teoría de Comunicaciones y Señales (Lab),Introducción a los Microcontroladores (Lab),Diseño de Sistemas Digitales (Lab),Fundamentos de Diseño Digital (Lab)",ISC,SDIG,,,,,
+143,flores escobar jose antonio,"Embedded Systems,Arquitectura de Computadoras,Procesamiento Digital de Señales",ISC,SDIG,,,,,
+144,mata gil patricia,Finanzas Empresariales,ISC,PETD,,,,,
+145,gonzalez cisneros alejandro,"Cálculo,Matemáticas Discretas,Probabilidad y Estadística,Cálculo Aplicado,Álgebra Lineal",FB,CB,",23-2-0015",",2017-B107,2018-B035,2019-A004,2019-A032","Doctorado en simulación en fisica de estado sólido, docente de ESCOM áreas de interés: simulación numérica y aplicación de matemáticas en la música.",,
+146,ortuño araujo jesus,"Análisis Vectorial,Cálculo Aplicado,Álgebra Lineal",FB,CB,,,,,
+147,vasquez gomez juan irving,Redes Neuronales y Aprendizaje Profundo,CIC,IA,,,,,
 148,tellez barrera juan carlos,"Análisis Fundamental de Circuitos (Lab),Electrónica Analógica (Lab),Electrónica Analógica,Instrumentación (Lab),Instrumentación,Circuitos Eléctricos (Lab),Instrumentación y Control",CIC,FSE,",2023-A021,2019-B030,2020-A006,2021-A094",",2016-B037,2016-B055,2018-A013,2018-A039","Maestro en Docencia, 
 Universidad ETAC en 2018, Ingeniero en 
 Comunicaciones y Electrónica, ESIME en 1995, 
 Profesor de la ESCOM/IPN (Academia de Fundamentos 
 de Sistemas Electrónicos) desde 1996. Áreas de interés, 
-Robótica, Instrumentación, Audio",
-149,almazan farfan rocio,"Circuitos Eléctricos,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab)",CIC,FSE,,",2015-B013,2017-B067,2018-A039,2018-A041,2018-B019,2018-B087",,
-150,ceballos sebastian ricardo,"Análisis Vectorial (Lab),Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingenería (Lab),Probabilidad y Estadística,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,
-151,agustin dominguez veronica,"Administración Financiera,Administración de Proyectos,Finanzas Empresariales,Trabajo Terminal I,Formulación y Evaluación de Proyectos Informáticos,Trabajo Terminal I (Lab)",ISC,PETD,",2023-A003,2017-A072,2018-B018,2018-B076,2019-B121,2020-A059,2020-A103,2020-B008,2020-B029,2020-B040,2020-B066,2021-A019,2021-A055",",2018-A001,2019-A026,2019-A064","Contadora Publica Certificada y Maestra en Administración, profesora de tiempo completo en la ESCOM/IPN (Depto. De Ingeniería y Sistemas Computacionales) áreas de interés: Administración, Empresas, educación, Asesora Financiera y organizacional,",
-152,serrano talamantes jose felix,"Image Analysis,Pattern Recognition,Procesamiento Digital de Imágenes",ISC,ISW,",2021-B018,2021-B057,2021-B099,2021-B102,2016-A051,2016-B121,2017-A026,2017-A054,2018-A089,2018-A090,2019-A061,2019-B001,2019-B103,2021-A009,2021-A013,2023–A086,23-2-0003",",2016-A083,2016-B051,2016-B068,2016-B075,2016-B095","Dr. en C. de la Computación graduado en CIC-IPN en 2011, Adscrito a CIDETEC/IPN, Profesor de ESCOM/IPN impartiendo Image Analysis en el ciclo 2021-2, Áreas de Interés: Visión por computadora, Cómputo Inteligente, Machine Learning, Deep Learning, Inteligencia Artificial",
-153,silva martinez jorge javier,Ecuaciones Diferenciales,FB,CB,,,,
+Robótica, Instrumentación, Audio",,
+149,almazan farfan rocio,"Circuitos Eléctricos,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab)",CIC,FSE,,",2015-B013,2017-B067,2018-A039,2018-A041,2018-B019,2018-B087",,,
+150,ceballos sebastian ricardo,"Análisis Vectorial (Lab),Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingenería (Lab),Probabilidad y Estadística,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,,
+151,agustin dominguez veronica,"Administración Financiera,Administración de Proyectos,Finanzas Empresariales,Trabajo Terminal I,Formulación y Evaluación de Proyectos Informáticos,Trabajo Terminal I (Lab)",ISC,PETD,",2023-A003,2017-A072,2018-B018,2018-B076,2019-B121,2020-A059,2020-A103,2020-B008,2020-B029,2020-B040,2020-B066,2021-A019,2021-A055",",2018-A001,2019-A026,2019-A064","Contadora Publica Certificada y Maestra en Administración, profesora de tiempo completo en la ESCOM/IPN (Depto. De Ingeniería y Sistemas Computacionales) áreas de interés: Administración, Empresas, educación, Asesora Financiera y organizacional,",,
+152,serrano talamantes jose felix,"Image Analysis,Pattern Recognition,Procesamiento Digital de Imágenes",ISC,ISW,",2021-B018,2021-B057,2021-B099,2021-B102,2016-A051,2016-B121,2017-A026,2017-A054,2018-A089,2018-A090,2019-A061,2019-B001,2019-B103,2021-A009,2021-A013,2023–A086,23-2-0003",",2016-A083,2016-B051,2016-B068,2016-B075,2016-B095","Dr. en C. de la Computación graduado en CIC-IPN en 2011, Adscrito a CIDETEC/IPN, Profesor de ESCOM/IPN impartiendo Image Analysis en el ciclo 2021-2, Áreas de Interés: Visión por computadora, Cómputo Inteligente, Machine Learning, Deep Learning, Inteligencia Artificial",,
+153,silva martinez jorge javier,Ecuaciones Diferenciales,FB,CB,,,,,
 154,cortes galicia jorge,"Sistemas Operativos,Seminario II,Trabajo Terminal II,Seminario III",ISC,POSGR,",2016-A033,2016-B021,2016-B078,2017-A033,2018-A037,2018-A068,2018-B024,2019-A009,2019-B059,2019-B116,2020-B030,2020-B094,2020-B096,2021-A059",",2016-B064,2017-A002,2017-A020","Dr. en Ciencias de la Computación del 
 CIC-IPN en 2014, M. en C. en Computación del CIC-IPN en 
 2001, Ing. en Electrónica de la UAM en 1998, Profesor de 
 ESCOM/IPN (Depto. de ISC) desde 2002, Áreas de Interés: 
 Sistemas Operativos, Sistemas Distribuidos, Inteligencia 
-Artificial",
+Artificial",,
 155,moreno armendariz marco antonio,"Neural Networks,Neural Networks (Lab)",ISC,ISW,",2023-A024,2016-B026,2016-B029,2017-A009,2017-A039,2017-B054,2018-B087,2019-B059",",2017-B021,2018-B036,2018-B072,2019-A002","Obtuvo el 
 grado de Licenciatura en Ingeniería Cibernética 
 en la Universidad La Salle, México en 1998 y los 
@@ -507,19 +507,19 @@ incluyen las Redes Neuronales Artificiales
 aplicadas a la identificación y control de sistemas, 
 Visión por Computadora, Mecatrónica y la 
 implementación sobre FPGAs de este tipo de 
-algoritmos.",
+algoritmos.",,
 156,cortez duarte nidia asuncion,"Cryptography,Trabajo Terminal I,Redes de Computadoras,Trabajo Terminal I (Lab),Introduction to Cryptography",ISC,SDIST,",2021-B060,2021-B066,2021-B088,2023-A067,2023-A069,2016-B052,2016-B066,2016-B078,2016-B112,2017-A091,2017-B055,2017-B057,2018-A058,2018-A093,2019-A001,2019-A096,2019-B022,2019-B091,2020-A060,2020-A061,2020-A066,2020-A114,2021-A062,2021-A069,2021-A071",",2016-A021,2016-A067,2016-B009,2016-B030,2018-B001,2018-B023,2018-B069,2019-A066","Dra. en Educación de la 
 UEM en 2021. Maestra en Ciencias en Computación 
 CINVESTAV-IPN 2009. Ing. en Sistemas 
 Computacionales de ESCOM, Profesora de ESCOM/IPN 
 (Dpto de Ingeniería en Sistemas Computacionales.). Áreas 
 de Interés: criptografía, seguridad de información, hardware 
-reconfigurable, aritmética computacional, diseño digital. ",
+reconfigurable, aritmética computacional, diseño digital. ",,
 157,dorantes villa claudia jisela,"Cálculo,Cálculo Aplicado,Cálculo Multivariable,Matemáticas Discretas",FB,CB,",2021-B059,2023-A088",",2016-B077,2017-A012,2017-A023,2018-B006,2018-B012","Doctorado en Educación (especialidad Matemática Educativa)
-Licenciatura en Matemáticas.",
-158,cruz lazaro apolinar francisco,"Ingeniería Ética y Sociedad,Liderazgo y Desarrollo Profesional",FII,CS,,",2016-B040,2016-B121,2017-A008,2017-B029,2018-A025,2018-B049,2019-A001,2019-A015",,
-159,martinez acosta lilian,"Ética y Legalidad,Ingeniería Ética y Sociedad,Trabajo Terminal II (Lab),Metodología de la Investigación y Divulgación Científica",FII,CS,",2017-B111",",2016-A045,2016-A075,2016-B078,2017-A063","Dra. en Sociología, por la Universidad Autónoma Metropolitana - Azcapotzalco, M. en C. Estudios Regionales por el Instituto de Investigaciones Dr. María Luis Mora, Lic. en Sociología por Universidad Autónoma Metropolitana - Azcapotzalco. Áreas de Interés: ""Impactos del uso de las tecnologías""",
-160,gaspar medina fabian,"Bases de Datos (Lab),Análisis y Diseño Orientado a Objetos (Lab),Sistemas Operativos (Lab),Tecnologías para la Web(Lab),Redes de Computadoras,Ingeniería de Software (Lab),Genetic Algorithms (Lab),App .Dev. for Mobile Devices (Lab),Administración de Servicios en Red (Lab),Administración de Servicios en Red,Trabajo Terminal II",ISC,SDIST,,,,
+Licenciatura en Matemáticas.",,
+158,cruz lazaro apolinar francisco,"Ingeniería Ética y Sociedad,Liderazgo y Desarrollo Profesional",FII,CS,,",2016-B040,2016-B121,2017-A008,2017-B029,2018-A025,2018-B049,2019-A001,2019-A015",,,
+159,martinez acosta lilian,"Ética y Legalidad,Ingeniería Ética y Sociedad,Trabajo Terminal II (Lab),Metodología de la Investigación y Divulgación Científica",FII,CS,",2017-B111",",2016-A045,2016-A075,2016-B078,2017-A063","Dra. en Sociología, por la Universidad Autónoma Metropolitana - Azcapotzalco, M. en C. Estudios Regionales por el Instituto de Investigaciones Dr. María Luis Mora, Lic. en Sociología por Universidad Autónoma Metropolitana - Azcapotzalco. Áreas de Interés: ""Impactos del uso de las tecnologías""",,
+160,gaspar medina fabian,"Bases de Datos (Lab),Análisis y Diseño Orientado a Objetos (Lab),Sistemas Operativos (Lab),Tecnologías para la Web(Lab),Redes de Computadoras,Ingeniería de Software (Lab),Genetic Algorithms (Lab),App .Dev. for Mobile Devices (Lab),Administración de Servicios en Red (Lab),Administración de Servicios en Red,Trabajo Terminal II",ISC,SDIST,,,,,
 161,galicia mejia ruben,"Fundamentos de Diseño Digital,Diseño de Sistemas Digitales,Trabajo Terminal I (Lab)",ISC,SDIG,",2016-A081,2016-A090,2016-B095,2018-B089,2018-B095,2020-A091,2021-A029",",2018-A040,2018-B010,2018-B059","Dr. Electrónica y
 Comunicaciones IPN 2015, Maestría en Ciencias
 Electrónica e instrumentación SEP-ESIME IPN
@@ -529,9 +529,9 @@ Departamento de Sistemas de Computación IPN.
 Áreas de interés: Procesamiento digital de
 señales, Instrumentación Electrónica,
 Espectroscopía óptica, Robótica, Diseño de
-circuitos digitales",
-162,diaz huerta claudia celia,"Mecánica y Electromagnetismo,Análisis Vectorial,Cálculo Aplicado",FB,CB,",2016-B082",",2017-A042,2018-A024,2018-A089,2019-A005","Lic. Física y Matemáticas por el Instituto Politécnico Nacional, México (2002), M. en C. en Física por el CINVESTAV-IPN, México (2006). PhD. en Física por el CINVESTAV-IPN, México (2014). Actualmente es profesor de tiempo completo en la ESCOM- IPN en el área de Formación Básica. Áreas de interés: enseñanza de las ciencias y reconocimiento de patrones en el área de oncología",
-163,garcia ortega victor hugo,"Diseño de Sistemas Digitales,Advanced Computing Systems Programming,Introducción a los Microcontroladores,Arquitectura de Computadoras,Embedded Systems",ISC,SDIG,",2021-B049,2021-B087,2023-A001,2023-A015,2023_A012,2016-A056,2016-A067,2016-B022,2016-B043,2017-A007,2017-A081,2017-B003,2017-B022,2017-B069,2017-B078,2018-A013,2018-A040,2018-A042,2018-B041,2018-B042,2018-B053,2019-A020,2019-A063,2019-B046,2019-B077,2020-A032,2020-A037,2020-A066,2020-A124,2020-B044,2020-B051,2020-B053,2021-A019,2021-A033,2023-A012",",2017-A030,2017-A047,2017-A068,2017-A071,2017-B025,2017-B080,2018-A038,2018-A077,2018-B048,2018-B099","Ingeniero en Sistemas Computacionales egresado de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN-1999). Maestría en Ingeniería de Cómputo con especialidad en Sistemas Digitales en el Centro de Investigación en Computación del IPN (2006). Actualmente es profesor Titular en la Escuela Superior de Cómputo del IPN trabajando en el área de Sistemas embodos, Arquitectura de Computadoras y Procesamiento.",
+circuitos digitales",,
+162,diaz huerta claudia celia,"Mecánica y Electromagnetismo,Análisis Vectorial,Cálculo Aplicado",FB,CB,",2016-B082",",2017-A042,2018-A024,2018-A089,2019-A005","Lic. Física y Matemáticas por el Instituto Politécnico Nacional, México (2002), M. en C. en Física por el CINVESTAV-IPN, México (2006). PhD. en Física por el CINVESTAV-IPN, México (2014). Actualmente es profesor de tiempo completo en la ESCOM- IPN en el área de Formación Básica. Áreas de interés: enseñanza de las ciencias y reconocimiento de patrones en el área de oncología",,
+163,garcia ortega victor hugo,"Diseño de Sistemas Digitales,Advanced Computing Systems Programming,Introducción a los Microcontroladores,Arquitectura de Computadoras,Embedded Systems",ISC,SDIG,",2021-B049,2021-B087,2023-A001,2023-A015,2023_A012,2016-A056,2016-A067,2016-B022,2016-B043,2017-A007,2017-A081,2017-B003,2017-B022,2017-B069,2017-B078,2018-A013,2018-A040,2018-A042,2018-B041,2018-B042,2018-B053,2019-A020,2019-A063,2019-B046,2019-B077,2020-A032,2020-A037,2020-A066,2020-A124,2020-B044,2020-B051,2020-B053,2021-A019,2021-A033,2023-A012",",2017-A030,2017-A047,2017-A068,2017-A071,2017-B025,2017-B080,2018-A038,2018-A077,2018-B048,2018-B099","Ingeniero en Sistemas Computacionales egresado de la Escuela Superior de Cómputo del Instituto Politécnico Nacional (IPN-1999). Maestría en Ingeniería de Cómputo con especialidad en Sistemas Digitales en el Centro de Investigación en Computación del IPN (2006). Actualmente es profesor Titular en la Escuela Superior de Cómputo del IPN trabajando en el área de Sistemas embodos, Arquitectura de Computadoras y Procesamiento.",,
 164,juarez martinez genaro,"Teoría Computacional,Computing Selected Topics,Trabajo Terminal I (Lab),Teoría de la Computación,Trabajo Terminal II (Lab)",CIC,CC,",2021-B013,2016-A058,2016-B044,2017-A056,2017-B077,2018-B141,2019-B067,2020-B100,2020-B102",",2016-B091,2018-A061,2019-A038","Profesor de tiempo completo
 en ESCOM del IPN. Lic. En Matemáticas Aplicadas y
 Computación. (FES Acatlán), Maestría en Ciencias de la
@@ -539,51 +539,51 @@ Computación. (CINVESTAV- IPN), Doctorado en Ciencias
 de la Computación (CINVESTAV- IPN). Áreas de Interés:
 Autómatas celulares, sistemas complejos, computación no
 convencional, ciencias de la computación, vida artificial,
-robótica. ",
+robótica. ",,
 165,santillan luna raul,"Fundamentos de Programación,Circuitos Eléctricos",CIC,CC,",2021-B024,2021-B028,2021-B044,2017-A099",",2016-A049,2016-B035,2016-B037,2017-A019,2017-A104,2017-B001,2017-B028,2018-B048,2018-B099,2019-A025","Licenciatura en Ciencias de la Informática por el IPN, Maestría en Ciencias en Dirección de Tecnologías de la Información por la UCUGS. Áreas de interés: Sistemas electrónicos, 
-Redes de computadoras y Desarrollo de Software y Hardware.",
-166,ruiz ledesma elena fabiola,"Cálculo Aplicado,Probabilidad y Estadística,Comp Educt y Multim Móviles,Seminario IV,Seminario II,Trabajo Terminal II (Lab)",FB,CB,",2021-B042,2021-B072,2018-B035,2018-B073,2019-A056,2019-B015,2019-B037,2020-A071,2020-A079,2021-A008",",2017-A016,2017-A036,2017-A039,2017-A105,2017-B024,2017-B080,2017-B092,2018-A002,2018-A070,2018-B145","Dra. en Ciencias. Especialidad Matemática Educativa por el Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (CINVESTAV-IPN) Maestría en Ciencias con especialidad en Matemática Educativa por el CINVESTAV del IPN. Licenciatura en Matemáticas (ENSM). Líneas de Investigación: Matemáticas, Educación matemática y Cómputo Educativo",
+Redes de computadoras y Desarrollo de Software y Hardware.",,
+166,ruiz ledesma elena fabiola,"Cálculo Aplicado,Probabilidad y Estadística,Comp Educt y Multim Móviles,Seminario IV,Seminario II,Trabajo Terminal II (Lab)",FB,CB,",2021-B042,2021-B072,2018-B035,2018-B073,2019-A056,2019-B015,2019-B037,2020-A071,2020-A079,2021-A008",",2017-A016,2017-A036,2017-A039,2017-A105,2017-B024,2017-B080,2017-B092,2018-A002,2018-A070,2018-B145","Dra. en Ciencias. Especialidad Matemática Educativa por el Centro de Investigación y Estudios Avanzados del Instituto Politécnico Nacional (CINVESTAV-IPN) Maestría en Ciencias con especialidad en Matemática Educativa por el CINVESTAV del IPN. Licenciatura en Matemáticas (ENSM). Líneas de Investigación: Matemáticas, Educación matemática y Cómputo Educativo",,
 167,silva garcia victor manuel,"Cryptography,Cálculo Aplicado,Matemáticas Discretas",FB,CB,",2023-A007,2023-A082,2016-B001,2017-A091,2018-A029,2020-A041,2021-A017",,"Profesor de
 CIDETEC del IPN, Doctorado en ciencias de
 la computación, miembro del Sistema Nacional de
 Investigadores, Coordinador de la Red de Seguridad
 del CIDETEC, miembro de la Sociedad Matemática
 Mexicana, ORCID 0000-0008-1312-5294 Área de
-interés: Criptografía",
-168,aguilar velazquez daniel,"Programación para la Ciencia de Datos,Cómputo en la nube,Inteligencia Artificial",CIC,CD,,,,
-169,juarez carrion alicia guillermina,Administración Financiera (Lab),SUB ACAD,PETD,,",2016-A013",,
-170,cruz rojas jorge alberto,"Cálculo Multivariable,Probabilidad,Estadística,Probabilidad y Estadística,Ecuaciones Diferenciales,Álgebra Lineal,Cálculo",FB,CB,,,,
+interés: Criptografía",,
+168,aguilar velazquez daniel,"Programación para la Ciencia de Datos,Cómputo en la nube,Inteligencia Artificial",CIC,CD,,,,,
+169,juarez carrion alicia guillermina,Administración Financiera (Lab),SUB ACAD,PETD,,",2016-A013",,,
+170,cruz rojas jorge alberto,"Cálculo Multivariable,Probabilidad,Estadística,Probabilidad y Estadística,Ecuaciones Diferenciales,Álgebra Lineal,Cálculo",FB,CB,,,,,
 171,cervantes de anda ismael,"Electrónica Analógica,Instrumentación",CIC,FSE,",2021-B003,2021-B024,2021-B028,2021-B044,2017-A099,2018-A102,2018-B130,2019-B086,2020-A011,2020-A039,2020-B027",",2016-B123,2017-A066,2017-B004,2018-B063,2018-B137","Ingeniería en Comunicaciones
 y Electrónica por la ESIME IPN, Maestría en Ciencias en 
 Ingeniería en Sistemas por el SEPI-ESIME del IPN. 
 Áreas de interés: Control y automatización, Tecnologías
-sustentables,Ecotecnologías.",
-172,carreto arellano chadwick,"Calidad en el Servicio en Sistemas Móviles,Cloud Computing",POSGR,POSGR,",2016-A071,2016-A075,2016-B004,2016-B005,2016-B031,2016-B066,2016-B082,2017-A005,2017-A019,2017-B019,2017-B034,2018-A053,2018-B019,2018-B020,2018-B035,2018-B128,2019-A017,2019-B009,2019-B012,2020-A048",",2016-B009,2016-B033,2016-B035,2017-A029,2017-A041,2017-A044,2017-B022,2017-B078,2017-B101,2018-A005,2018-A031,2018-A038,2018-A057,2018-B017,2018-B064,2018-B069,2018-B140","Ing. en Sistemas Computacionales por el Instituto Tecnológico de Morelia, Michoacán, México (1998), M. en C. Computacionales por el CIC del IPN, México (2004) candidato a Doctor en Ciencias por el CIC del IPN (2008) y actualmente es profesor investigador. Colegiado de la Sección de Estudios de Posgrado e Investigación de la Escuela Superior de Computación del IPN, México, y sus áreas de interés e investigación son: cómputo educativo, comunicaciones inalámbricas, cómputo ubicuo",
+sustentables,Ecotecnologías.",,
+172,carreto arellano chadwick,"Calidad en el Servicio en Sistemas Móviles,Cloud Computing",POSGR,POSGR,",2016-A071,2016-A075,2016-B004,2016-B005,2016-B031,2016-B066,2016-B082,2017-A005,2017-A019,2017-B019,2017-B034,2018-A053,2018-B019,2018-B020,2018-B035,2018-B128,2019-A017,2019-B009,2019-B012,2020-A048",",2016-B009,2016-B033,2016-B035,2017-A029,2017-A041,2017-A044,2017-B022,2017-B078,2017-B101,2018-A005,2018-A031,2018-A038,2018-A057,2018-B017,2018-B064,2018-B069,2018-B140","Ing. en Sistemas Computacionales por el Instituto Tecnológico de Morelia, Michoacán, México (1998), M. en C. Computacionales por el CIC del IPN, México (2004) candidato a Doctor en Ciencias por el CIC del IPN (2008) y actualmente es profesor investigador. Colegiado de la Sección de Estudios de Posgrado e Investigación de la Escuela Superior de Computación del IPN, México, y sus áreas de interés e investigación son: cómputo educativo, comunicaciones inalámbricas, cómputo ubicuo",,
 173,mendoza macias elba,"Administración Financiera,Finanzas Empresariales,Gestión Empresarial,Trabajo Terminal I",ISC,PETD,",2017-A060,2017-B046,2017-B047,2017-B112,2019-A026,2019-B073",",2016-A002,2016-A040,2016-B020,2017-A020,2017-B009,2019-A085,2019-A096","Maestría en Dirección Empresarial, Áreas 
-de interés: Administración, Gestión, Finanzas",
-174,moreno galvan elizabeth,"Análisis de Algoritmos,Análisis y Diseño de Algoritmos",CIC,CC,,,,
-175,castillo marrufo juan antonio,Fundamentos Económicos,ISC,PETD,,",2019-A016",,
+de interés: Administración, Gestión, Finanzas",,
+174,moreno galvan elizabeth,"Análisis de Algoritmos,Análisis y Diseño de Algoritmos",CIC,CC,,,,,
+175,castillo marrufo juan antonio,Fundamentos Económicos,ISC,PETD,,",2019-A016",,,
 176,flores mendoza yaxkin,"Fundamentos de Programación,Paradigmas de Programación,Trabajo Terminal I (Lab),Teoría Computacional,Algoritmos y Estructuras de Datos,Trabajo Terminal II (Lab)",CIC,CC,",2017-A015,2017-B085,2021-A026",",2016-A045,2016-B006,2017-A001,2017-A100,2017-B019,2018-A004,2018-A060,2018-A103,2018-B056,2019-A013,2019-A053","Ing. en Sistemas
 Computacionales en ESCOM, Maestría en Ciencias
 de la Computación en New Mexico State University.
 Doctor en Educación, Docente de tiempo completo en
 la Escuela Superior de Cómputo. Áreas de Interés:
-Inteligencia artificial y programación en paralelo",
-177,cruz meza maria elena,"Pattern Recognition,Genetic Algorithms,Image Analysis",ISC,ISW,",2017-A026,2018-A067,2018-B120,2019-A060,2020-B078,2020-B082,2021-A025,2021-A097,23-2-0012",",2016-A009,2016-A063,2016-B018,2016-B029,2017-A048,2017-A054,2017-B004,2017-B024,2018-A016,2018-A024,2018-B040,2018-B133,2019-A085","Doctora en Educación, M. en C. de la Computación con especialidad en Reconocimiento de Patrones y Tratamiento Digital de Imágenes. Areas de interés: Reconocimiento de Patrones, Análisis de Imágenes, Algoritmos Genéticos, Educación",
-178,galiñanes rodriguez maria gabriela,"Administración Financiera,Finanzas Empresariales,Trabajo Terminal II,Fundamentos Económicos",ISC,PETD,",2017-A057",",2016-B101,2017-A069,2017-B087,2017-B113,2018-A009,2018-B116,2018-B128","Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas con especialidad en Administración Áreas de Interés: TI, Cómputo educativo, Gestión de proyectos.,",
-179,rios de la torre ignacio,"Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,
-180,zagal flores roberto eswart,"Bases de Datos,Data Mining,Bases de Datos (Lab),Tópicos en Inteligencia Artificial Actual,Minería de Datos",ISC,ISW,",2021-B007,2021-B010,2021-B051,2021-B074,2021-B106,2023-A044,2016-B040,2016-B067,2016-B088,2019-A075,23-2-0022",",2016-A054","Egresado de la Ingeniería en Sistemas Computacionales de la Escuela Superior de Cómputo del, IPN, culminó sus estudios de Maestría en Ciencias de la Computación en el Centro de Investigación en Computación del IPN (No. De Cedula 11050111). Tiene un doctorado en tecnología avanzada de la Sección de Estudios de Posgrado de la UPIITA IPN. Actualmente es profesor de la escuela Superior de Cómputo y sus áreas de interés son Spatial Data Mining",
-181,herrera salgado ephrain,"Bases de Datos,Desarrollo de Sistemas Distribuidos,Sistemas Operativos,Bases de Datos (Lab)",ISC,SDIST,,,,
-182,ortigoza campos andres,Compiladores,CIC,CC,",2016-B071",,"Licenciado en Física y Matemáticas, ESFM-IPN, 1989, Jefe del Depto. de Ingeniería en Sistemas Computacionales desde 2008 a 2013. Sus áreas de interés son: Bases de Datos, IT Governance, Estructura de Datos y Compiladores con amplia experiencia como director en diversos trabajos terminales, además con incursión en el mundo laboral privado como Asesor de Sistemas, Diseñador y Desarrollador del. Sistema de Monitoreo en Tiempo Real del 2000 al 2008 y también como Analista de Sistemas y Diseñador de BD en SARH-Subsecretaría Forestal",
+Inteligencia artificial y programación en paralelo",,
+177,cruz meza maria elena,"Pattern Recognition,Genetic Algorithms,Image Analysis",ISC,ISW,",2017-A026,2018-A067,2018-B120,2019-A060,2020-B078,2020-B082,2021-A025,2021-A097,23-2-0012",",2016-A009,2016-A063,2016-B018,2016-B029,2017-A048,2017-A054,2017-B004,2017-B024,2018-A016,2018-A024,2018-B040,2018-B133,2019-A085","Doctora en Educación, M. en C. de la Computación con especialidad en Reconocimiento de Patrones y Tratamiento Digital de Imágenes. Areas de interés: Reconocimiento de Patrones, Análisis de Imágenes, Algoritmos Genéticos, Educación",,
+178,galiñanes rodriguez maria gabriela,"Administración Financiera,Finanzas Empresariales,Trabajo Terminal II,Fundamentos Económicos",ISC,PETD,",2017-A057",",2016-B101,2017-A069,2017-B087,2017-B113,2018-A009,2018-B116,2018-B128","Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas con especialidad en Administración Áreas de Interés: TI, Cómputo educativo, Gestión de proyectos.,",,
+179,rios de la torre ignacio,"Matemáticas Avanzadas  para la Ingeniería,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,,
+180,zagal flores roberto eswart,"Bases de Datos,Data Mining,Bases de Datos (Lab),Tópicos en Inteligencia Artificial Actual,Minería de Datos",ISC,ISW,",2021-B007,2021-B010,2021-B051,2021-B074,2021-B106,2023-A044,2016-B040,2016-B067,2016-B088,2019-A075,23-2-0022",",2016-A054","Egresado de la Ingeniería en Sistemas Computacionales de la Escuela Superior de Cómputo del, IPN, culminó sus estudios de Maestría en Ciencias de la Computación en el Centro de Investigación en Computación del IPN (No. De Cedula 11050111). Tiene un doctorado en tecnología avanzada de la Sección de Estudios de Posgrado de la UPIITA IPN. Actualmente es profesor de la escuela Superior de Cómputo y sus áreas de interés son Spatial Data Mining",,
+181,herrera salgado ephrain,"Bases de Datos,Desarrollo de Sistemas Distribuidos,Sistemas Operativos,Bases de Datos (Lab)",ISC,SDIST,,,,,
+182,ortigoza campos andres,Compiladores,CIC,CC,",2016-B071",,"Licenciado en Física y Matemáticas, ESFM-IPN, 1989, Jefe del Depto. de Ingeniería en Sistemas Computacionales desde 2008 a 2013. Sus áreas de interés son: Bases de Datos, IT Governance, Estructura de Datos y Compiladores con amplia experiencia como director en diversos trabajos terminales, además con incursión en el mundo laboral privado como Asesor de Sistemas, Diseñador y Desarrollador del. Sistema de Monitoreo en Tiempo Real del 2000 al 2008 y también como Analista de Sistemas y Diseñador de BD en SARH-Subsecretaría Forestal",,
 183,morales güitron sandra luz,"Tecnologías para el Desarrollo de Aplicaciones Web,Tecnologías para la Web,Desarrollo de Aplicaciones para Análisis de Datos,Cómputo Paralelo",ISC,CD,",2018-B072,2018-B120",",2016-B026,2016-B099,2016-B112,2017-A104,2017-B015,2017-B024,2017-B035,2017-B101,2018-A061,2018-A067,2018-B133","M. en C. de la Computación, con especialidad en tratamiento de imágenes y reconocimiento de patrones, por el Centro de Investigación en Computación en el 2004. Licenciada en Infonnática por el Instituto Tecnológico de Tlalnepantla en el 2000. Profesora invitada en ESCOM y con base en el CIC.
-Áreas de interés, inteligencia Artificial, cómputo evolutivo y tratamiento de imágenes.",
+Áreas de interés, inteligencia Artificial, cómputo evolutivo y tratamiento de imágenes.",,
 184,torres gonzalez enrique,"Fundamentos Económicos,Trabajo Terminal I (Lab),Trabajo Terminal II,Trabajo Terminal I",ISC,PETD,",2023-A080,2023-A083,2023-A085,2016-A040,2016-B035,2017-A020,2017-A031,2020-B071",",2016-B114,2017-B057,2017-B112,2018-A047,2018-B086,2018-B101","Ingeniero en
 
 Comunicaciones y Electrónica (ESIME-UC-IPN),
 
-maestría en ciencias en administración en negocios (ESCA-IPN). Área de trabajo, Economía, Gestión Empresarial. Actualmente docente de Escuela Superior de Cómputo ESCOM-IPM",
-185,gonzalez trujillo miguel angel,"Análisis Vectorial,Probabilidad y Estadística,Álgebra Lineal,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,
-186,juarez leon carlos,Cálculo Aplicado,FB,CB,,,,
+maestría en ciencias en administración en negocios (ESCA-IPN). Área de trabajo, Economía, Gestión Empresarial. Actualmente docente de Escuela Superior de Cómputo ESCOM-IPM",,
+185,gonzalez trujillo miguel angel,"Análisis Vectorial,Probabilidad y Estadística,Álgebra Lineal,Matemáticas Avanzadas para la Ingeniería",FB,CB,,,,,
+186,juarez leon carlos,Cálculo Aplicado,FB,CB,,,,,
 187,martinez diaz juan carlos,"Electrónica Analógica,Instrumentación,Trabajo Terminal II (Lab),Trabajo Terminal I (Lab)",CIC,FSE,",2015-B013,2021-B061,2016-B032,2016-B050,2017-A009,2017-A046,2017-A102,2018-B137,2019-B047,2020-A006,2020-B036,2020-B067",",2016-A046,2017-A030,2017-A099,2017-B063,2018-A049,2018-B089,2019-A020","Prof. Titular C de
 ESCOM, de 1998 a la fecha.
 Prof. De ESIME Zacatenco, 1999 – 2000.
@@ -594,7 +594,7 @@ SEPI de ESIME Zacatenco, 2001 – 2003.
 Áreas de interés: Instrumentación Electrónica,
 Instrumentación Acústica, Instrumentación Industrial,
 Electrónica, Acústica, Electroacústica, Electrónica de
-Potencia, Sistemas Computacionales.",
+Potencia, Sistemas Computacionales.",,
 188,peredo valderrama ruben,"Análisis y Diseño Orientado a Objetos,Tecnologías para la Web,Trabajo Terminal II (Lab),Tecnologías para el Desarrollo de Aplicaciones Web,Análisis y Diseño de Sistemas",ISC,TT,",2021-B017,2021-B027,2021-B038,2021-B052,2021-B058,2021-B063,2016-A005,2016-A012,2016-A039,2016-B031,2016-B096,2017-A001,2017-A036,2017-B019,2017-B020,2018-A015,2018-A018,2018-A025,2018-B006,2018-B009,2018-B012,2018-B085,2018-B091,2019-A065,2019-A068,2019-B049,2019-B115,2020-A014,2020-A059,2020-A114,2020-B010,2020-B058,2021-A003,2021-A038,2021-A045,2021-A048,2021-A080,2021-A090",",2015-B013,2016-A051,2016-B004,2016-B016,2016-B017,2016-B120,2017-A016,2017-B005,2017-B074,2018-A032,2018-A103,2018-B036,2018-B100","Maestro en Ciencias de la computación egresado del IPN, y 
 Candidato a Doctor en Ciencias de la Computación. Sus 
 líneas de investigación son: Educación Basada en Web, Web 
@@ -606,42 +606,42 @@ ESCOM. Cuenta con varias publicaciones indexadas a nivel
 internacional, publicaciones en revistas internacionales y 
 nacionales, además de ser coautor de un capítulo de libro 
 Springer, publicaciones en memorias de congreso 
-internacionales y nacionales, además de otras publicaciones.",
-189,saucedo delgado rafael norman,"Compiladores,Análisis y Diseño de Algoritmos,Análisis de Algoritmos,Computer Graphics",CIC,CC,",2016-A044,2016-A047,2016-B047,2017-A035,2017-B057,2017-B062,2018-A011,2018-A099,2019-A049,2019-A094,2019-A099,2019-B102,2020-A047,2020-B096,2021-A078",",2016-A042,2016-B007,2016-B044,2016-B082,2017-A015,2017-B011,2017-B050,2017-B095,2018-A070,2018-B003,2018-B025,2018-B034,2018-B035,2018-B103,2018-B108,2018-B112,2018-B123,2018-B141,2019-A053","M. en C. Saucedo Delgado Rafael Norman.- Ing. en Sistemas Computacionales, Egresado del Instituto Politécnico Nacional, M. en C. en Ciencias de la Computación, por el IIMAS-UNAM. Profesor de la ESCOM en el Departamento de Ciencias e Ingeniería de la Computación. Áreas de Interés: Gráficos por Computadora y Realidad Virtual,",
+internacionales y nacionales, además de otras publicaciones.",,
+189,saucedo delgado rafael norman,"Compiladores,Análisis y Diseño de Algoritmos,Análisis de Algoritmos,Computer Graphics",CIC,CC,",2016-A044,2016-A047,2016-B047,2017-A035,2017-B057,2017-B062,2018-A011,2018-A099,2019-A049,2019-A094,2019-A099,2019-B102,2020-A047,2020-B096,2021-A078",",2016-A042,2016-B007,2016-B044,2016-B082,2017-A015,2017-B011,2017-B050,2017-B095,2018-A070,2018-B003,2018-B025,2018-B034,2018-B035,2018-B103,2018-B108,2018-B112,2018-B123,2018-B141,2019-A053","M. en C. Saucedo Delgado Rafael Norman.- Ing. en Sistemas Computacionales, Egresado del Instituto Politécnico Nacional, M. en C. en Ciencias de la Computación, por el IIMAS-UNAM. Profesor de la ESCOM en el Departamento de Ciencias e Ingeniería de la Computación. Áreas de Interés: Gráficos por Computadora y Realidad Virtual,",,
 190,figueroa del prado felipe de jesus,"Análisis Fundamental de Circuitos,Circuitos Eléctricos,Trabajo Terminal II (Lab),Fundamentos de Programación",CIC,CC,",2021-B070,2021-B093,2017-B029,2020-A098,2020-B022",",2015-B013,2016-A067,2016-B032,2017-A081,2017-A102,2018-A041,2018-B040","Subdirector administrativo
-y profesor de la ESCOM/IPN",
+y profesor de la ESCOM/IPN",,
 191,cruz torres benjamin,"Administración de Servicios en Red,Trabajo Terminal I,Desarrollo de Sistemas Distribuidos,Desarrollo de Sistemas Distribudios (Lab),Cómputo de Alto Desempeño,Trabajo Terminal II,Trabajo Terminal I (Lab)",ISC,SDIST,",2023-A023,2017-B066,2017-B101,2018-A103,2018-A105,2018-B021,2018-B032,2018-B049,2018-B072,2018-B094,2019-A031,2020-A044,2020-A052,2020-A064,2020-A123,2020-B099,2020-B105,2021-A053,23-2-0008",",2016-B066,2016-B101,2017-A007,2017-A030,2017-A046,2017-A072,2017-A096,2017-A102,2017-B008,2017-B105,2018-A068,2018-A077,2018-A099,2018-B024,2018-B075,2018-B079,2019-A074,2019-A079","Doctor en Ciencias de la 
 computación, Encargado de la Unidad de Informática de 
 ESCOM del 2010 2016, Profesor universitario titular en 
 ESCOM desde el 2016 y presidente de la academia de 
-sistemas distribuidos desde el 2020",
-192,sanchez palacios maria susana,"Matemáticas Discretas,Cálculo Aplicado",FB,CB,,,,
+sistemas distribuidos desde el 2020",,
+192,sanchez palacios maria susana,"Matemáticas Discretas,Cálculo Aplicado",FB,CB,,,,,
 193,hernandez jaime josefina,"Finanzas Empresariales,Administración Financiera",ISC,PETD,",2021-B014,2021-B053,2018-B020,2020-A036,2020-B030,2021-A057",",2015-B066,2016-A051,2017-A060,2017-A096,2017-B058,2017-B101,2019-A012","Maestra en Ciencias 
 de la Administración por la UPIICSA, del IPN. Áreas de
 interés: Finanzas, proyectos de inversión, educación 
 basada en competencias, diseño y construcción de materiales
-y recursos didácticos digitales",
-194,jimenez galan yasmin ivette,"Administración Financiera,Gestión Empresarial,Trabajo Terminal I,Trabajo Terminal II,Finanzas Empresariales,Trabajo Terminal I (Lab)",ISC,PETD,",2021-B056,2021-B082,2021-B105,2023-A047,2023-A054,2016-A024,2016-A036,2016-A086,2016-B114,2017-A083,2017-B033,2017-B038,2017-B113,2018-A047,2018-A057,2018-A079,2018-B126,2019-A015,2019-A064,2020-A051,2020-A063,2020-A106,2020-A107,2020-B004,2021-A098",",2016-A001,2016-B071,2017-A057,2017-B047,2017-B066,2018-A034,2019-A039","Dra. en educación en el año 2013, M. en C. en Administración de negocios en el año 2006, Profesora en ESCOM/IPN (Depto. De Ingeniería en Sistemas Computacionales) desde el año 2008, Áreas de interés: competitividad en los negocios y Educación",
-195,hernandez vasquez cesar,"Mecánica y Electromagnetismo,Álgebra Lineal,Cálculo Multivariable,Mecánica y Electromagnetismo (Lab)",FB,CB,,,,
-196,lopez carrera benjamin,"Álgebra Lineal,Análisis Vectorial,Ecuaciones Diferenciales",FB,CB,",2016-B095",,"Dr. en Ciencias con especialidad en Física en la Escuela Superior de Física y Matemáticas (ESFM/IPN) en 2008, M. en C. con especialidad en Física en la Escuela Superior de Física y Matemáticas (ESFM/IPN) en 2005, miembro del Sistema Nacional de Investigadores (SNI) nivel 1. Profesor de ESCOM/IPN (Dpto. de Formación Básica)",
+y recursos didácticos digitales",,
+194,jimenez galan yasmin ivette,"Administración Financiera,Gestión Empresarial,Trabajo Terminal I,Trabajo Terminal II,Finanzas Empresariales,Trabajo Terminal I (Lab)",ISC,PETD,",2021-B056,2021-B082,2021-B105,2023-A047,2023-A054,2016-A024,2016-A036,2016-A086,2016-B114,2017-A083,2017-B033,2017-B038,2017-B113,2018-A047,2018-A057,2018-A079,2018-B126,2019-A015,2019-A064,2020-A051,2020-A063,2020-A106,2020-A107,2020-B004,2021-A098",",2016-A001,2016-B071,2017-A057,2017-B047,2017-B066,2018-A034,2019-A039","Dra. en educación en el año 2013, M. en C. en Administración de negocios en el año 2006, Profesora en ESCOM/IPN (Depto. De Ingeniería en Sistemas Computacionales) desde el año 2008, Áreas de interés: competitividad en los negocios y Educación",,
+195,hernandez vasquez cesar,"Mecánica y Electromagnetismo,Álgebra Lineal,Cálculo Multivariable,Mecánica y Electromagnetismo (Lab)",FB,CB,,,,,
+196,lopez carrera benjamin,"Álgebra Lineal,Análisis Vectorial,Ecuaciones Diferenciales",FB,CB,",2016-B095",,"Dr. en Ciencias con especialidad en Física en la Escuela Superior de Física y Matemáticas (ESFM/IPN) en 2008, M. en C. con especialidad en Física en la Escuela Superior de Física y Matemáticas (ESFM/IPN) en 2005, miembro del Sistema Nacional de Investigadores (SNI) nivel 1. Profesor de ESCOM/IPN (Dpto. de Formación Básica)",,
 197,soto ramos manuel alejandro,"Tecnologías para la Web,Administración de Servicios en Red,Tecnologías para el Desarrollo de Aplicaciones Web",ISC,SDIST,",2021-B039,2021-B054,2021-B068,2016-B127,2017-A025,2017-A029,2017-A032,2018-B011,2018-B112",",2016-A024,2016-A066,2016-B009,2016-B045,2016-B051,2016-B066,2017-B107,2019-A060","Maestro en Ciencias de la Computación CIC-IPN 2009, Ingeniero Mecánico EléctricoElectrónico UNAM 2003. Áreas de trabajo Redes de computadoras, Cómputo distribuido y Supercómputo. Profesor de 
-ESCOM desde el 2010",
+ESCOM desde el 2010",,
 198,cancino mosqueda odette berenice,"Teoría Computacional (Lab),Sistemas Operativos (Lab),Fundamentos Económicos,App .Dev. for Mobile Devices (Lab),Desarrollo de Sistemas Distribudios (Lab),Trabajo Terminal II,Data Mining (Lab),Ingeniería de Software (Lab),Web Application Development (Lab),Administración de Proyectos,Gestión Empresarial,Trabajo Terminal I (Lab)",ISC,PETD,",2021-B016",",2016-A072,2016-B027,2016-B099,2017-A033,2017-A083,2017-B076,2018-B046,2018-B055,2018-B086,2018-B116,2019-A096","M. en C. En 
 Administración de negocios /universidad España 
 Mexico. Licenciada en ciencias de la informática 
 /IPN Gauss Jordan.Profesor de IPN- ESCOM 
 desde 2000, Áreas de interés Gestión Empresarial, 
-Administración de negocios",
+Administración de negocios",,
 199,manzanilla granados hector manuel,"Análisis Vectorial (Lab),Ecuaciones Diferenciales,Matemáticas Avanzadas  para la Ingeniería,Mecánica y Electromagnetismo,Cálculo,Probabilidad y Estadística,Cálculo Aplicado,Matemáticas Avanzadas para la Ingeniería,Análisis Vectorial",FB,CB,",2023-A004,2023-A008,2023-A017,2023-A055,2017-A063,2017-B064,2019-A012",,"Profesor Titular
 de la ESCOM, I.P.N. Cuenta con diferentes artículos
 científicos y pertenece al SNI I. Áreas de interés: Física
-educativa y políticas de las TICs.",
+educativa y políticas de las TICs.",,
 200,chavez lima eduardo,"Economic Engineering,Ecuaciones Diferenciales,Cálculo,Mecánica y Electromagnetismo,Álgebra Lineal",FB,CB,",23-2-0023",",2016-B042,2016-B062,2017-A008,2017-A023,2017-B014,2018-B087,2019-A002,2019-A016","Egresado de la Escuela Superior de 
 Física y Matemáticas, del Centro de Investigación y Estudios 
 Avanzados así también de la Escuela Superior de Economía, 
-todos del IPN, Econofisica, Educación, Matemática ",
-201,perez vera monserrat gabriela,"Comunicación Oral y Escrita,Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II (Lab),Liderazgo Personal,Trabajo Terminal I",FII,CS,",2016-B005,2016-B048,2016-B064,2016-B065,2016-B121,2017-A010,2017-B086,2018-A048,2018-B085",",2016-A020,2016-A042,2016-B119,2017-A001,2017-A037,2017-B039,2018-A057,2018-B054,2018-B094,2018-B118,2019-A038","M en C. en Administración y Desarrollo de la Educación y Lic. En Relaciones Comerciales, Profesora de ESCOM/IPN (Dpto. de Formación Integral en Institucional). Áreas de interés: Educación y TICs",
-202,solorza guzman misael,"Análisis Vectorial (Lab),Ecuaciones Diferenciales,Cálculo",FB,CB,,,,
+todos del IPN, Econofisica, Educación, Matemática ",,
+201,perez vera monserrat gabriela,"Comunicación Oral y Escrita,Liderazgo y Desarrollo Profesional (Lab),Trabajo Terminal II (Lab),Liderazgo Personal,Trabajo Terminal I",FII,CS,",2016-B005,2016-B048,2016-B064,2016-B065,2016-B121,2017-A010,2017-B086,2018-A048,2018-B085",",2016-A020,2016-A042,2016-B119,2017-A001,2017-A037,2017-B039,2018-A057,2018-B054,2018-B094,2018-B118,2019-A038","M en C. en Administración y Desarrollo de la Educación y Lic. En Relaciones Comerciales, Profesora de ESCOM/IPN (Dpto. de Formación Integral en Institucional). Áreas de interés: Educación y TICs",,
+202,solorza guzman misael,"Análisis Vectorial (Lab),Ecuaciones Diferenciales,Cálculo",FB,CB,,,,,
 203,avila sanchez cristhian alejandro,"Algoritmos y Estructuras de Datos,Mecánica y Electromagnetismo,Métodos Numéricos,Matemáticas Discretas,Análisis y Diseño de Algoritmos,Matemáticas Avanzadas para la Ingeniería,Álgebra Lineal,Análisis de Algoritmos,Teoría de la Computación",CIC,CB,",2017-B055,2020-B104,2021-A070,2021-A072,2021-A073",",2017-B028","Maestría en Ciencias,
 Centro de Investigación de Computación del IPN (2005). Ingeniería en
 Sistemas Computacionales, Escuela Superior de Cómputo del IPN (2001).
@@ -649,25 +649,25 @@ Profesor de la ESCOM - IPN, adscrito al Departamento de Ciencias e
 Ingeniería de la Computación. Líneas de Investigación/Áreas de Interés:
 Computación e Información Cuánticas, Problemas NP-Completos,
 Aprendizaje de Máquina, Cómputo Distribuido y Paralelo, Genómica
-Computacional, Cómputo Natural y Sistemas Complejos.",
-204,leon hernandez miguel abel,"Análisis Vectorial,Matemáticas Avanzadas para la Ingenería (Lab),Matemáticas Avanzadas  para la Ingeniería,Álgebra Lineal,Cálculo",FB,CB,,,,
-205,perez perez jose juan,"Introducción a los Microcontroladores,Trabajo Terminal II (Lab),Fundamentos de Diseño Digital",ISC,SDIG,,",2016-B032,2016-B047,2016-B055,2016-B102,2017-B063,2018-A036,2018-B026,2018-B042,2018-B108,2019-A025,2019-A049",,
+Computacional, Cómputo Natural y Sistemas Complejos.",,
+204,leon hernandez miguel abel,"Análisis Vectorial,Matemáticas Avanzadas para la Ingenería (Lab),Matemáticas Avanzadas  para la Ingeniería,Álgebra Lineal,Cálculo",FB,CB,,,,,
+205,perez perez jose juan,"Introducción a los Microcontroladores,Trabajo Terminal II (Lab),Fundamentos de Diseño Digital",ISC,SDIG,,",2016-B032,2016-B047,2016-B055,2016-B102,2017-B063,2018-A036,2018-B026,2018-B042,2018-B108,2019-A025,2019-A049",,,
 206,pescador rojas miriam,"Análisis y Diseño de Algoritmos,Paradigmas de Programación,Teoría Computacional (Lab),Compiladores (Lab),Análisis de Algoritmos (Lab),Compiladores",CIC,CC,",2021-B036,2023-A068,2019-A053,2020-A025,2020-A030,2020-B034,2020-B094,2021-A004",",2018-B089,2018-B124,2019-A004,2019-A056","Dra. en Ciencias en Computación por el CINVESTAV-IPN en
 2019, M. en C. en Computación por el CINVESTAV-IPN en 2010,
 Ing. en Sistemas Computacionales por la ESCOM-IPN en 2008,
 Profesora de carrera en ESCOM-IPN desde 2010 a la fecha, áreas
 de interés Inteligencia Artificial, Cómputo Evolutivo, Aprendizaje
-Máquina.",
-207,rodriguez castillo miguel angel,"Paradigmas de Programación,Análisis y Diseño de Algoritmos,Fundamentos de Programación",CIC,CC,,,,
-208,lopez sanchez jose manuel,"Cálculo,Matemáticas Discretas",FB,CB,,,,
-209,gonzalez ramirez marko alfonso,"Bases de Datos (Lab),Análisis y Diseño Orientado a Objetos (Lab),Ingeniería de Software,Ingeniería de Software (Lab),Bioinformatics (Lab),Desarrollo de Sistemas Distribudios (Lab),Web Security (Lab),Artificial Intelligence (Lab),Data Mining (Lab)",ISC,ISW,",2023-A054",",2016-A005,2016-A039,2016-B001,2016-B003,2017-A100,2017-B035,2017-B038,2017-B085,2017-B099,2017-B110,2018-A040,2018-A042,2018-A049,2018-A059,2018-B131,2019-A017,2019-A064","Maestro en Formación Docente Especialidad en Docencia Universitaria, Docente - investigador en ESCOM/IPN, Áreas de interés: educación.",
+Máquina.",,
+207,rodriguez castillo miguel angel,"Paradigmas de Programación,Análisis y Diseño de Algoritmos,Fundamentos de Programación",CIC,CC,,,,,
+208,lopez sanchez jose manuel,"Cálculo,Matemáticas Discretas",FB,CB,,,,,
+209,gonzalez ramirez marko alfonso,"Bases de Datos (Lab),Análisis y Diseño Orientado a Objetos (Lab),Ingeniería de Software,Ingeniería de Software (Lab),Bioinformatics (Lab),Desarrollo de Sistemas Distribudios (Lab),Web Security (Lab),Artificial Intelligence (Lab),Data Mining (Lab)",ISC,ISW,",2023-A054",",2016-A005,2016-A039,2016-B001,2016-B003,2017-A100,2017-B035,2017-B038,2017-B085,2017-B099,2017-B110,2018-A040,2018-A042,2018-A049,2018-A059,2018-B131,2019-A017,2019-A064","Maestro en Formación Docente Especialidad en Docencia Universitaria, Docente - investigador en ESCOM/IPN, Áreas de interés: educación.",,
 210,celis dominguez adriana berenice,"Ingeniería Ética y Sociedad,Liderazgo Personal,Trabajo Terminal II,Comunicación Oral y Escrita,Trabajo Terminal I,Metodología de la Investigación y Divulgación Científica",FII,CS,",2021-B062,2021-B070,2021-B093,2017-A020,2017-A031,2018-A091,2018-B032,2019-B122",",2016-A024,2016-A071,2016-B042,2016-B104,2016-B128,2017-A010,2017-A105,2018-A015,2018-A030,2018-A088,2018-B126,2019-A079","Dra. En educación y 
 Doctodrante en el programa de Ciencias Administrativas de ESCA Sto. 
 Tomás; profesora de tiempo completo de ESCOM/IPN; Líneas de 
 investigación: Gestión y comportamientos organizacionales y 
-evaluación didáctica",
-211,henestrosa carrasco leticia,"Redes de Computadoras,Administración de Servicios en Red,Trabajo Terminal II (Lab)",ISC,SDIST,",2023-A065,2020-A115,2021-A046",",2018-B086","Henestrosa Carrasco Leticia.- M. en C. en Computación por el CIC-IPN (1999), Instructora de Academia de CISCO CCNA en el TESE (2003), Docente de Sistemas nivel Licenciatura en la UVM (2008). Actualmente es profesora titular en ESCOM.. Áreas de Interés: Redes de computadoras, Programación y Sistemas.",
-212,juarez gambino joel omar,"Análisis y Diseño de Algoritmos,Trabajo Terminal I (Lab),Aprendizaje de Máquina e Inteligencia Artificial,Tecnologías de Lenguaje Natural,Trabajo Terminal II,Machine Learning",CIC,IA,",2023-A051,2016-A006,2017-A042,2018-A016,2018-B013,2020-A090,2021-A023",",2016-B067","Doctor en Ciencias de la Computación por el CIC, IPN. Sus áreas de estudio son: Procesamiento de Lenguaje Natural y Aprendizaje Automático. Departamento de Ciencias e Ingeniería de la Computación, ESCOM,",
+evaluación didáctica",,
+211,henestrosa carrasco leticia,"Redes de Computadoras,Administración de Servicios en Red,Trabajo Terminal II (Lab)",ISC,SDIST,",2023-A065,2020-A115,2021-A046",",2018-B086","Henestrosa Carrasco Leticia.- M. en C. en Computación por el CIC-IPN (1999), Instructora de Academia de CISCO CCNA en el TESE (2003), Docente de Sistemas nivel Licenciatura en la UVM (2008). Actualmente es profesora titular en ESCOM.. Áreas de Interés: Redes de computadoras, Programación y Sistemas.",,
+212,juarez gambino joel omar,"Análisis y Diseño de Algoritmos,Trabajo Terminal I (Lab),Aprendizaje de Máquina e Inteligencia Artificial,Tecnologías de Lenguaje Natural,Trabajo Terminal II,Machine Learning",CIC,IA,",2023-A051,2016-A006,2017-A042,2018-A016,2018-B013,2020-A090,2021-A023",",2016-B067","Doctor en Ciencias de la Computación por el CIC, IPN. Sus áreas de estudio son: Procesamiento de Lenguaje Natural y Aprendizaje Automático. Departamento de Ciencias e Ingeniería de la Computación, ESCOM,",,
 213,carvajal gamez blanca esther,Embedded Systems,POSGR,POSGR,",2015-B027,2016-A084,2016-B102,2017-A066,2020-B012",",2017-A009","Ingeniero 
 en Sistemas Computacionales por la Escuela 
 Superior de Cómputo (IPN) de la Ciudad de 
@@ -678,17 +678,17 @@ Electrónica en ESIME, Posdoctorado en
 Computación en el área de seguridad. 
 Actualmente es docente investigador de la 
 Sección de Estudios de Posgrado e Investigación 
-de la ESCOM.",
+de la ESCOM.",,
 214,puebla lomas jaime hugo,"Redes de Computadoras,Teoría de Comunicaciones y Señales,Trabajo Terminal II (Lab),Procesamiento Digital de Señales,Trabajo Terminal I (Lab)",ISC,TT,",2021-B018,2021-B084,2021-B099,2021-B113,2023-A086,2016-B093,2016-B123,2017-A033,2017-B035,2018-B116,2019-B015,2020-A039,2020-A042,2020-A099,2023–A086",",2016-A007,2016-A068,2016-B040,2017-A013,2017-A047,2017-B017,2017-B022,2018-B020,2018-B035,2018-B065,2018-B091","M. en Ing. de Telecomunicaciones “I.P.N. -SEPI de E.S.I.M.E. Zacatenco”, Profesor 
-adscrito a ESCOM/IPN (Dpto. de Sistemas Computacionales)",
-215,levario medina sergio,"Cálculo Multivariable,Matemáticas Avanzadas para la Ingeniería,Cálculo,Álgebra Lineal",FB,CB,,,,
+adscrito a ESCOM/IPN (Dpto. de Sistemas Computacionales)",,
+215,levario medina sergio,"Cálculo Multivariable,Matemáticas Avanzadas para la Ingeniería,Cálculo,Álgebra Lineal",FB,CB,,,,,
 216,sanchez cruz virginia,"Fundamentos Económicos,Gestión Empresarial,Finanzas Empresariales,Administración de Proyectos,Trabajo Terminal I (Lab)",ISC,PETD,",2021-B005,2021-B008,2021-B019,2021-B020,2021-B101,2023-A034,2016-A056,2017-A041,2017-A105,2018-A039,2018-B049,2018-B094,2019-B028,2020-A067,2020-A118",",2016-A027,2016-A043,2016-B062,2017-A023,2017-B008,2017-B112,2019-A075","M. en
 C. en Administración de Negocios de
 SCA-ST./IPN en 2012, Lic. Profesor de
 ESCOM/IPN desde 2006, Áreas de
-interés:economía, sustentabilidad,",
-217,santiago valentin eric,Análisis Vectorial,FB,CB,,,,
-218,sosa adan fanny,"Ingeniería Ética y Sociedad,Gestión Empresarial,Comunicación Oral y Escrita,Finanzas Empresariales",ISC,CS,,,,
+interés:economía, sustentabilidad,",,
+217,santiago valentin eric,Análisis Vectorial,FB,CB,,,,,
+218,sosa adan fanny,"Ingeniería Ética y Sociedad,Gestión Empresarial,Comunicación Oral y Escrita,Finanzas Empresariales",ISC,CS,,,,,
 219,guzman flores jessie paulina,"IT Governance,Administración de Proyectos,Trabajo Terminal II,Trabajo Terminal I,Trabajo Terminal I (Lab),Formulación y Evaluación de Proyectos Informáticos",ISC,PETD,",2021-B033,2021-B046,2021-B103,2021-B104,2016-B101,2017-A025,2017-A069,2017-B066,2018-A071,2018-A090,2018-A103,2018-A105,2018-B093,2018-B095,2020-A111,2020-B099",",2016-A031,2017-A064,2017-A108","Licenciada en
 Turismo, egresada del Instituto Politécnico
 Nacional, M. en Desarrollo De Competencias
@@ -696,45 +696,45 @@ Docentes y Doctora en Ecoeducación del Instituto
 Universitario Puebla.
 Áreas de Interés: Turismo, Administración,
 Educación, Gobierno, Sistemas de Información
-Gerencial",
-220,barron fernandez ricardo,Procesos Estocásticos,FB,CD,,,,
-221,vazquez ortiz mijail,"Redes de Computadoras(Lab),Pattern Recognition (Lab),Aplicaciones para Comunicaciones en Red (Lab),Administración de Servicios en Red (Lab),Teoría de Comunicaciones y Señales (Lab),Circuitos Eléctricos,Circuitos Eléctricos (Lab),Electrónica Analógica",CIC,FSE,,,,
-222,sanchez aguilar alfonso,"Métodos Numéricos,Matemáticas Avanzadas para la Ciencia de Datos,Aprendizaje de Máquina,Procesos Estocásticos",CIC,CC,,,,
-223,cancino calderon sergio,"Electrónica Analógica,Circuitos Eléctricos (Lab),Trabajo Terminal I (Lab),Instrumentación (Lab),Circuitos Eléctricos,Instrumentación y Control (Lab)",CIC,FSE,,",2016-B030,2016-B047,2017-A068",,
-224,maldonado castillo idalia,"Análisis y Diseño Orientado a Objetos,Trabajo Terminal I (Lab),Ingeniería de Software,Análisis y Diseño de Sistemas,Trabajo Terminal II (Lab),Ingeniería de Software para Sistemas Inteligentes",ISC,ISW,",2021-B111,2023-A035,2023-A037,2016-A002,2016-A004,2016-A013,2016-A083,2016-B036,2016-B104,2019-A001,2019-B034,2019-B045,2023-A032",",2016-A049,2016-A075,2017-A063,2017-A090,2017-B029,2017-B062,2019-A001,2019-A032,2019-A065","Profesora de la ESCOM, egresada de la Ing. En Sistemas Computacionales de la Escuela Superior de Cómputo del IPN, Maestría en Ciencias de la Computación en la University of Saskatchewan, Canadá. Áreas de interés: Sistemas de Información, Clasificación y Procesamiento de Imágenes e Ingeniería de Software, agilidad y calidad de software,",
-225,diaz santiago ricardo felipe,"Teoría Computacional,Algoritmos y Estructuras de Datos,Análisis y Diseño de Algoritmos,Paradigmas de Programación,Análisis de Algoritmos",CIC,CC,,",2016-B075,2018-A005",,
-226,luna benoso benjamin,"Teoría Computacional,Análisis de Algoritmos,Análisis y Diseño de Algoritmos,Teoría de la Computación,Sistemas Operativos para Cómputo Móvil,Trabajo Terminal II (Lab)",CIC,CC,",2021-B019,2021-B065,2023-A039,2023-A058,2023-A061,2016-B001,2016-B068,2016-B076,2017-B031,2017-B058,2018-A024,2018-A029,2018-B123,2019-A005,2019-A057,2019-B031,2019-B116,2020-A041,2020-A085,2020-B092,2021-A001,2021-A012,2021-A017,2021-A044,2023-A018",",2016-A051,2016-B014,2016-B065,2017-B011,2017-B015,2018-B013,2018-B034,2018-B145,2019-A009,2019-A060,2019-A068,2019-A099","Licenciatura en Física y Matemáticas por la ESFM del IPN. Maestría y Doctorado en ciencias por el CIC del IPN. Actualmente profesor titular Cen la ESCOM. Áreas de Interés: Reconocimiento de patrones, análisis de imágenes, autómatas celulares",
-227,alcaraz torres juan jesus,"Redes de Computadoras,Redes de Computadoras(Lab),Aplicaciones para Comunicaciones en Red (Lab),Administración de Servicios en Red (Lab)",ISC,SDIST,,,,
-228,villegas navarrete sonia,"Fundamentos Económicos,Data Mining (Lab),Gestión Empresarial,Análisis y Diseño Orientado a Objetos (Lab),High Technology Enterprise Management (Lab),S: E. for Mobile Devices (Lab),Pattern Recognition (Lab),Finanzas Empresariales",ISC,PETD,,",2016-B126,2017-A025,2017-A057,2017-A083,2017-B038,2017-B110,2018-A079,2018-B032,2018-B043,2018-B143,2019-A091",,
+Gerencial",,
+220,barron fernandez ricardo,Procesos Estocásticos,FB,CD,,,,,
+221,vazquez ortiz mijail,"Redes de Computadoras(Lab),Pattern Recognition (Lab),Aplicaciones para Comunicaciones en Red (Lab),Administración de Servicios en Red (Lab),Teoría de Comunicaciones y Señales (Lab),Circuitos Eléctricos,Circuitos Eléctricos (Lab),Electrónica Analógica",CIC,FSE,,,,,
+222,sanchez aguilar alfonso,"Métodos Numéricos,Matemáticas Avanzadas para la Ciencia de Datos,Aprendizaje de Máquina,Procesos Estocásticos",CIC,CC,,,,,
+223,cancino calderon sergio,"Electrónica Analógica,Circuitos Eléctricos (Lab),Trabajo Terminal I (Lab),Instrumentación (Lab),Circuitos Eléctricos,Instrumentación y Control (Lab)",CIC,FSE,,",2016-B030,2016-B047,2017-A068",,,
+224,maldonado castillo idalia,"Análisis y Diseño Orientado a Objetos,Trabajo Terminal I (Lab),Ingeniería de Software,Análisis y Diseño de Sistemas,Trabajo Terminal II (Lab),Ingeniería de Software para Sistemas Inteligentes",ISC,ISW,",2021-B111,2023-A035,2023-A037,2016-A002,2016-A004,2016-A013,2016-A083,2016-B036,2016-B104,2019-A001,2019-B034,2019-B045,2023-A032",",2016-A049,2016-A075,2017-A063,2017-A090,2017-B029,2017-B062,2019-A001,2019-A032,2019-A065","Profesora de la ESCOM, egresada de la Ing. En Sistemas Computacionales de la Escuela Superior de Cómputo del IPN, Maestría en Ciencias de la Computación en la University of Saskatchewan, Canadá. Áreas de interés: Sistemas de Información, Clasificación y Procesamiento de Imágenes e Ingeniería de Software, agilidad y calidad de software,",,
+225,diaz santiago ricardo felipe,"Teoría Computacional,Algoritmos y Estructuras de Datos,Análisis y Diseño de Algoritmos,Paradigmas de Programación,Análisis de Algoritmos",CIC,CC,,",2016-B075,2018-A005",,,
+226,luna benoso benjamin,"Teoría Computacional,Análisis de Algoritmos,Análisis y Diseño de Algoritmos,Teoría de la Computación,Sistemas Operativos para Cómputo Móvil,Trabajo Terminal II (Lab)",CIC,CC,",2021-B019,2021-B065,2023-A039,2023-A058,2023-A061,2016-B001,2016-B068,2016-B076,2017-B031,2017-B058,2018-A024,2018-A029,2018-B123,2019-A005,2019-A057,2019-B031,2019-B116,2020-A041,2020-A085,2020-B092,2021-A001,2021-A012,2021-A017,2021-A044,2023-A018",",2016-A051,2016-B014,2016-B065,2017-B011,2017-B015,2018-B013,2018-B034,2018-B145,2019-A009,2019-A060,2019-A068,2019-A099","Licenciatura en Física y Matemáticas por la ESFM del IPN. Maestría y Doctorado en ciencias por el CIC del IPN. Actualmente profesor titular Cen la ESCOM. Áreas de Interés: Reconocimiento de patrones, análisis de imágenes, autómatas celulares",,
+227,alcaraz torres juan jesus,"Redes de Computadoras,Redes de Computadoras(Lab),Aplicaciones para Comunicaciones en Red (Lab),Administración de Servicios en Red (Lab)",ISC,SDIST,,,,,
+228,villegas navarrete sonia,"Fundamentos Económicos,Data Mining (Lab),Gestión Empresarial,Análisis y Diseño Orientado a Objetos (Lab),High Technology Enterprise Management (Lab),S: E. for Mobile Devices (Lab),Pattern Recognition (Lab),Finanzas Empresariales",ISC,PETD,,",2016-B126,2017-A025,2017-A057,2017-A083,2017-B038,2017-B110,2018-A079,2018-B032,2018-B043,2018-B143,2019-A091",,,
 229,moscoso malagon yosafat,"Estructuras de Datos,Fundamentos de Programación,Algoritmos y Estructuras de Datos,Teoría de la Computación",CIC,CC,",2017-B086,2018-A048",",2016-A066,2016-A075,2016-B029,2016-B047,2017-B083,2017-B108"," M. En Educación., M. En Ing. De Sistemas 
 Empresariales., Ing. Cibernético y en Sistemas Computacionales., Especialista en 
 Dirección Industrial., Áreas de interés Análisis, Diseño y Desarrollo de Sistemas, 
-Gestión de Empresas TI",
-230,herrera yañez crispin,"Análisis Vectorial,Mecánica y Electromagnetismo,Álgebra Lineal,Matemáticas Discretas,Probabilidad y Estadística,Cálculo,Mecánica y Electromagnetismo (Lab),Ecuaciones Diferenciales",FB,CB,,",2016-B061,2017-A077,2017-B083",,
-231,jurado jimenez roberto,Cálculo,FB,CB,,",2017-A033",,
-232,morales gonzalez angel,"Álgebra Lineal,Economic Engineering",FB,CB,",2016-A087,2016-B062,2017-A023,2018-A004",",2016-A003,2018-A047,2018-B143","Dr. En Ing. De Sistemas. Profesor de Ciencias Básicas de la ESCOM desde el 2008. Áreas de interés: Ing. Económica, manufactura esbelta y cadenas de suministro",
-233,perez abreu victor,Probabilidad,FB,CB,,,,
-234,flores meraz yesica sonia,Análisis Vectorial,FB,CB,,,,
-235,arzate gordillo jacqueline,"Teoría de Comunicaciones y Señales,Trabajo Terminal II (Lab),Trabajo Terminal I",ISC,SDIST,",2021-B030,2021-B095,2023-A049,2023-A062,2023-A079,2016-B072,2017-B051,2018-A028,2018-A059,2018-A088,2019-B014,2019-B048,2019-B050,2020-A100,2020-A130,2021-A027,2021-A028,2021-A040,2021-A058,2023_A056,23-1-0012",",2016-A083,2016-B035,2018-B043,2018-B053,2018-B064,2018-B091,2018-B120,2018-B127,2019-A034","Ingeniero en electrónica por el Instituto Politécnico Nacional, Maestra en Ciencias con Especialidad en Ingeniería Electrónica por el Instituto Politécnico Nacional. Áreas de interés: la educación, psicología social y electrónica.",
-236,flores delgado raquel,"Ingeniería Ética y Sociedad,Finanzas Empresariales,Comunicación Oral y Escrita,Administración de Proyectos,Trabajo Terminal I (Lab)",ISC,PETD,,",2017-B010,2017-B051",,
-237,salinas hernandez encarnacion,"Álgebra Lineal,Ecuaciones Diferenciales",FB,CB,",2020-A033",,"Dr. en Física por la ESFM-IPN, Maestría en Física en la ESFM -IPN, además, Lic. en Física y Matemáticas en la misma ESFM-IPN. Áreas de interés: Ecuaciones Diferenciales lineales y no lineales, Cálculo, Álgebra de polinomios, mecánica cuántica, mecánica clásica. Profesor en la ESCOM desde 1994, Miembro del SNI nivel I, Beca EDI, Beca Cofaa; con 17 publicaciones de corte nacional e internacional con un estricto refereo. Múltiples pláticas, en congresos y seminarios. Director de tesis de Lic., en la ESFM así como de Maestría en la misma ESFM, además de dirigir 3 trabajos terminales en la ESCOM. Director de 7 proyectos de investigación en la ESCOM. Jefe del Depto de ciencias Básicas y presidente de la academia Ciencias Básicas.",
-238,zarate cardenas alejandro,"Probabilidad y Estadística,Álgebra Lineal,Probabilidad,Ecuaciones Diferenciales,Cálculo,Cálculo Multivariable,Análisis Vectorial",FB,CB,,,,
-239,gomez tress mariana,"Comunicación Oral y Escrita,Ingeniería Ética y Sociedad",FII,CS,,,,
-240,martinez garcia cesar roman,"Análisis Vectorial,Cálculo Aplicado,Mecánica y Electromagnetismo",FB,CB,",2017-A077",,"Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas con especialidad en Administración Áreas de Interés: TI, Cómputo educativo, Gestión de proyectos.,",
+Gestión de Empresas TI",,
+230,herrera yañez crispin,"Análisis Vectorial,Mecánica y Electromagnetismo,Álgebra Lineal,Matemáticas Discretas,Probabilidad y Estadística,Cálculo,Mecánica y Electromagnetismo (Lab),Ecuaciones Diferenciales",FB,CB,,",2016-B061,2017-A077,2017-B083",,,
+231,jurado jimenez roberto,Cálculo,FB,CB,,",2017-A033",,,
+232,morales gonzalez angel,"Álgebra Lineal,Economic Engineering",FB,CB,",2016-A087,2016-B062,2017-A023,2018-A004",",2016-A003,2018-A047,2018-B143","Dr. En Ing. De Sistemas. Profesor de Ciencias Básicas de la ESCOM desde el 2008. Áreas de interés: Ing. Económica, manufactura esbelta y cadenas de suministro",,
+233,perez abreu victor,Probabilidad,FB,CB,,,,,
+234,flores meraz yesica sonia,Análisis Vectorial,FB,CB,,,,,
+235,arzate gordillo jacqueline,"Teoría de Comunicaciones y Señales,Trabajo Terminal II (Lab),Trabajo Terminal I",ISC,SDIST,",2021-B030,2021-B095,2023-A049,2023-A062,2023-A079,2016-B072,2017-B051,2018-A028,2018-A059,2018-A088,2019-B014,2019-B048,2019-B050,2020-A100,2020-A130,2021-A027,2021-A028,2021-A040,2021-A058,2023_A056,23-1-0012",",2016-A083,2016-B035,2018-B043,2018-B053,2018-B064,2018-B091,2018-B120,2018-B127,2019-A034","Ingeniero en electrónica por el Instituto Politécnico Nacional, Maestra en Ciencias con Especialidad en Ingeniería Electrónica por el Instituto Politécnico Nacional. Áreas de interés: la educación, psicología social y electrónica.",,
+236,flores delgado raquel,"Ingeniería Ética y Sociedad,Finanzas Empresariales,Comunicación Oral y Escrita,Administración de Proyectos,Trabajo Terminal I (Lab)",ISC,PETD,,",2017-B010,2017-B051",,,
+237,salinas hernandez encarnacion,"Álgebra Lineal,Ecuaciones Diferenciales",FB,CB,",2020-A033",,"Dr. en Física por la ESFM-IPN, Maestría en Física en la ESFM -IPN, además, Lic. en Física y Matemáticas en la misma ESFM-IPN. Áreas de interés: Ecuaciones Diferenciales lineales y no lineales, Cálculo, Álgebra de polinomios, mecánica cuántica, mecánica clásica. Profesor en la ESCOM desde 1994, Miembro del SNI nivel I, Beca EDI, Beca Cofaa; con 17 publicaciones de corte nacional e internacional con un estricto refereo. Múltiples pláticas, en congresos y seminarios. Director de tesis de Lic., en la ESFM así como de Maestría en la misma ESFM, además de dirigir 3 trabajos terminales en la ESCOM. Director de 7 proyectos de investigación en la ESCOM. Jefe del Depto de ciencias Básicas y presidente de la academia Ciencias Básicas.",,
+238,zarate cardenas alejandro,"Probabilidad y Estadística,Álgebra Lineal,Probabilidad,Ecuaciones Diferenciales,Cálculo,Cálculo Multivariable,Análisis Vectorial",FB,CB,,,,,
+239,gomez tress mariana,"Comunicación Oral y Escrita,Ingeniería Ética y Sociedad",FII,CS,,,,,
+240,martinez garcia cesar roman,"Análisis Vectorial,Cálculo Aplicado,Mecánica y Electromagnetismo",FB,CB,",2017-A077",,"Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas con especialidad en Administración Áreas de Interés: TI, Cómputo educativo, Gestión de proyectos.,",,
 241,hernandez aviles fernando dante,Web Security,ISC,ISW,",2021-B076,2021-B082",,"Maestro en 
 tecnologías de Computo, Físico Matemáticas de 
 CIDETEC 2012. ingeniería en comunicaciones y 
 electrónica, Físico matemáticas de ESIME 
-Culhuacán 1995",
-242,lopez leyva luis octavio,"Diseño de Sistemas Digitales,Fundamentos de Diseño Digital",ISC,SDIG,,",2016-B013,2018-A026,2018-A038,2018-A077",,
-243,salgado ramos ivan de jesus,Diseño de Sistemas Digitales,ISC,SDIG,,,,
-244,maldonado muñoz miguel angel,"Fundamentos Económicos,Administración de Proyectos,Gestión Empresarial,Trabajo Terminal II (Lab),Trabajo Terminal I,Formulación y Evaluación de Proyectos Informáticos",ISC,TT,",2016-A079",",2016-A039,2016-A088,2016-B088,2017-A005,2017-A103,2018-B014,2018-B094","M. en A. en organizaciones pola UNAM, Ing. Industrial en la UNAM. Jefe del departamento de Formación Integral e institucional, Profesor Titular de la ESCOM-IPN desde 2009, Areas de interés: Administración, BPM",
-245,rocha bernabe maria del rosario,"Instrumentación,Circuitos Eléctricos,Trabajo Terminal II (Lab),Electrónica Analógica",CIC,FSE,",2023-A084,2016-A020,2016-A037,2016-A052,2016-B037,2016-B047,2017-B083,2019-A063,2019-B026,2020-A087,2021-A047,2021-A093",",2016-A081,2018-B042","M. en C. en Instrumentación Electrónica. Ing. en Comunicaciones y Electrónica de la ESIME. Profesora de la ESCOM/IPN (Dpto. de Ciencias e Ingeniería de la Computación). Áreas de interés: Control e Innovación Educativa, Instrumentación.",
-246,nava lara joel,"Álgebra Lineal,Matemáticas Discretas,Cálculo,Probabilidad y Estadística,Análisis Vectorial",FB,CB,,,,
-247,sanchez moreno adriana de la paz,"Ingeniería Ética y Sociedad,Comunicación Oral y Escrita",FII,CS,,",2016-A049,2016-B048,2016-B096,2018-A019,2018-B055,2018-B103,2019-A017",,
-248,barron vera josue emanuel,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales(Lab),Fundamentos de Diseño Digital,Arquitectura de Computadoras (Lab),Introducción a los Microcontroladores (Lab),Diseño de Sistemas Digitales (Lab),Teoría de Comunicaciones y Señales (Lab)",ISC,SDIG,,,,
-249,montiel sanchez angel salvador,"Probabilidad y Estadística,Matemáticas Discretas,Cálculo Aplicado",FB,CB,,",2018-B059",,
-250,gutierrez garcia juan jesus,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,,,,
+Culhuacán 1995",,
+242,lopez leyva luis octavio,"Diseño de Sistemas Digitales,Fundamentos de Diseño Digital",ISC,SDIG,,",2016-B013,2018-A026,2018-A038,2018-A077",,,
+243,salgado ramos ivan de jesus,Diseño de Sistemas Digitales,ISC,SDIG,,,,,
+244,maldonado muñoz miguel angel,"Fundamentos Económicos,Administración de Proyectos,Gestión Empresarial,Trabajo Terminal II (Lab),Trabajo Terminal I,Formulación y Evaluación de Proyectos Informáticos",ISC,TT,",2016-A079",",2016-A039,2016-A088,2016-B088,2017-A005,2017-A103,2018-B014,2018-B094","M. en A. en organizaciones pola UNAM, Ing. Industrial en la UNAM. Jefe del departamento de Formación Integral e institucional, Profesor Titular de la ESCOM-IPN desde 2009, Areas de interés: Administración, BPM",,
+245,rocha bernabe maria del rosario,"Instrumentación,Circuitos Eléctricos,Trabajo Terminal II (Lab),Electrónica Analógica",CIC,FSE,",2023-A084,2016-A020,2016-A037,2016-A052,2016-B037,2016-B047,2017-B083,2019-A063,2019-B026,2020-A087,2021-A047,2021-A093",",2016-A081,2018-B042","M. en C. en Instrumentación Electrónica. Ing. en Comunicaciones y Electrónica de la ESIME. Profesora de la ESCOM/IPN (Dpto. de Ciencias e Ingeniería de la Computación). Áreas de interés: Control e Innovación Educativa, Instrumentación.",,
+246,nava lara joel,"Álgebra Lineal,Matemáticas Discretas,Cálculo,Probabilidad y Estadística,Análisis Vectorial",FB,CB,,,,,
+247,sanchez moreno adriana de la paz,"Ingeniería Ética y Sociedad,Comunicación Oral y Escrita",FII,CS,,",2016-A049,2016-B048,2016-B096,2018-A019,2018-B055,2018-B103,2019-A017",,,
+248,barron vera josue emanuel,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales(Lab),Fundamentos de Diseño Digital,Arquitectura de Computadoras (Lab),Introducción a los Microcontroladores (Lab),Diseño de Sistemas Digitales (Lab),Teoría de Comunicaciones y Señales (Lab)",ISC,SDIG,,,,,
+249,montiel sanchez angel salvador,"Probabilidad y Estadística,Matemáticas Discretas,Cálculo Aplicado",FB,CB,,",2018-B059",,,
+250,gutierrez garcia juan jesus,"Fundamentos de Programación,Algoritmos y Estructuras de Datos",CIC,CC,,,,,
 251,vega garcia nayeli,"Fundamentos de Diseño Digital,Tecnologías para la Web(Lab),Ingeniería de Software (Lab),Introducción a los Microcontroladores (Lab),Arquitectura de Computadoras,S: E. for Mobile Devices (Lab),Arquitectura de Computadoras (Lab),Trabajo Terminal I (Lab),Diseño de Sistemas Digitales",ISC,SDIG,",2017-A047,2017-A068,2017-B078,2018-A038,2018-A077,2018-B004,2018-B131,2019-B046,2020-A045,2020-A080,2020-B024",",2016-A056,2016-A067,2016-B030,2016-B036,2016-B043,2017-A007,2017-A049,2017-A081,2017-A091,2017-A099,2017-B003,2017-B022,2017-B063,2018-A013,2018-A040,2018-B089,2019-A020,2019-A049","M. en C. en
 Ingeniería de Cómputo con opción en
 Sistemas Digitales por parte del
@@ -742,10 +742,10 @@ CIC-IPN. Ing. en Sistemas
 Computacionales por ESCOM-IPN.
 Áreas de interés: Arquitectura de
 computadoras, Hardware reconfigurable,
-Sistemas embebidos. ",
-252,hernandez cruz macario,"Paradigmas de Programación,Introducción a la Ciencia de Datos,Fundamentos de Inteligencia Artificial",CIC,CD,",2016-A028,2016-A066,2017-B033,2017-B047,2017-B061,2018-A091,2019-B101,2020-A083",",2015-B066,2016-A024,2016-A060,2016-B071,2016-B114,2017-A001,2017-A005,2017-A022,2017-A096,2017-B031,2017-B039,2017-B062,2018-A005,2018-A066","Maestro en Ciencias de la Computación egresado del Centro de Investigación en Computación, Licenciado en Sistemas Computacionales egresado de la Universidad del Valle de México, Profesor de la ESCOM desde 2005, ha impartido cátedra en la Universidad Autónoma del Estado de México (UAEM) y en la Universidad de las Américas, A. C (UDLA). Áreas de interés: Inteligencia Artificial, Tecnologías Web, Educación en Línea",
-253,corona bermudez uriel,"Análisis de Series de Tiempo,Modelado Predictivo",CIC,CD,",2019-B031,2020-A085",,"Alumno de Dr. en Ciencias de la Computación por parte del CIC IPN, M. en C. de la Computación por parte del CIC IPN, Ing. en Sistemas Computacionales por parte de la ESCOM IPN, Áreas de interés: análisis de imágenes, reconocimiento de patrones y redes neuronales..",
-254,vera hernandez gumersindo,Ingeniería Ética y Sociedad,FII,CS,,",2016-A063,2017-B095",,
+Sistemas embebidos. ",,
+252,hernandez cruz macario,"Paradigmas de Programación,Introducción a la Ciencia de Datos,Fundamentos de Inteligencia Artificial",CIC,CD,",2016-A028,2016-A066,2017-B033,2017-B047,2017-B061,2018-A091,2019-B101,2020-A083",",2015-B066,2016-A024,2016-A060,2016-B071,2016-B114,2017-A001,2017-A005,2017-A022,2017-A096,2017-B031,2017-B039,2017-B062,2018-A005,2018-A066","Maestro en Ciencias de la Computación egresado del Centro de Investigación en Computación, Licenciado en Sistemas Computacionales egresado de la Universidad del Valle de México, Profesor de la ESCOM desde 2005, ha impartido cátedra en la Universidad Autónoma del Estado de México (UAEM) y en la Universidad de las Américas, A. C (UDLA). Áreas de interés: Inteligencia Artificial, Tecnologías Web, Educación en Línea",,
+253,corona bermudez uriel,"Análisis de Series de Tiempo,Modelado Predictivo",CIC,CD,",2019-B031,2020-A085",,"Alumno de Dr. en Ciencias de la Computación por parte del CIC IPN, M. en C. de la Computación por parte del CIC IPN, Ing. en Sistemas Computacionales por parte de la ESCOM IPN, Áreas de interés: análisis de imágenes, reconocimiento de patrones y redes neuronales..",,
+254,vera hernandez gumersindo,Ingeniería Ética y Sociedad,FII,CS,,",2016-A063,2017-B095",,,
 255,suarez castañon miguel santiago,"Fundamentos de Programación,Sistemas Operativos para Cómputo Móvil,Algoritmos y Estructuras de Datos,Seminario II,Cloud Computing,Seminario I",CIC,CC,",2023-A010,2023-A070,2016-A012,2016-A045,2016-A047,2016-B013,2016-B026,2017-A037,2017-A039,2017-B021,2017-B032,2017-B054,2018-A005,2018-B040,2018-B087,2019-A016,2019-A085,2019-B029,2019-B057,2019-B088,2020-A053,2020-A072,2020-A088,2020-A095,2020-B040,2020-B052,2020-B072",",2016-A040,2016-A084,2016-B020,2016-B027,2016-B038,2017-B066,2017-B113,2018-A099,2018-B036,2018-B082,2018-B093,2018-B137,2018-B138,2019-A076","Es ingeniero en 
 Cibernética y Ciencias de la Computación por la 
 Universidad La Salle, A.C. Obtuvo el grado de 
@@ -756,23 +756,23 @@ realizó una estancia post doctoral en la Universidad
 de Houston. Desde el año 2000 hasta la fecha se ha 
 desempeñado como docente de tiempo completo en 
 la Escuela Superior Cómputo del IPN. Desde el 2006 
-es miembro del Sistema Nacional de Investigadores. ",
-256,testa nava alexis,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales(Lab),Diseño de Sistemas Digitales,Teoría de Comunicaciones y Señales (Lab),Diseño de Sistemas Digitales (Lab),Introducción a los Microcontroladores (Lab)",ISC,SDIG,,,,
+es miembro del Sistema Nacional de Investigadores. ",,
+256,testa nava alexis,"Fundamentos de Diseño Digital (Lab),Diseño de Sistemas Digitales(Lab),Diseño de Sistemas Digitales,Teoría de Comunicaciones y Señales (Lab),Diseño de Sistemas Digitales (Lab),Introducción a los Microcontroladores (Lab)",ISC,SDIG,,,,,
 257,linares vallejo erick eugenio,"Fundamentos de Diseño Digital,Arquitectura de Computadoras,Introducción a los Microcontroladores,Trabajo Terminal I (Lab),Diseño de Sistemas Digitales,Sistemas en Chip",ISC,SDIG,",2021-B077,2023-A005,2023-A053,2019-B048,2019-B111,2019-B112,2020-A019,2020-A123,2020-B031,2020-B035,2021-A098",",2018-B055,2019-A031,2019-A063","Ingeniero en
 comunicaciones y electrónica (2004), maestría
 en ciencias en electrónica (2010), doctorado
 en ingeniería electrónica y eléctrica (2018),
 Áreas de Interés: Electrónica digital, electrónica,
-sistemas fotónica, sistemas automotrices",
+sistemas fotónica, sistemas automotrices",,
 258,fernandez vazquez alfonso,"Comunicaciones a Distancia,Redes Inalámbricas,Fundamentos de Comunicaciones Móviles,Teoría de Comunicaciones y Señales,Procesamiento Digital de Señales",POSGR,POSGR,",2020-A042",,"Ing. en electrónica del Instituto Tecnológico de Puebla
 Maestría en Ciencias y Doctor en Ciencias en el Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
 Estancia Postdoctoral en Xidian University, Xi’an, China
 Investigador de ESCOM-IPN en las áreas de procesamiento de señales y comunicaciones digitales
-Áreas de interés: Procesamiento digital de señales, comunicaciones digitales",
+Áreas de interés: Procesamiento digital de señales, comunicaciones digitales",,
 259,loyola espinosa araceli,"Comunicación Oral y Escrita,Liderazgo y Desarrollo Profesional (Lab),Liderazgo y Desarrollo Profesional,Liderazgo Personal",FII,CS,",2023-A070",,"Estudios de Maestría en 
 Ciencias de Administración de Negocios, Escuela 
 Superior de Comercio y Administración del IPN en 
 2005, Licenciatura en Turismo del IPN en 1985, 
 Profesora de ESCOM/IPN (Depto. de Formación 
-Integral e Institucional) desde 1996",
-260,flores fuentes naria adriana,Cálculo,FB,CB,,,,
+Integral e Institucional) desde 1996",,
+260,flores fuentes naria adriana,Cálculo,FB,CB,,,,,

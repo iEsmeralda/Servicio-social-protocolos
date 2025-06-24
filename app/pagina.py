@@ -244,6 +244,7 @@ def obtener_info_directores(tt_actual, nombres_directores, df_profesores):
                         <p><strong>Departamento:</strong> {fila["DEPTO"]}</p>
                         <p><strong>Academia:</strong> {fila["ACADEMIA"]}</p>
                         <p><strong>Estudios e intereses:</strong> {fila["Estudios_intereses"]}</p>
+                        <p><strong>Contacto:</strong> {fila["correo"]}</p>
                         <hr>
                     '''
                     info_directores.append(info)
