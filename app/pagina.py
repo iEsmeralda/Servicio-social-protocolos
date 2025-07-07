@@ -194,7 +194,8 @@ def buscarProtocolos(consulta, nombreProfesor=None, anioTT=None):
         "Similitud": [],
         "Resumen": [],
         "Directores": [],
-        "Claves": []
+        "Claves": [],
+        "link_pdf": []
     }
 
     print("\nTop 10 resultados más similares:")
@@ -220,6 +221,9 @@ def buscarProtocolos(consulta, nombreProfesor=None, anioTT=None):
         diccionario_resultados["Resumen"].append(row["resumen"])
         diccionario_resultados["Directores"].append(directores_concatenados)
         diccionario_resultados["Claves"].append(row["claves"])
+        nombre_pdf = f"{row['TT']}.pdf"
+        link_pdf = f"/static/pdf/{nombre_pdf}" if nombre_pdf in pdfs_disponibles else None
+        diccionario_resultados["link_pdf"].append(link_pdf)
 
     return diccionario_resultados
 
@@ -388,6 +392,7 @@ def obtener_recomendaciones():
     <p>Esperamos que estos resultados sean de utilidad.</p>
     '''
     return contenido_html
+
 # -----------------
 # Ruta interna del .exe (solo lectura)
 origen_db = os.path.join(base_path, 'usuarios.db')
@@ -607,6 +612,27 @@ def obtener_recomendaciones_filtradas():
     ''')
 
     return ''.join(html)
+
+
+@app.route('/api/buscar', methods=['POST'])
+def api_buscar():
+    data = request.get_json()
+
+    consulta = data.get('consulta')
+    if not consulta:
+        return jsonify({"error": "El campo 'consulta' es obligatorio."}), 400
+
+    nombre_profesor = data.get('nombreProfesor') or None
+    anio_tt = data.get('anioTT') or None
+
+    resultados = buscarProtocolos(
+        consulta=consulta,
+        nombreProfesor=nombre_profesor,
+        anioTT=anio_tt
+    )
+
+    return jsonify(resultados)
+
 #-----------------------------
 def obtener_ip_local():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
